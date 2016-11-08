@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Name>Assets\Models\box</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cylinder.FBX</Source>
+      <Name>Assets\Models\cylinder</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\dome.FBX</Source>
+      <Name>Assets\Models\dome</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\hedra.FBX</Source>
+      <Name>Assets\Models\hedra</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\octahedron.FBX</Source>
+      <Name>Assets\Models\octahedron</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane.FBX</Source>
+      <Name>Assets\Models\plane</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\prism.FBX</Source>
+      <Name>Assets\Models\prism</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sphere.FBX</Source>
+      <Name>Assets\Models\sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2016-10-28T09:28:00+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\spindle.FBX</Source>
+      <Name>Assets\Models\spindle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2016-10-28T09:28:02+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torus.FBX</Source>
+      <Name>Assets\Models\torus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2016-10-28T09:28:02+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torusknot.FBX</Source>
+      <Name>Assets\Models\torusknot</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2016-10-28T09:28:02+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\abstract1.jpg</Source>
+      <Name>Assets\Textures\Abstract\abstract1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\abstract1.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink.jpg</Source>
+      <Name>Assets\Textures\Abstract\pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink_trans1.png</Source>
+      <Name>Assets\Textures\Abstract\pink_trans1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink_trans1.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\ml.png</Source>
+      <Name>Assets\Textures\Debug\ml</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
+      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\back.bmp</Source>
+      <Name>Assets\Textures\Skybox\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\front.bmp</Source>
+      <Name>Assets\Textures\Skybox\front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\ground.bmp</Source>
+      <Name>Assets\Textures\Skybox\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\left.bmp</Source>
+      <Name>Assets\Textures\Skybox\left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\right.bmp</Source>
+      <Name>Assets\Textures\Skybox\right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\sky.bmp</Source>
+      <Name>Assets\Textures\Skybox\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Time>2016-10-13T14:31:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\checkerboard.png</Source>
+      <Name>Assets\Textures\Debug\checkerboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Time>2016-10-14T12:11:42+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Time>2016-10-14T12:31:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Time>2016-10-14T12:31:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Time>2016-10-14T12:31:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Time>2016-10-14T12:31:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Time>2016-10-14T12:31:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cylinder.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\dome.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\hedra.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\octahedron.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\prism.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sphere.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Time>2016-10-13T14:31:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\spindle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torus.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torusknot.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Time>2016-10-13T14:31:24+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-08-12T11:16:12.9815571+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

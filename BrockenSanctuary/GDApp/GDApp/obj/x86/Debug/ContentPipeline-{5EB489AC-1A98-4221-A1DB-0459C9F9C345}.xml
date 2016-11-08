@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Assets\Models\cylinder.FBX</Source>
+      <Name>Assets\Models\cylinder</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2016-11-03T11:54:21.2528281+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2016-11-04T10:15:10.2774737+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\dome.FBX</Source>
+      <Name>Assets\Models\dome</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2016-11-03T11:54:21.2758312+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2016-11-04T10:15:10.6444669+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\hedra.FBX</Source>
+      <Name>Assets\Models\hedra</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2016-11-03T11:54:21.2988292+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2016-11-04T10:15:10.7244674+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\octahedron.FBX</Source>
+      <Name>Assets\Models\octahedron</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2016-11-03T11:54:21.3188305+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2016-11-04T10:15:10.8044678+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane.FBX</Source>
+      <Name>Assets\Models\plane</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2016-11-03T11:54:21.3418285+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2016-11-04T10:15:10.9444711+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\prism.FBX</Source>
+      <Name>Assets\Models\prism</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2016-11-03T11:54:21.3638296+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2016-11-04T10:15:11.0244685+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sphere.FBX</Source>
+      <Name>Assets\Models\sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2016-11-03T11:54:21.3858292+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2016-11-04T10:15:11.1394683+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\spindle.FBX</Source>
+      <Name>Assets\Models\spindle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2016-11-03T11:54:21.4078293+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2016-11-04T10:15:11.230469+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torus.FBX</Source>
+      <Name>Assets\Models\torus</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2016-11-03T11:54:21.4278311+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2016-11-04T10:15:11.3274689+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torusknot.FBX</Source>
+      <Name>Assets\Models\torusknot</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2016-11-03T11:54:21.4558288+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2016-11-04T10:15:11.4824687+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Name>Assets\Models\box</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2016-11-04T10:15:05.1804692+01:00</Time>
+      <Dependency>
+        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2016-11-04T10:15:11.6384683+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\abstract1.jpg</Source>
+      <Name>Assets\Textures\Abstract\abstract1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\abstract1.xnb</Output>
+      <Time>2016-11-03T11:54:21.4988301+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink.jpg</Source>
+      <Name>Assets\Textures\Abstract\pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink.xnb</Output>
+      <Time>2016-11-03T11:54:21.52383+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink_trans1.png</Source>
+      <Name>Assets\Textures\Abstract\pink_trans1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink_trans1.xnb</Output>
+      <Time>2016-11-03T11:54:21.5508288+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Time>2016-11-03T11:54:21.5988365+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Time>2016-11-03T11:54:21.6218283+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Time>2016-11-03T11:54:21.6488286+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Time>2016-11-03T11:54:21.7168288+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Time>2016-11-03T11:54:21.7518292+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Time>2016-11-03T11:54:21.7758286+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\ml.png</Source>
+      <Name>Assets\Textures\Debug\ml</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Time>2016-11-03T11:54:21.8508284+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
+      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Time>2016-11-03T11:54:21.9038306+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Time>2016-11-03T11:54:21.9408298+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Time>2016-11-03T11:54:22.0868306+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Time>2016-11-03T11:54:22.1138294+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Time>2016-11-03T11:54:22.1408307+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Time>2016-11-03T11:54:22.3578285+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Time>2016-11-03T11:54:22.3828289+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\back.bmp</Source>
+      <Name>Assets\Textures\Skybox\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Time>2016-11-03T11:54:22.4338292+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\front.bmp</Source>
+      <Name>Assets\Textures\Skybox\front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Time>2016-11-03T11:54:22.4758285+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\ground.bmp</Source>
+      <Name>Assets\Textures\Skybox\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Time>2016-11-03T11:54:22.5128302+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\left.bmp</Source>
+      <Name>Assets\Textures\Skybox\left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Time>2016-11-03T11:54:22.5508303+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\right.bmp</Source>
+      <Name>Assets\Textures\Skybox\right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Time>2016-11-03T11:54:22.5918282+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\sky.bmp</Source>
+      <Name>Assets\Textures\Skybox\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Time>2016-11-03T11:54:22.6238302+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\checkerboard.png</Source>
+      <Name>Assets\Textures\Debug\checkerboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Time>2016-11-03T11:54:21.8108289+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Time>2016-11-03T11:54:22.2558304+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Time>2016-11-03T11:54:22.3088291+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Time>2016-11-03T11:54:21.9758285+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Time>2016-11-03T11:54:22.0158295+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Time>2016-11-03T11:54:22.0508288+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cylinder.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Time>2016-11-03T11:54:21.2528281+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\dome.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Time>2016-11-03T11:54:21.2758312+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\hedra.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Time>2016-11-03T11:54:21.2988292+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\octahedron.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Time>2016-11-03T11:54:21.3188305+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Time>2016-11-03T11:54:21.3418285+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\prism.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Time>2016-11-03T11:54:21.3638296+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sphere.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Time>2016-11-03T11:54:21.3858292+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\spindle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Time>2016-11-03T11:54:21.4078293+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torus.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Time>2016-11-03T11:54:21.4278311+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torusknot.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Time>2016-11-03T11:54:21.4558288+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2016-11-04T10:15:05.1804692+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{5EB489AC-1A98-4221-A1DB-0459C9F9C345}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-07-30T11:34:38.3195295+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

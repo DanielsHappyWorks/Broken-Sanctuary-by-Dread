@@ -1,0 +1,19 @@
+C:\Users\mcguinnn\Downloads\GDApp\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+E:\2016-17\Semester 1\3DGD\GDApp - Wk4 - Cl1\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+E:\2016-17\Semester 1\3DGD\GDApp - Wk4 - Cl2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GDApp - Wk5 - Cl1\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+F:\2016-17\Semester 1\3DGD\Labs\Week 5\GDApp - Wk5 - Cl1\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+I:\2016-17\Semester 1\3DGD\Labs\Week 5\GDApp - Wk5 - Cl1\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+F:\2016-17\Semester 1\3DGD\Labs\Week 5\GDApp - Wk5 - Cl2 - CameraManager Methods - v1.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+F:\2016-17\Semester 1\3DGD\Labs\Week 5\GDApp - Wk5 - Cl2 - CameraManager Methods - v1.1\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+I:\2016-17\Semester 1\3DGD\Labs\Week 5\GDApp - Wk5 - Cl2 - IController - v1.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GDApp - Wk5 - Cl2 - IController - v1.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+E:\3DGD\Week 6\GDApp - Wk6 - Cl1 - Curve - v1.0\GDApp - Wk6 - Cl1 - Curve - v1.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+E:\3DGD\Week 6\GDApp - Wk6 - Cl1 - Curve - v2.0\GDApp - Wk6 - Cl1 - Curve - v2.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+G:\3DGD\Week 6\GDApp - Wk6 - Cl1 - TrackController - v1.0\GDApp - Wk6 - Cl1 - TrackController - v1.0\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GDApp - Wk6 - Cl2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+E:\3DGD\Week 6\GDApp - Wk6 - Cl2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Wk6 - Cl2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GDApp - Halloween\GDApp - Halloween - Collision - 2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\C#\GDApp - Halloween - Collision Detection & Physics - 3\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
