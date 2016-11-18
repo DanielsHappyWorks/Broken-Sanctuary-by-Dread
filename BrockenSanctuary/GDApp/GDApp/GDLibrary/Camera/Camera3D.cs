@@ -11,6 +11,7 @@ namespace GDLibrary
         #region Fields
         private ProjectionParameters projectionParameters;
         private Viewport viewPort;
+        private Vector2 viewportCentre;
         #endregion
 
         #region Properties
@@ -50,8 +51,18 @@ namespace GDLibrary
             set
             {
                 this.viewPort = value;
+                this.viewportCentre = new Vector2(this.viewPort.Width / 2.0f, this.viewPort.Height / 2.0f);
             }
         }
+
+        public Vector2 ViewportCentre
+        {
+            get
+            {
+                return this.viewportCentre;
+            }
+        }
+
         #endregion
 
         //creates a default camera3D - we can use this for a fixed camera archetype i.e. one we will clone - see MainApp::InitialiseCameras()

@@ -77,5 +77,27 @@ namespace GDLibrary
                 (float)Math.Round(a.Y, precision),
                     (float)Math.Round(a.Z, precision));
         }
+
+        //object to target vector, also provides access to distance from object to target
+        public static Vector3 GetNormalizedObjectToTargetVector(Transform3D start, Transform3D target, out float distance)
+        {
+            //camera to target object vector
+            Vector3 vectorToTarget = target.Translation - start.Translation;
+
+            //distance from camera to target
+            distance = vectorToTarget.Length();
+
+            //camera to target object vector
+            vectorToTarget.Normalize();
+
+            return vectorToTarget;
+        }
+
+        //object to target vector, no distance
+        public static Vector3 GetNormalizedObjectToTargetVector(Transform3D start, Transform3D target)
+        {
+            //camera to target object vector
+            return Vector3.Normalize(target.Translation - start.Translation);
+        }
     }
 }

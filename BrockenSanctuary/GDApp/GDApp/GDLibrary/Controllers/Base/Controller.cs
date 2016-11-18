@@ -46,5 +46,10 @@ namespace GDLibrary
         {
             //does nothing so no point in child classes calling this.
         }
+
+        public virtual string GetID()
+        {
+            return this.ID;
+        }
     }
 }

@@ -119,8 +119,7 @@ namespace GDLibrary
             cameraToTarget.Normalize();
 
             //set the position of the camera to be a set distance from target and at certain elevation angle
-            parentActor.Transform3D.Translation = Vector3.Lerp(this.oldTranslation,
-                cameraToTarget * distance + targetActor.Transform3D.Translation, lerpSpeed);
+            parentActor.Transform3D.Translation = Vector3.Lerp(this.oldTranslation, cameraToTarget * distance + targetActor.Transform3D.Translation, lerpSpeed);
 
             //set the camera to look at the target object
             parentActor.Transform3D.Look = Vector3.Lerp(this.oldCameraToTarget, cameraToTarget, lerpSpeed);

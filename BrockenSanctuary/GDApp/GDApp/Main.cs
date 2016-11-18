@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework.Input;
 using GDLibrary;
 using JigLibX.Collision;
 using JigLibX.Geometry;
+using System;
+using Microsoft.Xna.Framework.Audio;
 
 /* Version:     3.1
  Description:   Minor change to Camera3D::Clone(). 
@@ -140,8 +142,10 @@ namespace GDApp
         private GenericDictionary<string, Transform3DCurve> curveDictionary;
 private  ModelObject drivableModelObject;
 private PhysicsManager physicsManager;
+        private SoundEffect soundEngine;
+        private SoundEffectInstance soundEngineInstance;
         #endregion
-       
+
         #region Properties
         public GraphicsDeviceManager Graphics
         {
@@ -225,10 +229,21 @@ private PhysicsManager physicsManager;
 
             InitializeCameraTracks();
             InitializeCamera();
+            InitializeSound();
 
             base.Initialize();
         }
-        
+
+        private void InitializeSound()
+        {
+            this.soundEngine = Content.Load<SoundEffect>("Assets\\Audio\\horror_ambiance");
+            //SoundEffect soundTestMusicXNAActivated = Content.Load<SoundEffect>("Assets\\Audio\\testmusicXNA");
+            this.soundEngineInstance = soundEngine.CreateInstance();
+            soundEngineInstance.Volume = 0.1f;
+            soundEngineInstance.IsLooped = true;
+            soundEngineInstance.Play();
+        }
+
         private void InitializeStaticReferences()
         {
             Actor.game = this;
@@ -261,7 +276,9 @@ private PhysicsManager physicsManager;
             this.texturedModelEffect = new BasicEffect(graphics.GraphicsDevice);
         //    this.texturedModelEffect.VertexColorEnabled = true;
             this.texturedModelEffect.TextureEnabled = true;
-           // this.texturedModelEffect.EnableDefaultLighting();
+           this.texturedModelEffect.EnableDefaultLighting();
+            this.texturedModelEffect.PreferPerPixelLighting = true;
+            this.texturedModelEffect.SpecularPower = 50;
 
         }
         private void InitializeManagers()
@@ -270,7 +287,7 @@ private PhysicsManager physicsManager;
             this.physicsManager = new PhysicsManager(this);
             Components.Add(physicsManager);
 
-            bool bDebugMode = true; //show wireframe CD-CR surfaces
+            bool bDebugMode = false; //show wireframe CD-CR surfaces
             this.objectManager = new ObjectManager(this, "gameObjects", bDebugMode);
             Components.Add(this.objectManager);
 
@@ -327,60 +344,25 @@ private PhysicsManager physicsManager;
             Camera3D camera = null;
             string cameraLayout = "";
 
-            #region Layout 1x1
-            cameraLayout = "1x1";
+            #region Layout 1x1 Collidable
+            cameraLayout = "1x1 Collidable";
 
-            #region First Person Camera
-            transform = new Transform3D(new Vector3(0, 5, 0), -Vector3.UnitZ, Vector3.UnitY);
+            transform = new Transform3D(new Vector3(0,4,6), -Vector3.UnitZ, Vector3.UnitY);
             camera = new Camera3D("Static", ActorType.Camera, transform,
                 ProjectionParameters.StandardMediumSixteenNine,
                 new Viewport(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight));
-            camera.AttachController(new FirstPersonController("firstPersControl1",
-            ControllerType.FirstPerson, AppData.CameraMoveKeys,
-            AppData.CameraMoveSpeed, AppData.CameraStrafeSpeed, AppData.CameraRotationSpeed));
+            camera.AttachController(new CollidableFirstPersonController(
+                camera + " controller",
+                ControllerType.FirstPersonCollidable,
+                AppData.CameraMoveKeys, AppData.CollidableCameraMoveSpeed / 4f,
+                AppData.CollidableCameraStrafeSpeed/3f, AppData.CollidableCameraRotationSpeed,
+                0.72f, 4.5f, 1, 1, 1, Vector3.Zero, camera));
 
-            //add the new camera to the approriate K, V pair in the camera manager dictionary i.e. where key is "1x2"
-            this.cameraManager.Add(cameraLayout, camera);
-            #endregion
-            #endregion
-
-            #region Layout 1x2
-            cameraLayout = "1x2";
-
-            #region Left Camera - 1st Person
-            transform = new Transform3D(new Vector3(0, 10, 50), -Vector3.UnitZ, Vector3.UnitY);
-            camera = new Camera3D("1st", ActorType.Camera, transform,
-                ProjectionParameters.StandardMediumSixteenNine,
-                new Viewport(0, 0, (int)(graphics.PreferredBackBufferWidth / 2.0f), graphics.PreferredBackBufferHeight));
-
-            //attach a 1st person controller
-            camera.AttachController(new FirstPersonController("firstPersControl1",
-               ControllerType.FirstPerson, AppData.CameraMoveKeys,
-               AppData.CameraMoveSpeed, AppData.CameraStrafeSpeed, AppData.CameraRotationSpeed));
-            //add the new camera to the approriate K, V pair in the camera manager dictionary i.e. where key is "1x2"
             this.cameraManager.Add(cameraLayout, camera);
             #endregion
 
-            #region Right Camera - 3rd Person
-            //it doesnt matter what we set for translation, look, and up since these will be changed by the 3rd Person Controller
-            transform = new Transform3D(Vector3.Zero, Vector3.UnitZ, Vector3.UnitY);
-            camera = new Camera3D("3rd", ActorType.Camera, transform, ProjectionParameters.StandardMediumSixteenNine,
-                new Viewport((int)(graphics.PreferredBackBufferWidth / 2.0f), 0, (int)(graphics.PreferredBackBufferWidth / 2.0f), graphics.PreferredBackBufferHeight));
-
-            //attach a 3rd person controller
-            camera.AttachController(new ThirdPersonController("thirdPersControl1", ControllerType.ThirdPerson,
-                this.drivableModelObject, 100,
-                AppData.CameraThirdPersonScrollSpeedDistanceMultiplier,
-                160,
-                AppData.CameraThirdPersonScrollSpeedElevatationMultiplier,
-                AppData.CameraThirdPersonLerpSpeedSlow));
-            //add the new camera to the approriate K, V pair in the camera manager dictionary i.e. where key is "1x2"
-            this.cameraManager.Add(cameraLayout, camera);
-            #endregion
-            #endregion
-
-            //finally, set the active layout - clearly there's only 1 layout (i.e. 1x2) but if we have multiple layouts then we need to set
-            this.cameraManager.SetActiveCameraLayout("1x1");
+            //finally, set the active layout
+            this.cameraManager.SetActiveCameraLayout("1x1 Collidable");
 
         }
         #endregion
@@ -394,77 +376,58 @@ private PhysicsManager physicsManager;
         {
          //   Model m = Content.Load<Model>("Assets/Models/box");
             this.modelDictionary.Add("level", Content.Load<Model>("Assets/Models/level"));
+            //sitting room
+            this.modelDictionary.Add("sofa", Content.Load<Model>("Assets/Models/sofa"));
+            this.modelDictionary.Add("armChair", Content.Load<Model>("Assets/Models/armChair"));
+            this.modelDictionary.Add("tv", Content.Load<Model>("Assets/Models/tv"));
+            this.modelDictionary.Add("tvstand", Content.Load<Model>("Assets/Models/tvstand"));
+            this.modelDictionary.Add("bookcase", Content.Load<Model>("Assets/Models/bookcase"));
+            this.modelDictionary.Add("cabinet", Content.Load<Model>("Assets/Models/cabinet"));
+            this.modelDictionary.Add("radio", Content.Load<Model>("Assets/Models/radio"));
+            this.modelDictionary.Add("table", Content.Load<Model>("Assets/Models/table"));
+            this.modelDictionary.Add("remote", Content.Load<Model>("Assets/Models/remote"));
+            this.modelDictionary.Add("key", Content.Load<Model>("Assets/Models/key"));
+            this.modelDictionary.Add("winebottle", Content.Load<Model>("Assets/Models/winebottle"));
+            //kitchen
+            this.modelDictionary.Add("counter", Content.Load<Model>("Assets/Models/counter"));
+            this.modelDictionary.Add("fridge", Content.Load<Model>("Assets/Models/fridge"));
+            this.modelDictionary.Add("oven", Content.Load<Model>("Assets/Models/oven"));
+            this.modelDictionary.Add("toaster", Content.Load<Model>("Assets/Models/toaster"));
+            this.modelDictionary.Add("microwave", Content.Load<Model>("Assets/Models/microwave"));
+            this.modelDictionary.Add("ktable", Content.Load<Model>("Assets/Models/ktable"));
+            this.modelDictionary.Add("kchair", Content.Load<Model>("Assets/Models/kchair"));
+            this.modelDictionary.Add("kettle", Content.Load<Model>("Assets/Models/kettle"));
+            //Bathroom
+            this.modelDictionary.Add("mirror", Content.Load<Model>("Assets/Models/mirror"));
+            this.modelDictionary.Add("toilet", Content.Load<Model>("Assets/Models/toilet"));
+            this.modelDictionary.Add("sink", Content.Load<Model>("Assets/Models/sink"));
+            this.modelDictionary.Add("toiletroll", Content.Load<Model>("Assets/Models/toiletroll"));
+            this.modelDictionary.Add("towel", Content.Load<Model>("Assets/Models/towel"));
+            this.modelDictionary.Add("bath", Content.Load<Model>("Assets/Models/bath"));
+            //Hallway
+            this.modelDictionary.Add("clock", Content.Load<Model>("Assets/Models/clock"));
+            this.modelDictionary.Add("door", Content.Load<Model>("Assets/Models/door"));
+            this.modelDictionary.Add("painting", Content.Load<Model>("Assets/Models/painting"));
+            this.modelDictionary.Add("phone", Content.Load<Model>("Assets/Models/phone"));
             //Add more models...
         }
         private void LoadTextures()
         {
             #region debug
-            this.textureDictionary.Add("ml",
-               Content.Load<Texture2D>("Assets/Textures/Debug/ml"));
-            this.textureDictionary.Add("checkerboard",
-                Content.Load<Texture2D>("Assets/Textures/Debug/checkerboard"));
-            #endregion 
-
-            #region ground
-            this.textureDictionary.Add("grass1", 
-                Content.Load<Texture2D>("Assets/Textures/Foliage/Ground/grass1"));
+            this.textureDictionary.Add("ml", Content.Load<Texture2D>("Assets/Textures/Debug/ml"));
+            this.textureDictionary.Add("checkerboard", Content.Load<Texture2D>("Assets/Textures/Debug/checkerboard"));
+            this.textureDictionary.Add("gray1", Content.Load<Texture2D>("Assets/Textures/Debug/gray1"));
+            this.textureDictionary.Add("gray2", Content.Load<Texture2D>("Assets/Textures/Debug/gray2"));
+            this.textureDictionary.Add("gray3", Content.Load<Texture2D>("Assets/Textures/Debug/gray3"));
+            this.textureDictionary.Add("wood", Content.Load<Texture2D>("Assets/Textures/Debug/wood"));
+            this.textureDictionary.Add("obsidian", Content.Load<Texture2D>("Assets/Textures/Debug/obsidian"));
+            this.textureDictionary.Add("material", Content.Load<Texture2D>("Assets/Textures/Debug/material"));
+            this.textureDictionary.Add("metal", Content.Load<Texture2D>("Assets/Textures/Debug/metal"));
+            this.textureDictionary.Add("marble", Content.Load<Texture2D>("Assets/Textures/Debug/marble"));
+            this.textureDictionary.Add("p1", Content.Load<Texture2D>("Assets/Textures/Debug/painting1"));
+            this.textureDictionary.Add("p2", Content.Load<Texture2D>("Assets/Textures/Debug/painting2"));
+            this.textureDictionary.Add("plastic", Content.Load<Texture2D>("Assets/Textures/Debug/plastic"));
             #endregion
-            
-            #region sky
-            this.textureDictionary.Add("skybox_back",
-                Content.Load<Texture2D>("Assets/Textures/Skybox/back"));
-            this.textureDictionary.Add("skybox_front",
-                Content.Load<Texture2D>("Assets/Textures/Skybox/front"));
-            this.textureDictionary.Add("skybox_left",
-                Content.Load<Texture2D>("Assets/Textures/Skybox/left"));
-            this.textureDictionary.Add("skybox_right",
-                Content.Load<Texture2D>("Assets/Textures/Skybox/right"));
-            this.textureDictionary.Add("skybox_sky",
-                Content.Load<Texture2D>("Assets/Textures/Skybox/sky"));
-            #endregion
-            
-            #region trees & shrubs
-            for (int i = 1; i <= 5; i++)
-            {
-                this.textureDictionary.Add("tree"  + i,
-                    Content.Load<Texture2D>("Assets/Textures/Foliage/Trees/tree" + i));
-            }
-
-            for (int i = 1; i <= 3; i++)
-            {
-                this.textureDictionary.Add("shrub" + i,
-                    Content.Load<Texture2D>("Assets/Textures/Foliage/Shrubs/shrub" + i));
-            }
-            #endregion
-
-            #region fences
-            for (int i = 1; i <= 4; i++)
-            {
-                this.textureDictionary.Add("fence" + i,
-                    Content.Load<Texture2D>("Assets/Textures/Architecture/Fence/fence" + i));
-            }
-
-            #region walls
-            this.textureDictionary.Add("backwall",
-                  Content.Load<Texture2D>("Assets/Textures/Architecture/Walls/backwall"));
-            this.textureDictionary.Add("sidewall",
-                Content.Load<Texture2D>("Assets/Textures/Architecture/Walls/sidewall"));
-            #endregion
-
-            #region boxes
-            this.textureDictionary.Add("crate1",
-                   Content.Load<Texture2D>("Assets/Textures/Props/Crates/crate1"));
-            this.textureDictionary.Add("crate2",
-                    Content.Load<Texture2D>("Assets/Textures/Props/Crates/crate2"));
-            #endregion
-
-            #endregion
-
-            #region other
-            this.textureDictionary.Add("abstract1",
-            Content.Load<Texture2D>("Assets/Textures/Abstract/abstract1"));
-            #endregion
-
 
         }
         private void LoadVertices()
@@ -628,20 +591,515 @@ private PhysicsManager physicsManager;
         //Triangle mesh objects wrap a tight collision surface around complex shapes - the downside is that TriangleMeshObjects CANNOT be moved
         private void InitializeStaticTriangleMeshObjects()
         {
+            #region level
             CollidableObject collidableLevel = null;
             Transform3D transform3DLevel = null;
 
-            transform3DLevel = new Transform3D(new Vector3(0, 0, 0),
-                Vector3.Zero, 0.1f * Vector3.One, Vector3.UnitX*200, Vector3.UnitY);
+            transform3DLevel = new Transform3D(new Vector3(0, -0.2f, 0),
+                Vector3.Zero, 0.1f * new Vector3(1,1.4f,1), Vector3.UnitX*200, Vector3.UnitY);
             collidableLevel = new TriangleMeshObject("level", ActorType.CollidableGround,
             transform3DLevel, this.texturedModelEffect,
             Color.White, 1,
-            this.textureDictionary["ml"], this.modelDictionary["level"],
+            this.textureDictionary["gray1"], this.modelDictionary["level"],
                 new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableLevel.Enable(true, 1);
             this.objectManager.Add(collidableLevel);
+            #endregion
+
+            #region Sitting room
+            #region Sofa
+            CollidableObject collidableSofa = null;
+            Transform3D transform3DSofa = null;
+
+            transform3DSofa = new Transform3D(new Vector3(6, 1.26f, 9),
+                new Vector3(0,180,0), 0.4f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableSofa = new TriangleMeshObject("sofa", ActorType.CollidableProp,
+            transform3DSofa, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["material"], this.modelDictionary["sofa"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableSofa.Enable(true, 1);
+            this.objectManager.Add(collidableSofa);
+            #endregion
+
+            #region arm chair
+            CollidableObject collidableArmChair = null;
+            Transform3D transform3DArmChair = null;
+
+            transform3DArmChair = new Transform3D(new Vector3(6, 1.26f, 9),
+                new Vector3(0, 180, 0), 0.4f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableArmChair = new TriangleMeshObject("armChair", ActorType.CollidableProp,
+            transform3DArmChair, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["material"], this.modelDictionary["armChair"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableArmChair.Enable(true, 1);
+            this.objectManager.Add(collidableArmChair);
+            #endregion
+
+            #region tv
+            CollidableObject collidableTv = null;
+            Transform3D transform3DTv = null;
+
+            transform3DTv = new Transform3D(new Vector3(1, 2f, -11),
+                Vector3.Zero, 0.1f * Vector3.One/5, Vector3.UnitX, Vector3.UnitY);
+            collidableTv = new TriangleMeshObject("tv", ActorType.CollidableProp,
+            transform3DTv, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["obsidian"], this.modelDictionary["tv"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableTv.Enable(true, 1);
+            this.objectManager.Add(collidableTv);
+            #endregion
+
+            #region tvstand
+            CollidableObject collidableTvstand = null;
+            Transform3D transform3DTvstand = null;
+
+            transform3DTvstand = new Transform3D(new Vector3(0.9f, 0.5f, -11.1f),
+                 new Vector3(0, -90, 0), 0.01f * new Vector3(1.9f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidableTvstand = new TriangleMeshObject("tvstand", ActorType.CollidableProp,
+            transform3DTvstand, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["tvstand"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableTvstand.Enable(true, 1);
+            this.objectManager.Add(collidableTvstand);
+            #endregion
+
+            #region bookcase
+            CollidableObject collidableBookcase = null;
+            Transform3D transform3DBookcase = null;
+
+            transform3DBookcase = new Transform3D(new Vector3(9, 1f, -11),
+                Vector3.Zero, 0.0065f * new Vector3(1.5f,1,1) , Vector3.UnitX, Vector3.UnitY);
+            collidableBookcase = new TriangleMeshObject("bookcase", ActorType.CollidableProp,
+            transform3DBookcase, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["bookcase"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableBookcase.Enable(true, 1);
+            this.objectManager.Add(collidableBookcase);
+            #endregion
+
+            #region cabinet
+            CollidableObject collidableCabinet = null;
+            Transform3D transform3DCabinet = null;
+
+            transform3DCabinet = new Transform3D(new Vector3(-9, 0.5f, 9),
+               new Vector3(0, 135, 0), 0.02f * new Vector3(1, 1, 2), Vector3.UnitX, Vector3.UnitY);
+            collidableCabinet = new TriangleMeshObject("cabinet", ActorType.CollidableProp,
+            transform3DCabinet, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["cabinet"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableCabinet.Enable(true, 1);
+            this.objectManager.Add(collidableCabinet);
+            #endregion
+
+            #region radio
+            CollidableObject collidableRadio = null;
+            Transform3D transform3DRadio = null;
+
+            transform3DRadio = new Transform3D(new Vector3(-9, 2.23f, 9),
+             new Vector3(0, -10, 0), 0.003f * new Vector3(1, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableRadio = new TriangleMeshObject("radio", ActorType.CollidableProp,
+            transform3DRadio, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["obsidian"], this.modelDictionary["radio"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableRadio.Enable(true, 1);
+            this.objectManager.Add(collidableRadio);
+            #endregion
+
+            #region table
+            CollidableObject collidableTable = null;
+            Transform3D transform3DTable = null;
+
+            transform3DTable = new Transform3D(new Vector3(-1, 1.25f, 3),
+             new Vector3(0, 0, 0), 0.5f * new Vector3(0.7f, 0.6f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableTable = new TriangleMeshObject("table", ActorType.CollidableProp,
+            transform3DTable, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["table"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableTable.Enable(true, 1);
+            this.objectManager.Add(collidableTable);
+            #endregion
+
+            #region remote
+            CollidableObject collidableRemote = null;
+            Transform3D transform3DRemote = null;
+
+            transform3DRemote = new Transform3D(new Vector3(-2, 1.95f, 3.5f),
+             new Vector3(0, 30, 0), 0.07f * new Vector3(1f, 1f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableRemote = new TriangleMeshObject("remote", ActorType.CollidableProp,
+            transform3DRemote, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["obsidian"], this.modelDictionary["remote"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableRemote.Enable(true, 1);
+            this.objectManager.Add(collidableRemote);
+            #endregion
+
+            #region key
+            CollidableObject collidableKey = null;
+            Transform3D transform3DKey = null;
+
+            transform3DKey = new Transform3D(new Vector3(1, 2f, 3.2f),
+                new Vector3(0, 0, 0), 0.3f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKey = new TriangleMeshObject("key", ActorType.CollidableProp,
+            transform3DKey, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["key"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKey.Enable(true, 1);
+            this.objectManager.Add(collidableKey);
+            #endregion
+
+            #region winebottle
+            CollidableObject collidableWineBottle = null;
+            Transform3D transform3DWineBottle = null;
+
+            transform3DWineBottle = new Transform3D(new Vector3(-1, 2.2f, 3.5f),
+                new Vector3(180, 0, 0), 0.25f * new Vector3(1.2f, 0.7f, 1.2f), Vector3.UnitX, Vector3.UnitY);
+            collidableWineBottle = new TriangleMeshObject("winebottle", ActorType.CollidableProp,
+            transform3DWineBottle, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["marble"], this.modelDictionary["winebottle"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableWineBottle.Enable(true, 1);
+            this.objectManager.Add(collidableWineBottle);
+            #endregion
+
+            #endregion
+
+            #region Kitchen
+            #region counter
+            CollidableObject collidableCounter = null;
+            Transform3D transform3DCounter = null;
+
+            transform3DCounter = new Transform3D(new Vector3(28.5f, 0.4f, 1.1f),
+             new Vector3(0, -90, 0), 0.13f * new Vector3(1f, 0.85f, 1f), Vector3.UnitX, Vector3.UnitY);
+            collidableCounter = new TriangleMeshObject("counter", ActorType.CollidableProp,
+            transform3DCounter, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["counter"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableCounter.Enable(true, 1);
+            this.objectManager.Add(collidableCounter);
+            #endregion
+
+            #region oven
+            CollidableObject collidableOven = null;
+            Transform3D transform3DOven = null;
+
+            transform3DOven = new Transform3D(new Vector3(27.5f, 0.1f, 0.255f),
+             new Vector3(0, -90, 0), 0.5f * new Vector3(0.915f, 0.8f, 1f), Vector3.UnitX, Vector3.UnitY);
+            collidableOven = new TriangleMeshObject("oven", ActorType.CollidableProp,
+            transform3DOven, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["oven"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableOven.Enable(true, 1);
+            this.objectManager.Add(collidableOven);
+            #endregion
+
+            #region fridge
+            CollidableObject collidableFridge = null;
+            Transform3D transform3DFridge = null;
+
+            transform3DFridge = new Transform3D(new Vector3(28f, 0.5f, 5.6f),
+             new Vector3(0, -90, 0), 0.13f * new Vector3(1f, 0.8f, 1.1f), Vector3.UnitX, Vector3.UnitY);
+            collidableFridge = new TriangleMeshObject("fridge", ActorType.CollidableProp,
+            transform3DFridge, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["fridge"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableFridge.Enable(true, 1);
+            this.objectManager.Add(collidableFridge);
+            #endregion
+
+            #region toaster
+            CollidableObject collidableToaster = null;
+            Transform3D transform3DToaster = null;
+
+            transform3DToaster = new Transform3D(new Vector3(27.5f, 3f, 10f),
+             new Vector3(0, 60, 0), 0.13f * new Vector3(1f, 0.8f, 1.1f), Vector3.UnitX, Vector3.UnitY);
+            collidableToaster = new TriangleMeshObject("toaster", ActorType.CollidableProp,
+            transform3DToaster, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["toaster"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableToaster.Enable(true, 1);
+            this.objectManager.Add(collidableToaster);
+            #endregion
+
+            #region microwave
+            CollidableObject collidableMicrowave = null;
+            Transform3D transform3DMicrowave = null;
+
+            transform3DMicrowave = new Transform3D(new Vector3(22.2f, 3.3f, 11.5f),
+                new Vector3(0, 180, 0), 1.7f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableMicrowave = new TriangleMeshObject("microwave", ActorType.CollidableProp,
+            transform3DMicrowave, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["microwave"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableMicrowave.Enable(true, 1);
+            this.objectManager.Add(collidableMicrowave);
+            #endregion
+
+            #region kitchentable
+            CollidableObject collidableKtable = null;
+            Transform3D transform3DKtable = null;
+
+            transform3DKtable = new Transform3D(new Vector3(20, 0.5f, -11f),
+             new Vector3(0, -90, 0), 0.019f * new Vector3(1.5f, 0.7f, 1.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableKtable = new TriangleMeshObject("ktable", ActorType.CollidableProp,
+            transform3DKtable, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["ktable"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKtable.Enable(true, 1);
+            this.objectManager.Add(collidableKtable);
+            #endregion
+
+            #region kchair
+            CollidableObject collidableKchair = null;
+            Transform3D transform3DKchair = null;
+
+            transform3DKchair = new Transform3D(new Vector3(22.25f, 0.5f, -10f),
+            new Vector3(0, -120, 0), 0.011f * new Vector3(1f, 0.8f, 1.1f), Vector3.UnitX, Vector3.UnitY);
+            collidableKchair = new TriangleMeshObject("kchair", ActorType.CollidableProp,
+            transform3DKchair, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["kchair"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKchair.Enable(true, 1);
+            this.objectManager.Add(collidableKchair);
+            #endregion
+
+            #region kettle
+            CollidableObject collidableKettle = null;
+            Transform3D transform3DKettle = null;
+
+            transform3DKettle = new Transform3D(new Vector3(26.5f, 2.7f, 12f),
+             new Vector3(0, 120, 0), 0.05f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            collidableKettle = new TriangleMeshObject("kettle", ActorType.CollidableProp,
+            transform3DKettle, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["kettle"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableKettle.Enable(true, 1);
+            this.objectManager.Add(collidableKettle);
+            #endregion
+
+            #endregion
+
+            #region Bathroom
+            #region mirror
+            CollidableObject collidableMirror = null;
+            Transform3D transform3DMirror = null;
+
+            transform3DMirror = new Transform3D(new Vector3(8.5f, 4f, -34),
+                new Vector3(0, 90, 0), new Vector3(2, 2, 4), Vector3.UnitX, Vector3.UnitY);
+            collidableMirror = new TriangleMeshObject("mirror", ActorType.CollidableProp,
+            transform3DMirror, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["metal"], this.modelDictionary["mirror"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableMirror.Enable(true, 1);
+            this.objectManager.Add(collidableMirror);
+            #endregion
+
+            #region toilet
+            CollidableObject collidableToilet = null;
+            Transform3D transform3DToilet = null;
+
+            transform3DToilet = new Transform3D(new Vector3(14.5f, .5f, -32),
+                new Vector3(0, 0, 0), 0.045f * new Vector3(1.2f, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableToilet = new TriangleMeshObject("toilet", ActorType.CollidableProp,
+            transform3DToilet, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["marble"], this.modelDictionary["toilet"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableToilet.Enable(true, 1);
+            this.objectManager.Add(collidableToilet);
+            #endregion
+
+            #region sink
+            CollidableObject collidableSink = null;
+            Transform3D transform3DSink = null;
+
+            transform3DSink = new Transform3D(new Vector3(8.5f, .4f, -33.25f),
+                new Vector3(0, 0, 0), 0.045f * new Vector3(1.2f, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableSink = new TriangleMeshObject("sink", ActorType.CollidableProp,
+            transform3DSink, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["marble"], this.modelDictionary["sink"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableSink.Enable(true, 1);
+            this.objectManager.Add(collidableSink);
+            #endregion
+
+            #region toiletroll
+            CollidableObject collidableToiletRoll = null;
+            Transform3D transform3DToiletRoll = null;
+
+            transform3DToiletRoll = new Transform3D(new Vector3(12.25f, 2.5f, -34),
+                new Vector3(0, 0, 0), 0.045f * new Vector3(1.2f, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableToiletRoll = new TriangleMeshObject("toiletroll", ActorType.CollidableProp,
+            transform3DToiletRoll, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["marble"], this.modelDictionary["toiletroll"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableToiletRoll.Enable(true, 1);
+            this.objectManager.Add(collidableToiletRoll);
+            #endregion
+
+            #region towel-rack
+            CollidableObject collidableTowel = null;
+            Transform3D transform3DTowel = null;
+
+            transform3DTowel = new Transform3D(new Vector3(18.5f, 2.5f, -34),
+                new Vector3(0, 0, 0), 0.045f * new Vector3(1.2f, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableTowel = new TriangleMeshObject("marble", ActorType.CollidableProp,
+            transform3DTowel, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["material"], this.modelDictionary["towel"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableTowel.Enable(true, 1);
+            this.objectManager.Add(collidableTowel);
+
+            transform3DTowel = new Transform3D(new Vector3(21.5f, 2.5f, -34),
+                new Vector3(0, 0, 0), 0.045f * new Vector3(1.2f, 0.7f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableTowel = new TriangleMeshObject("marble", ActorType.CollidableProp,
+            transform3DTowel, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["checkerboard"], this.modelDictionary["towel"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableTowel.Enable(true, 1);
+            this.objectManager.Add(collidableTowel);
+            #endregion
+
+            #region Bath
+            CollidableObject collidableBath = null;
+            Transform3D transform3DBath = null;
+
+            transform3DBath = new Transform3D(new Vector3(24f, 0.4f, -28.5f),
+                new Vector3(0, 90, 0), 0.07f * new Vector3(1.4f, 0.8f, 1), Vector3.UnitX, Vector3.UnitY);
+            collidableBath = new TriangleMeshObject("bath", ActorType.CollidableProp,
+            transform3DBath, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["marble"], this.modelDictionary["bath"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableBath.Enable(true, 1);
+            this.objectManager.Add(collidableBath);
+            #endregion
+
+            #endregion
+
+            #region Hallway
+            #region clock
+            CollidableObject collidableClock = null;
+            Transform3D transform3DClock = null;
+
+            transform3DClock = new Transform3D(new Vector3(12.75f, .5f, -19.75f),
+                new Vector3(0, -90, 0), 0.019f * new Vector3(2f, 1, 2), Vector3.UnitX, Vector3.UnitY);
+            collidableClock = new TriangleMeshObject("clock", ActorType.CollidableProp,
+            transform3DClock, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["clock"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableClock.Enable(true, 1);
+            this.objectManager.Add(collidableClock);
+            #endregion
+
+            #region door
+            CollidableObject collidableDoor = null;
+            Transform3D transform3DDoor = null;
+
+            transform3DDoor = new Transform3D(new Vector3(-12.6f, .5f, -15.3f),
+                new Vector3(0, 90, 0), 0.019f * new Vector3(2f, 1.1f, 2), Vector3.UnitX, Vector3.UnitY);
+            collidableDoor = new TriangleMeshObject("door", ActorType.CollidableProp,
+            transform3DDoor, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["door"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableDoor.Enable(true, 1);
+            this.objectManager.Add(collidableDoor);
+            #endregion
+
+            #region HallCabinet
+            CollidableObject collidableHallCabinet = null;
+            Transform3D transform3DHallCabinet = null;
+
+            transform3DHallCabinet = new Transform3D(new Vector3(0.9f, 0.5f, -20.1f),
+                 new Vector3(0, -90, 0), 0.01f * new Vector3(1.9f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidableHallCabinet = new TriangleMeshObject("hallcabinet", ActorType.CollidableProp,
+            transform3DHallCabinet, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["wood"], this.modelDictionary["tvstand"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallCabinet.Enable(true, 1);
+            this.objectManager.Add(collidableHallCabinet);
+            #endregion
+
+            #region paintings
+            CollidableObject collidableHallPainting = null;
+            Transform3D transform3DHallPainting = null;
+
+            transform3DHallPainting = new Transform3D(new Vector3(-2f, 02f, -13.3f),
+                 new Vector3(0, -90, 0), 0.2f * new Vector3(1f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidableHallPainting = new TriangleMeshObject("painting", ActorType.CollidableProp,
+            transform3DHallPainting, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["p1"], this.modelDictionary["painting"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallPainting.Enable(true, 1);
+            this.objectManager.Add(collidableHallPainting);
+
+            transform3DHallPainting = new Transform3D(new Vector3(2f, 02.5f, -13.3f),
+                 new Vector3(0, -90, 0), 0.1f * new Vector3(1f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidableHallPainting = new TriangleMeshObject("painting", ActorType.CollidableProp,
+            transform3DHallPainting, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["ml"], this.modelDictionary["painting"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallPainting.Enable(true, 1);
+            this.objectManager.Add(collidableHallPainting);
+
+            transform3DHallPainting = new Transform3D(new Vector3(6f, 02f, -13.3f),
+                 new Vector3(0, -90, 0), 0.2f * new Vector3(1f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidableHallPainting = new TriangleMeshObject("painting", ActorType.CollidableProp,
+            transform3DHallPainting, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["p2"], this.modelDictionary["painting"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableHallPainting.Enable(true, 1);
+            this.objectManager.Add(collidableHallPainting);
+            #endregion
+
+            #region Phone
+            CollidableObject collidablePhone = null;
+            Transform3D transform3DPhone = null;
+
+            transform3DPhone = new Transform3D(new Vector3(0.9f, 1.93f, -20.1f),
+                 new Vector3(0, 90, 0), 0.1f * new Vector3(1f, 1f, 1f) / 5, Vector3.UnitX, Vector3.UnitY);
+            collidablePhone = new TriangleMeshObject("phone", ActorType.CollidableProp,
+            transform3DPhone, this.texturedModelEffect,
+            Color.White, 1,
+            this.textureDictionary["plastic"], this.modelDictionary["phone"],
+                new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidablePhone.Enable(true, 1);
+            this.objectManager.Add(collidablePhone);
+            #endregion
+
+            #endregion
+
         }
-        
+
         //if you want objects to be collidable AND moveable then you must attach either a box, sphere, or capsule primitives to the object
         private void InitializeDynamicCollidableObjects()
         {

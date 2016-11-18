@@ -8,5 +8,6 @@ namespace GDLibrary
     {
         void Update(GameTime gameTime);
         void Draw(GameTime gameTime);
+        bool Remove();
     }
 }

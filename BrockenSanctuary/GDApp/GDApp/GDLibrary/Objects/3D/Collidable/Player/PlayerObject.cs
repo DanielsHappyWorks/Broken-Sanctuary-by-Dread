@@ -75,12 +75,12 @@ namespace GDLibrary
         protected virtual void HandleKeyboardInput(GameTime gameTime)
         {
             //jump
-            if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexJump]))
+            if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexMoveJump]))
             {
                 this.CharacterBody.DoJump(1.0f);
             }
             //crouch
-            else if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexJumpCrouch]))
+            else if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexMoveCrouch]))
             {
                 this.CharacterBody.IsCrouching = !this.CharacterBody.IsCrouching;
             }

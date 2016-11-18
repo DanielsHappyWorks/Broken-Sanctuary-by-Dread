@@ -19,6 +19,7 @@ namespace GDLibrary
         LerpScale,
         LerpColor,
         LerpTexture,
-        Drive
+        Drive,
+        FirstPersonCollidable
     }
 }

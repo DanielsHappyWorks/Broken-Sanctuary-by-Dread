@@ -59,5 +59,10 @@ namespace GDLibrary
         {
             return this.MemberwiseClone(); //deep because all variables are either C# types, structs, or enums
         }
+
+        public virtual bool Remove()
+        {
+            return false; //see implementation in child classes e.g. ModelObject
+        }
     }
 }

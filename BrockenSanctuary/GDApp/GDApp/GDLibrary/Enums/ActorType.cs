@@ -10,6 +10,7 @@
         Zone, //invisible and triggers event
         Helper,
         CollidableProp,
-        CollidableGround
+        CollidableGround,
+        CollidableCamera
     }
 }

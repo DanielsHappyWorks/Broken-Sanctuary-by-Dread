@@ -85,10 +85,10 @@ namespace GDLibrary
             {
                 V value = list[i];
 
-                //if this is a disposable object (e.g. texture) then call its dispose
+                //if this is a disposable object (e.g. model, sound, font, texture) then call its dispose
                 if (value is IDisposable)
                     ((IDisposable)value).Dispose();
-                //if not, then set to null for garbage collection
+                //if it's just a user-defined or C# object, then set to null for garbage collection
                 else
                     value = default(V);
             }

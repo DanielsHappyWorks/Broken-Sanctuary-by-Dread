@@ -19,11 +19,6 @@ namespace GDLibrary
         {
         }
 
-        public override void Update(GameTime gameTime, IActor actor)
-        {
-            base.Update(gameTime, actor);
-        }
-
         public override void HandleMouseInput(GameTime gameTime, Actor3D parentActor)
         {
             Vector2 mouseDelta = game.MouseManager.GetDeltaFromCentre();
@@ -45,20 +40,20 @@ namespace GDLibrary
             else if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexMoveBackward]))
             {
                 parentActor.Transform3D.TranslateIncrement
-                    += -gameTime.ElapsedGameTime.Milliseconds
+                    = -gameTime.ElapsedGameTime.Milliseconds
                              * this.MoveSpeed * parentActor.Transform3D.Look;
             }
 
             if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexStrafeLeft]))
             {
                 parentActor.Transform3D.TranslateIncrement
-                    += -gameTime.ElapsedGameTime.Milliseconds
+                    = -gameTime.ElapsedGameTime.Milliseconds
                              * this.StrafeSpeed * parentActor.Transform3D.Right;
             }
             else if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexStrafeRight]))
             {
                 parentActor.Transform3D.TranslateIncrement
-                    += gameTime.ElapsedGameTime.Milliseconds
+                    = gameTime.ElapsedGameTime.Milliseconds
                              * this.StrafeSpeed * parentActor.Transform3D.Right;
             }
 

@@ -21,23 +21,33 @@ namespace GDLibrary
         #region Common
         public static int IndexMoveForward = 0;
         public static int IndexMoveBackward = 1;
-        public static int IndexStrafeLeft = 2;
-        public static int IndexStrafeRight = 3;
         public static int IndexRotateLeft = 2;
         public static int IndexRotateRight = 3;
+        public static int IndexMoveJump = 4;
+        public static int IndexMoveCrouch = 5;
+        public static int IndexStrafeLeft = 6;
+        public static int IndexStrafeRight = 7;
         #endregion
         
         #region Camera
         public static float CameraRotationSpeed = 0.01f;
-        public static float CameraMoveSpeed = 0.01f;
-        public static float CameraStrafeSpeed = 0.01f;
+        public static float CameraMoveSpeed = 0.1f;
+        public static float CameraStrafeSpeed = 0.07f;
 
-        public static Keys[] CameraMoveKeys = { Keys.W, Keys.S, Keys.A, Keys.D };
+        public static float CameraJumpHeight = 10;
+        public static float CollidableCameraRotationSpeed = 0.05f;
+        public static float CollidableCameraMoveSpeed = 0.5f;
+        public static float CollidableCameraStrafeSpeed = 0.4f;
+
+
+        public static Keys[] CameraMoveKeys = { Keys.W, Keys.S, Keys.A, Keys.D, 
+                                         Keys.Space, Keys.C, Keys.LeftShift, Keys.RightShift};
         public static Keys[] CameraMoveKeys_Alt1 = { Keys.T, Keys.G, Keys.F, Keys.H };
 
-        public static float CameraThirdPersonLerpSpeedSlow = 0.05f;
-        public static float CameraThirdPersonLerpSpeedMedium = 0.1f;
-        public static float CameraThirdPersonLerpSpeedFast = 0.2f;
+        public static float CameraLerpSpeedSlow = 0.05f;
+        public static float CameraLerpSpeedMedium = 0.1f;
+        public static float CameraLerpSpeedFast = 0.2f;
+
         public static float CameraThirdPersonScrollSpeedDistanceMultiplier = 0.01f;
         public static float CameraThirdPersonScrollSpeedElevatationMultiplier = 0.1f;
         #endregion
@@ -47,10 +57,6 @@ namespace GDLibrary
         public static float PlayerMoveSpeed = 0.1f;
         public static float PlayerStrafeSpeed = 0.07f;
         public static float PlayerRotationSpeed = 0.04f;
-        public static int IndexJump;
-        public static int IndexJumpCrouch;
-
-
         #endregion
 
 
