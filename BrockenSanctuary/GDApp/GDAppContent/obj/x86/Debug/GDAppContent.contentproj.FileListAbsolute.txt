@@ -17,4 +17,6 @@ C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Wk6 - Cl2\GDApp\GDAppContent\o
 C:\Users\mcguinnn\Downloads\GDApp - Halloween\GDApp - Halloween - Collision - 2\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
 C:\Users\Dkill\Desktop\C#\GDApp - Halloween - Collision Detection & Physics - 3\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
 C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
-C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache

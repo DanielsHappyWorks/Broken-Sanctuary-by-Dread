@@ -8,6 +8,9 @@ namespace GDLibrary
     {
         void Update(GameTime gameTime);
         void Draw(GameTime gameTime);
+
+        ActorType GetActorType();
+        string getID();
         bool Remove();
     }
 }

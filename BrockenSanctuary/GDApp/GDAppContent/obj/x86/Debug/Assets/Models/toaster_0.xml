@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\toaster.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\toaster.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -56,7 +56,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>21 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\toaster.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\toaster.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

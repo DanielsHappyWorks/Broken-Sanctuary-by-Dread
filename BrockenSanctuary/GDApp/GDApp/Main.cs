@@ -138,15 +138,31 @@ namespace GDApp
         private  GenericDictionary<string,SpriteFont> fontDictionary;
         private GDLibrary.KeyboardManager keyboardManager;
         private CameraManager cameraManager;
-        private Curve1D curve1D;
         private GenericDictionary<string, Transform3DCurve> curveDictionary;
-private  ModelObject drivableModelObject;
-private PhysicsManager physicsManager;
+        private PhysicsManager physicsManager;
         private SoundEffect soundEngine;
         private SoundEffectInstance soundEngineInstance;
+        private MenuManager menuManager;
+        private UIManager uiManager;
+        private Microsoft.Xna.Framework.Rectangle screenRectangle;
+        private EventDispatcher eventDispatcher;
         #endregion
 
         #region Properties
+        public EventDispatcher EventDispatcher
+        {
+            get
+            {
+                return this.eventDispatcher;
+            }
+        }
+        public SpriteBatch SpriteBatch
+        {
+            get
+            {
+                return this.spriteBatch;
+            }
+        }
         public GraphicsDeviceManager Graphics
         {
             get
@@ -161,18 +177,32 @@ private PhysicsManager physicsManager;
                 return this.screenCentre;
             }
         }
+
+        public Microsoft.Xna.Framework.Rectangle ScreenRectangle
+        {
+            get
+            {
+                if (this.screenRectangle == Microsoft.Xna.Framework.Rectangle.Empty)
+                    this.screenRectangle = new Microsoft.Xna.Framework.Rectangle(0, 0,
+                        (int)graphics.PreferredBackBufferWidth,
+                        (int)graphics.PreferredBackBufferHeight);
+
+                return this.screenRectangle;
+            }
+        }
+
         public MouseManager MouseManager
         {
             get
             {
-                return this.mouseManager; 
+                return this.mouseManager;
             }
         }
         public KeyboardManager KeyboardManager
         {
             get
             {
-                return this.keyboardManager; 
+                return this.keyboardManager;
             }
         }
         public CameraManager CameraManager
@@ -189,7 +219,15 @@ private PhysicsManager physicsManager;
                 return this.physicsManager;
             }
         }
+        public ObjectManager ObjectManager
+        {
+            get
+            {
+                return this.objectManager;
+            }
+        }
         #endregion
+
 
         #region Initialization
         public Main()
@@ -204,18 +242,25 @@ private PhysicsManager physicsManager;
             int width = 1024, height = 768;
             int worldScale = 1000;
 
+            InitializeEventDispatcher();
             InitializeStaticReferences();
             InitializeGraphics(width, height);
             InitializeEffects();
 
-            InitializeManagers(); 
+            InitializeManagers();
             InitializeDictionaries();
-
+ 
             LoadFonts();
             LoadModels();
             LoadTextures(); 
             LoadVertices();
             LoadPrimitiveArchetypes();
+
+            InitialzieMenu();
+
+            
+            //to do...
+
 
             #region Non-collidable Objects
             //InitializeNonCollidableGround(worldScale); //removed to add collidable surface see InitializeCollidableGround()
@@ -230,8 +275,29 @@ private PhysicsManager physicsManager;
             InitializeCameraTracks();
             InitializeCamera();
             InitializeSound();
+            InitializeUI();
+            
 
             base.Initialize();
+        }
+
+        private void InitializeEventDispatcher()
+        {
+            this.eventDispatcher = new EventDispatcher(this, 10);
+            Components.Add(this.eventDispatcher);
+
+        }
+
+        private void InitialzieMenu()
+        {
+            Texture2D[] menuTexturesArray = {this.textureDictionary["mainmenu"],
+                this.textureDictionary["audiomenu"],
+                this.textureDictionary["controlsmenu"],
+                this.textureDictionary["exitmenu"]};
+
+            this.menuManager = new MenuManager(this, menuTexturesArray, this.fontDictionary["menu"], MenuData.MenuTexturePadding, MenuData.MenuTextureColor);
+            this.menuManager.DrawOrder = 3; //always draw after ui manager(2)
+            Components.Add(this.menuManager);
         }
 
         private void InitializeSound()
@@ -301,8 +367,10 @@ private PhysicsManager physicsManager;
             this.cameraManager = new CameraManager(this);
             Components.Add(this.cameraManager);
 
+            this.uiManager = new UIManager(this, "ui manager", 10, true);
+            this.uiManager.DrawOrder = 1;
+            Components.Add(this.uiManager);
 
-            //to do...
         }
         private void InitializeDictionaries()
         {
@@ -319,6 +387,115 @@ private PhysicsManager physicsManager;
 
             this.curveDictionary
                 = new GenericDictionary<string, Transform3DCurve>("curve dictionary");
+        }
+        #endregion
+        #region UI
+        private void InitializeUI()
+        {
+            InitializeUIMousePointer();
+            InitializeUIProgress();
+        }
+        private void InitializeUIMousePointer()
+        {
+            Transform2D transform = null;
+            Texture2D texture = null;
+            Microsoft.Xna.Framework.Rectangle sourceRectangle;
+
+            //texture
+            texture = this.textureDictionary["mouseicons"];
+            transform = new Transform2D(Vector2.One);
+
+            //show first of three images from the file
+            sourceRectangle = new Microsoft.Xna.Framework.Rectangle(0, 0, 128, 128);
+
+            UITextureObject texture2DObject = new UIMouseObject("mouse icon",
+                ActorType.UITexture,
+                StatusType.Drawn | StatusType.Updated,
+                transform, new Color(127, 127, 127, 50),
+                SpriteEffects.None, 1, texture,
+                sourceRectangle,
+                new Vector2(sourceRectangle.Width / 2.0f, sourceRectangle.Height / 2.0f),
+                true);
+            this.uiManager.Add(texture2DObject);
+        }
+        private void InitializeUIInventoryMenu()
+        {
+            Transform2D transform = null;
+            SpriteFont font = null;
+            Texture2D texture = null;
+
+            //text
+            font = this.fontDictionary["ui"];
+            String text = "help me!";
+            Vector2 dimensions = font.MeasureString(text);
+            transform = new Transform2D(new Vector2(50, 600), 0, Vector2.One, Vector2.Zero, new Integer2(dimensions));
+            UITextObject textObject = new UITextObject("test1",
+                ActorType.UIText,
+                StatusType.Drawn | StatusType.Updated,
+                transform, new Color(15, 15, 15, 150), SpriteEffects.None, 0, "help", font, true);
+            this.uiManager.Add(textObject);
+
+            //texture
+            texture = this.textureDictionary["white"];
+            transform = new Transform2D(new Vector2(40, 590), 0, new Vector2(4, 4), Vector2.Zero, new Integer2(texture.Width, texture.Height));
+            UITextureObject texture2DObject = new UITextureObject("texture1",
+                 ActorType.UITexture,
+                StatusType.Drawn | StatusType.Updated,
+                transform, new Color(127, 127, 127, 50),
+                SpriteEffects.None, 1, texture, true);
+            this.uiManager.Add(texture2DObject);
+        }
+        private void InitializeUIProgress()
+        {
+            float separation = 25; //spacing between progress bars
+
+            Transform2D transform = null;
+            Texture2D texture = null;
+            UITextureObject textureObject = null;
+            Vector2 position = Vector2.Zero;
+            Vector2 scale = Vector2.Zero;
+            float verticalOffset = 700;
+
+            texture = this.textureDictionary["progress_gradient"];
+            scale = new Vector2(1, 0.75f);
+
+            #region Player 1 Progress Bar
+            position = new Vector2(graphics.PreferredBackBufferWidth / 2.0f - texture.Width * scale.X - separation, verticalOffset);
+            transform = new Transform2D(position, 0, scale, Vector2.Zero, new Integer2(texture.Width, texture.Height));
+
+            textureObject = new UITextureObject("leftprogress",
+                    ActorType.UITexture,
+                    StatusType.Drawn | StatusType.Updated,
+                    transform, Color.Green,
+                    SpriteEffects.None,
+                    0,
+                    texture, true);
+
+            //add a controller which listens for pickupeventdata send when the player (or red box) collects the box on the left
+            textureObject.AttachController(new UIProgressController("player1", ControllerType.UIProgressController, 2, 10));
+
+            this.uiManager.Add(textureObject);
+            #endregion
+
+
+            #region Player 2 Progress Bar
+            position = new Vector2(graphics.PreferredBackBufferWidth / 2.0f + 2 * separation,
+                verticalOffset + texture.Height * scale.Y);
+            transform = new Transform2D(position, -90,
+                scale, Vector2.Zero, new Integer2(texture.Width, texture.Height));
+
+            textureObject = new UITextureObject("rightprogress",
+                    ActorType.UITexture,
+                    StatusType.Drawn | StatusType.Updated,
+                    transform, Color.Red,
+                    SpriteEffects.None,
+                    0,
+                    texture, true);
+
+            //add a controller which listens for pickupeventdata send when the player (or red box) collects the box on the left
+            textureObject.AttachController(new UIProgressController("player2", ControllerType.UIProgressController, 8, 10));
+            this.uiManager.Add(textureObject);
+            #endregion
         }
         #endregion
 
@@ -357,6 +534,7 @@ private PhysicsManager physicsManager;
                 AppData.CameraMoveKeys, AppData.CollidableCameraMoveSpeed / 4f,
                 AppData.CollidableCameraStrafeSpeed/3f, AppData.CollidableCameraRotationSpeed,
                 0.72f, 4.5f, 1, 1, 1, Vector3.Zero, camera));
+            camera.StatusType = StatusType.Drawn;
 
             this.cameraManager.Add(cameraLayout, camera);
             #endregion
@@ -370,7 +548,8 @@ private PhysicsManager physicsManager;
         #region Assets
         private void LoadFonts()
         {
-            //to do...
+            this.fontDictionary.Add("ui", Content.Load<SpriteFont>("Assets\\Fonts\\UI"));
+            this.fontDictionary.Add("menu", Content.Load<SpriteFont>("Assets\\Fonts\\menu"));
         }
         private void LoadModels()
         {
@@ -429,6 +608,19 @@ private PhysicsManager physicsManager;
             this.textureDictionary.Add("plastic", Content.Load<Texture2D>("Assets/Textures/Debug/plastic"));
             #endregion
 
+            //menu
+            this.textureDictionary.Add("mainmenu", Content.Load<Texture2D>("Assets/Textures/Menu/mainmenu"));
+            this.textureDictionary.Add("audiomenu", Content.Load<Texture2D>("Assets/Textures/Menu/audiomenu"));
+            this.textureDictionary.Add("controlsmenu", Content.Load<Texture2D>("Assets/Textures/Menu/controlsmenu"));
+            this.textureDictionary.Add("exitmenuwithtrans", Content.Load<Texture2D>("Assets/Textures/Menu/exitmenuwithtrans"));
+            this.textureDictionary.Add("exitmenu", Content.Load<Texture2D>("Assets/Textures/Menu/exitmenu"));
+
+            #region UI
+            this.textureDictionary.Add("white", Content.Load<Texture2D>("Assets\\Textures\\UI\\white"));
+            this.textureDictionary.Add("progress_gradient", Content.Load<Texture2D>("Assets\\Textures\\UI\\progress_gradient"));
+            this.textureDictionary.Add("progress_white", Content.Load<Texture2D>("Assets\\Textures\\UI\\progress_white"));
+            this.textureDictionary.Add("mouseicons", Content.Load<Texture2D>("Assets/Textures/UI/mouseicons"));
+            #endregion
         }
         private void LoadVertices()
         {
@@ -1111,14 +1303,16 @@ private PhysicsManager physicsManager;
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
         }
         protected override void UnloadContent()
         {
         }
         protected override void Update(GameTime gameTime)
         {
-            if (this.keyboardManager.IsFirstKeyPress(Keys.Escape))
-                this.objectManager.Paused = !this.objectManager.Paused;
+            if (this.keyboardManager.IsFirstKeyPress(Keys.Escape)) { 
+                this.cameraManager.ActiveCamera.StatusType = StatusType.Drawn;
+            }
 
             if (this.keyboardManager.IsKeyDown(Keys.O))
                 this.objectManager.Remove(new ActorIDFilter("origin1"));
@@ -1136,13 +1330,6 @@ private PhysicsManager physicsManager;
                 this.cameraManager.SetActiveCameraLayout("1x2");
                 Window.Title = "1x2 Camera Layout [1st Person][3rd Person]";
             }
-         
-
-            #region Demo
-            //float x = this.curve1D.Evaluate((float)gameTime.TotalGameTime.TotalMilliseconds, 2);
-            //System.Diagnostics.Debug.WriteLine("X:" + x);
-
-            #endregion
 
             // this.camera.Update(gameTime);
             base.Update(gameTime);

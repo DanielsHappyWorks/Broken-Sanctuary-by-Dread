@@ -59,6 +59,9 @@ namespace GDLibrary
         public static float PlayerRotationSpeed = 0.04f;
         #endregion
 
+        #region Menu
+        public static Keys KeyPauseShowMenu = Keys.Escape;
+        #endregion
 
     }
 }

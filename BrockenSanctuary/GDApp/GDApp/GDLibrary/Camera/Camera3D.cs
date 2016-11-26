@@ -12,6 +12,7 @@ namespace GDLibrary
         private ProjectionParameters projectionParameters;
         private Viewport viewPort;
         private Vector2 viewportCentre;
+        private int drawDepth;
         #endregion
 
         #region Properties
@@ -62,23 +63,54 @@ namespace GDLibrary
                 return this.viewportCentre;
             }
         }
+        public int DrawDepth
+        {
+            get
+            {
+                return this.drawDepth;
+            }
+            set
+            {
+                this.drawDepth = value;
+            }
+        }
 
         #endregion
 
         //creates a default camera3D - we can use this for a fixed camera archetype i.e. one we will clone - see MainApp::InitialiseCameras()
         public Camera3D(string id, ActorType actorType, Viewport viewPort)
             : this(id, actorType, Transform3D.Zero,
-            ProjectionParameters.StandardMediumFourThree, viewPort)
+            ProjectionParameters.StandardMediumFourThree, viewPort, 0, StatusType.Updated)
         {
 
         }
-        
+
+        //forward compatibility (since v3.4) for existing code with no drawDepth
         public Camera3D(string id, ActorType actorType,
-            Transform3D transform, ProjectionParameters projectionParameters, Viewport viewPort)
-            : base(id, actorType, transform)
+         Transform3D transform, ProjectionParameters projectionParameters, Viewport viewPort)
+            : this(id, actorType, transform, projectionParameters, 
+            viewPort, 0, StatusType.Updated)
+        {
+
+        }
+
+        //forward compatibility (since v3.4) for existing code with no StatusType
+        public Camera3D(string id, ActorType actorType,
+            Transform3D transform, ProjectionParameters projectionParameters,
+            Viewport viewPort, int drawDepth)
+            : this(id, actorType, transform, projectionParameters, 
+            viewPort, drawDepth, StatusType.Updated)
+        {
+        }
+
+        public Camera3D(string id, ActorType actorType,
+            Transform3D transform, ProjectionParameters projectionParameters,
+            Viewport viewPort, int drawDepth, StatusType statusType)
+            : base(id, actorType, transform, statusType)
         {
             this.projectionParameters = projectionParameters;
             this.viewPort = viewPort;
+            this.drawDepth = drawDepth;
         }
 
         public override bool Equals(object obj)

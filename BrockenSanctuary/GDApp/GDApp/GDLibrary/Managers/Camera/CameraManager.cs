@@ -116,6 +116,10 @@ namespace GDLibrary
                 if(this.dictionary.ContainsKey(cameraLayout))
                 {
                     this.activeCameraList = this.dictionary[cameraLayout];
+
+                    //sort camera by drawDepth (ascending) in case we have picture-in-picture
+                    this.activeCameraList.Sort((x, y) => x.DrawDepth.CompareTo(y.DrawDepth));
+
                     this.ActiveCameraIndex = 0;
                     this.activeCameraLayout = cameraLayout;
                     return true;
@@ -145,8 +149,7 @@ namespace GDLibrary
                 this.dictionary.Add(cameraLayout, list);
             }
         }
-        public bool Remove(string cameraLayout, 
-                                IFilter<Actor> filter)
+        public bool Remove(string cameraLayout, IFilter<IActor> filter)
         {
             cameraLayout = cameraLayout.ToLower().Trim();
 
@@ -160,8 +163,7 @@ namespace GDLibrary
             return false;
         }
 
-        public Camera3D Find(string cameraLayout,
-                                IFilter<Actor> filter)
+        public Camera3D Find(string cameraLayout, IFilter<IActor> filter)
         {
             if (this.dictionary.ContainsKey(cameraLayout))
             {
@@ -189,10 +191,7 @@ namespace GDLibrary
         }
 
 
-
-
-        public void Find(string cameraLayout, string cameraID,
-            out Camera3D camera, out int index)
+        public void Find(string cameraLayout, string cameraID, out Camera3D camera, out int index)
         {
             camera = null;
             index = -1;
@@ -220,7 +219,10 @@ namespace GDLibrary
                 foreach (Camera3D camera in this.activeCameraList)
                 {
                     this.activeCamera = camera; //do this do anything?
-                    camera.Update(gameTime);
+
+                    //was the updated enum value set?
+                    if ((camera.StatusType & StatusType.Updated) == StatusType.Updated)
+                        camera.Update(gameTime);
                 }
             }
             base.Update(gameTime);

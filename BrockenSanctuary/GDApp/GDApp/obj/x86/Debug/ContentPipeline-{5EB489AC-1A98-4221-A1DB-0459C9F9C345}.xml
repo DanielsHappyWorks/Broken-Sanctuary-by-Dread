@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
-      <Time>2016-11-03T11:54:21.2528281+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2016-11-04T10:15:10.2774737+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2016-11-24T12:14:26+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
-      <Time>2016-11-03T11:54:21.2758312+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2016-11-04T10:15:10.6444669+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2016-11-24T12:14:32+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,11 +33,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
-      <Time>2016-11-03T11:54:21.2988292+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2016-11-04T10:15:10.7244674+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2016-11-24T12:14:38+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -46,11 +46,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
-      <Time>2016-11-03T11:54:21.3188305+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2016-11-04T10:15:10.8044678+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2016-11-24T12:14:42+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -59,11 +59,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
-      <Time>2016-11-03T11:54:21.3418285+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2016-11-04T10:15:10.9444711+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2016-11-24T12:14:46+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -72,11 +72,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
-      <Time>2016-11-03T11:54:21.3638296+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2016-11-04T10:15:11.0244685+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2016-11-24T12:14:52+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -85,11 +85,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
-      <Time>2016-11-03T11:54:21.3858292+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2016-11-04T10:15:11.1394683+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2016-11-24T12:14:58+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -98,11 +98,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
-      <Time>2016-11-03T11:54:21.4078293+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2016-11-04T10:15:11.230469+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2016-11-24T12:15:04+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -111,11 +111,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
-      <Time>2016-11-03T11:54:21.4278311+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2016-11-04T10:15:11.3274689+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2016-11-24T12:15:10+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -124,11 +124,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
-      <Time>2016-11-03T11:54:21.4558288+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2016-11-04T10:15:11.4824687+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2016-11-24T12:15:18+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -137,93 +137,428 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
-      <Time>2016-11-04T10:15:05.1804692+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2016-11-04T10:15:06+00:00</Time>
       <Dependency>
-        <Key>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2016-11-04T10:15:11.6384683+01:00</Value>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2016-11-24T12:15:22+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Abstract\abstract1.jpg</Source>
-      <Name>Assets\Textures\Abstract\abstract1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\level.FBX</Source>
+      <Name>Assets\Models\level</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\abstract1.xnb</Output>
-      <Time>2016-11-03T11:54:21.4988301+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
+      <Time>2016-11-13T21:50:44+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\level_0.xml</Key>
+        <Value>2016-11-24T12:15:28+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Abstract\pink.jpg</Source>
-      <Name>Assets\Textures\Abstract\pink</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\cabinet.FBX</Source>
+      <Name>Assets\Models\cabinet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink.xnb</Output>
-      <Time>2016-11-03T11:54:21.52383+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
+      <Time>2016-11-13T21:18:48+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\cabinet_0.xml</Key>
+        <Value>2016-11-24T12:15:36+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Abstract\pink_trans1.png</Source>
-      <Name>Assets\Textures\Abstract\pink_trans1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\kitchen and oven.FBX</Source>
+      <Name>Assets\Models\kitchen and oven</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink_trans1.xnb</Output>
-      <Time>2016-11-03T11:54:21.5508288+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
+      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Key>
+        <Value>2016-11-24T12:16:10+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\phone.FBX</Source>
+      <Name>Assets\Models\phone</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
-      <Time>2016-11-03T11:54:21.5988365+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
+      <Time>2016-11-16T19:53:52+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\phone_0.xml</Key>
+        <Value>2016-11-24T12:16:20+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\shelf.FBX</Source>
+      <Name>Assets\Models\shelf</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
-      <Time>2016-11-03T11:54:21.6218283+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
+      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\shelf_0.xml</Key>
+        <Value>2016-11-24T12:16:32+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\sofa.FBX</Source>
+      <Name>Assets\Models\sofa</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
-      <Time>2016-11-03T11:54:21.6488286+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
+      <Time>2016-11-13T20:33:06+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sofa_0.xml</Key>
+        <Value>2016-11-24T12:16:38+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\armChair.FBX</Source>
+      <Name>Assets\Models\armChair</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
-      <Time>2016-11-03T11:54:21.7168288+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
+      <Time>2016-11-13T20:35:34+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\armChair_0.xml</Key>
+        <Value>2016-11-24T12:16:44+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
-      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\bookcase.FBX</Source>
+      <Name>Assets\Models\bookcase</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
-      <Time>2016-11-03T11:54:21.7518292+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
+      <Time>2016-11-13T20:59:46+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\bookcase_0.xml</Key>
+        <Value>2016-11-24T12:16:50+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
-      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Assets\Models\tv.FBX</Source>
+      <Name>Assets\Models\tv</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
-      <Time>2016-11-03T11:54:21.7758286+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
+      <Time>2016-11-13T21:03:10+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\tv_0.xml</Key>
+        <Value>2016-11-24T12:16:56+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\radio.FBX</Source>
+      <Name>Assets\Models\radio</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
+      <Time>2016-11-13T21:20:38+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\radio_0.xml</Key>
+        <Value>2016-11-24T12:17:00+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\table.FBX</Source>
+      <Name>Assets\Models\table</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
+      <Time>2016-11-13T22:05:16+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\table_0.xml</Key>
+        <Value>2016-11-24T12:17:08+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\remote.FBX</Source>
+      <Name>Assets\Models\remote</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
+      <Time>2016-11-13T22:13:10+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\remote_0.xml</Key>
+        <Value>2016-11-24T12:17:14+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\counter.FBX</Source>
+      <Name>Assets\Models\counter</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
+      <Time>2016-11-15T10:09:08+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\counter_0.xml</Key>
+        <Value>2016-11-24T12:17:20+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\oven.FBX</Source>
+      <Name>Assets\Models\oven</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
+      <Time>2016-11-14T19:07:32+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\oven_0.xml</Key>
+        <Value>2016-11-24T12:17:26+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\fridge.FBX</Source>
+      <Name>Assets\Models\fridge</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
+      <Time>2016-11-14T18:54:26+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\fridge_0.xml</Key>
+        <Value>2016-11-24T12:17:34+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toaster.FBX</Source>
+      <Name>Assets\Models\toaster</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
+      <Time>2016-11-14T19:40:38+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toaster_0.xml</Key>
+        <Value>2016-11-24T12:17:40+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\key.FBX</Source>
+      <Name>Assets\Models\key</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
+      <Time>2016-11-14T19:50:44+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\key_0.xml</Key>
+        <Value>2016-11-24T12:17:48+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\mirror.FBX</Source>
+      <Name>Assets\Models\mirror</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
+      <Time>2016-11-14T19:50:44+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\mirror_0.xml</Key>
+        <Value>2016-11-24T12:17:52+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tvstand.FBX</Source>
+      <Name>Assets\Models\tvstand</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
+      <Time>2016-11-15T10:37:40+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\tvstand_0.xml</Key>
+        <Value>2016-11-24T12:18:00+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\microwave.FBX</Source>
+      <Name>Assets\Models\microwave</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
+      <Time>2016-11-15T12:10:54+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\microwave_0.xml</Key>
+        <Value>2016-11-24T12:18:06+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sink.FBX</Source>
+      <Name>Assets\Models\sink</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sink_0.xml</Key>
+        <Value>2016-11-24T12:18:14+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toilet.FBX</Source>
+      <Name>Assets\Models\toilet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toilet_0.xml</Key>
+        <Value>2016-11-24T12:18:20+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toiletroll.FBX</Source>
+      <Name>Assets\Models\toiletroll</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toiletroll_0.xml</Key>
+        <Value>2016-11-24T12:18:28+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\towel.FBX</Source>
+      <Name>Assets\Models\towel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\towel_0.xml</Key>
+        <Value>2016-11-24T12:18:34+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\clock.FBX</Source>
+      <Name>Assets\Models\clock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
+      <Time>2016-11-16T09:41:06+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\clock_0.xml</Key>
+        <Value>2016-11-24T12:18:48+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\door.FBX</Source>
+      <Name>Assets\Models\door</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
+      <Time>2016-11-16T09:54:20+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\door_0.xml</Key>
+        <Value>2016-11-24T12:18:56+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kchair.FBX</Source>
+      <Name>Assets\Models\kchair</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
+      <Time>2016-11-16T10:05:42+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kchair_0.xml</Key>
+        <Value>2016-11-24T12:19:02+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ktable.FBX</Source>
+      <Name>Assets\Models\ktable</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
+      <Time>2016-11-16T10:05:42+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\ktable_0.xml</Key>
+        <Value>2016-11-24T12:19:08+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\painting.FBX</Source>
+      <Name>Assets\Models\painting</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
+      <Time>2016-11-16T10:47:36+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\painting_0.xml</Key>
+        <Value>2016-11-24T12:19:12+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\bath.FBX</Source>
+      <Name>Assets\Models\bath</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
+      <Time>2016-11-17T12:26:28+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\bath_0.xml</Key>
+        <Value>2016-11-24T12:19:20+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kettle.FBX</Source>
+      <Name>Assets\Models\kettle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
+      <Time>2016-11-17T20:57:48+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kettle_0.xml</Key>
+        <Value>2016-11-24T12:19:26+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\winebottle.FBX</Source>
+      <Name>Assets\Models\winebottle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
+      <Time>2016-11-17T20:59:24+00:00</Time>
+      <Dependency>
+        <Key>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\winebottle_0.xml</Key>
+        <Value>2016-11-24T12:19:32+00:00</Value>
+      </Dependency>
     </Item>
     <Item>
       <Source>Assets\Textures\Debug\ml.png</Source>
@@ -231,125 +566,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
-      <Time>2016-11-03T11:54:21.8508284+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
-      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
-      <Time>2016-11-03T11:54:21.9038306+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
-      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
-      <Time>2016-11-03T11:54:21.9408298+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
-      <Time>2016-11-03T11:54:22.0868306+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
-      <Time>2016-11-03T11:54:22.1138294+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
-      <Time>2016-11-03T11:54:22.1408307+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
-      <Name>Assets\Textures\Props\Crates\crate1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
-      <Time>2016-11-03T11:54:22.3578285+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
-      <Name>Assets\Textures\Props\Crates\crate2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
-      <Time>2016-11-03T11:54:22.3828289+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\back.bmp</Source>
-      <Name>Assets\Textures\Skybox\back</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
-      <Time>2016-11-03T11:54:22.4338292+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\front.bmp</Source>
-      <Name>Assets\Textures\Skybox\front</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
-      <Time>2016-11-03T11:54:22.4758285+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\ground.bmp</Source>
-      <Name>Assets\Textures\Skybox\ground</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
-      <Time>2016-11-03T11:54:22.5128302+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\left.bmp</Source>
-      <Name>Assets\Textures\Skybox\left</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
-      <Time>2016-11-03T11:54:22.5508303+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\right.bmp</Source>
-      <Name>Assets\Textures\Skybox\right</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
-      <Time>2016-11-03T11:54:22.5918282+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\sky.bmp</Source>
-      <Name>Assets\Textures\Skybox\sky</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
-      <Time>2016-11-03T11:54:22.6238302+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Debug\checkerboard.png</Source>
@@ -357,130 +575,516 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
-      <Time>2016-11-03T11:54:21.8108289+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
+      <Source>Assets\Textures\Menu\losemenu.png</Source>
+      <Name>Assets\Textures\Menu\losemenu</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
-      <Time>2016-11-03T11:54:22.2558304+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
+      <Source>Assets\Textures\Menu\winmenu.png</Source>
+      <Name>Assets\Textures\Menu\winmenu</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
-      <Time>2016-11-03T11:54:22.3088291+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
+      <Source>Assets\Textures\Debug\gray3.png</Source>
+      <Name>Assets\Textures\Debug\gray3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
-      <Time>2016-11-03T11:54:21.9758285+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
+      <Time>2016-11-15T09:26:34+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
+      <Source>Assets\Textures\Debug\gray2.jpg</Source>
+      <Name>Assets\Textures\Debug\gray2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
-      <Time>2016-11-03T11:54:22.0158295+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
+      <Time>2016-11-15T09:41:34+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
+      <Source>Assets\Textures\Debug\gray1.jpg</Source>
+      <Name>Assets\Textures\Debug\gray1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
-      <Time>2016-11-03T11:54:22.0508288+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
+      <Time>2016-11-15T09:44:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\wood.jpg</Source>
+      <Name>Assets\Textures\Debug\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
+      <Time>2016-11-15T09:50:16+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\obsidian.jpg</Source>
+      <Name>Assets\Textures\Debug\obsidian</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
+      <Time>2016-11-15T10:19:26+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\metal.jpg</Source>
+      <Name>Assets\Textures\Debug\metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
+      <Time>2016-11-15T10:23:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\material.jpg</Source>
+      <Name>Assets\Textures\Debug\material</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
+      <Time>2016-11-15T10:26:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\marble.jpg</Source>
+      <Name>Assets\Textures\Debug\marble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
+      <Time>2016-11-16T09:43:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\painting1.jpg</Source>
+      <Name>Assets\Textures\Debug\painting1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
+      <Time>2016-11-16T10:46:14+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\painting2.jpg</Source>
+      <Name>Assets\Textures\Debug\painting2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
+      <Time>2016-11-16T10:46:54+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\plastic.jpg</Source>
+      <Name>Assets\Textures\Debug\plastic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
+      <Time>2016-11-16T19:51:02+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\audiomenu.png</Source>
+      <Name>Assets\Textures\Menu\audiomenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
+      <Time>2016-11-24T11:55:50+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\controlsmenu.png</Source>
+      <Name>Assets\Textures\Menu\controlsmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
+      <Time>2016-11-24T12:00:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenu.png</Source>
+      <Name>Assets\Textures\Menu\exitmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenuwithtrans.png</Source>
+      <Name>Assets\Textures\Menu\exitmenuwithtrans</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
+      <Time>2016-11-23T18:50:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\mainmenu.PNG</Source>
+      <Name>Assets\Textures\Menu\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\restartmenu.png</Source>
+      <Name>Assets\Textures\Menu\restartmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\horrorscreech.wav</Source>
+      <Name>Assets\Audio\horrorscreech</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
+      <Time>2016-11-18T10:55:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\horror_ambiance.wav</Source>
+      <Name>Assets\Audio\horror_ambiance</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
+      <Time>2016-11-18T10:55:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\menu.spritefont</Source>
+      <Name>Assets\Fonts\menu</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2016-11-23T19:04:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\UI.spritefont</Source>
+      <Name>Assets\Fonts\UI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
+      <Time>2016-11-23T19:04:12+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
-      <Time>2016-11-03T11:54:21.2528281+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\dome.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
-      <Time>2016-11-03T11:54:21.2758312+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hedra.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
-      <Time>2016-11-03T11:54:21.2988292+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\octahedron.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
-      <Time>2016-11-03T11:54:21.3188305+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
-      <Time>2016-11-03T11:54:21.3418285+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\prism.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
-      <Time>2016-11-03T11:54:21.3638296+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
-      <Time>2016-11-03T11:54:21.3858292+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\spindle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
-      <Time>2016-11-03T11:54:21.4078293+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torus.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
-      <Time>2016-11-03T11:54:21.4278311+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torusknot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
-      <Time>2016-11-03T11:54:21.4558288+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
-      <Time>2016-11-04T10:15:05.1804692+01:00</Time>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2016-11-04T10:15:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\level.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\level_0.xml</Output>
+      <Time>2016-11-13T21:50:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cabinet.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\cabinet_0.xml</Output>
+      <Time>2016-11-13T21:18:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kitchen and oven.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Output>
+      <Time>2016-11-09T16:15:52+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\phone.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\phone_0.xml</Output>
+      <Time>2016-11-16T19:53:52+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\shelf.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\shelf_0.xml</Output>
+      <Time>2016-11-09T16:15:52+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sofa.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sofa_0.xml</Output>
+      <Time>2016-11-13T20:33:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\armChair.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\armChair_0.xml</Output>
+      <Time>2016-11-13T20:35:34+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\bookcase.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\bookcase_0.xml</Output>
+      <Time>2016-11-13T20:59:46+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tv.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\tv_0.xml</Output>
+      <Time>2016-11-13T21:03:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\radio.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\radio_0.xml</Output>
+      <Time>2016-11-13T21:20:38+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\table.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\table_0.xml</Output>
+      <Time>2016-11-13T22:05:16+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\remote.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\remote_0.xml</Output>
+      <Time>2016-11-13T22:13:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\counter.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\counter_0.xml</Output>
+      <Time>2016-11-15T10:09:08+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\oven.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\oven_0.xml</Output>
+      <Time>2016-11-14T19:07:32+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\fridge.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\fridge_0.xml</Output>
+      <Time>2016-11-14T18:54:26+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toaster.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toaster_0.xml</Output>
+      <Time>2016-11-14T19:40:38+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\key.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\key_0.xml</Output>
+      <Time>2016-11-14T19:50:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\mirror.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\mirror_0.xml</Output>
+      <Time>2016-11-14T19:50:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tvstand.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\tvstand_0.xml</Output>
+      <Time>2016-11-15T10:37:40+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\microwave.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\microwave_0.xml</Output>
+      <Time>2016-11-15T12:10:54+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sink.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\sink_0.xml</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toilet.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toilet_0.xml</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toiletroll.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\toiletroll_0.xml</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\towel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\towel_0.xml</Output>
+      <Time>2016-11-16T09:40:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\clock.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\clock_0.xml</Output>
+      <Time>2016-11-16T09:41:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\door.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\door_0.xml</Output>
+      <Time>2016-11-16T09:54:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kchair.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kchair_0.xml</Output>
+      <Time>2016-11-16T10:05:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ktable.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\ktable_0.xml</Output>
+      <Time>2016-11-16T10:05:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\painting.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\painting_0.xml</Output>
+      <Time>2016-11-16T10:47:36+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\bath.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\bath_0.xml</Output>
+      <Time>2016-11-17T12:26:28+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kettle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\kettle_0.xml</Output>
+      <Time>2016-11-17T20:57:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\winebottle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\Assets\Models\winebottle_0.xml</Output>
+      <Time>2016-11-17T20:59:24+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -489,39 +1093,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T17:22:30+02:00</Value>
+        <Value>2011-09-01T15:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-07-30T11:34:38.3195295+02:00</Value>
+        <Value>2016-09-26T16:32:26.7981682+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

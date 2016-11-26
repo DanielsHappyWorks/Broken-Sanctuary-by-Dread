@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Radio</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\radio.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\radio.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -33,7 +33,7 @@ MapChannel:2 = UVMap
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\radio.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\radio.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

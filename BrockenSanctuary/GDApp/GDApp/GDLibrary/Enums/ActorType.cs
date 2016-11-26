@@ -11,6 +11,8 @@
         Helper,
         CollidableProp,
         CollidableGround,
-        CollidableCamera
+        CollidableCamera,
+        UITexture,
+        UIText
     }
 }

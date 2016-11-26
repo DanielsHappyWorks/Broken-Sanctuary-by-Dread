@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2016-11-18T12:55:24.2734042+00:00</Value>
+        <Value>2016-11-25T23:09:05.589195+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2016-11-18T12:55:24.9024543+00:00</Value>
+        <Value>2016-11-25T23:09:06.0732671+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,11 +33,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2016-11-18T12:55:25.0414464+00:00</Value>
+        <Value>2016-11-25T23:09:06.2422856+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -46,11 +46,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2016-11-18T12:55:25.1574517+00:00</Value>
+        <Value>2016-11-25T23:09:06.3954558+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -59,11 +59,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2016-11-18T12:55:25.3664894+00:00</Value>
+        <Value>2016-11-25T23:09:06.5754528+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -72,11 +72,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2016-11-18T12:55:25.4964724+00:00</Value>
+        <Value>2016-11-25T23:09:06.6894744+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -85,11 +85,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2016-11-18T12:55:25.8414901+00:00</Value>
+        <Value>2016-11-25T23:09:06.9824881+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -98,11 +98,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2016-11-18T12:55:25.9955011+00:00</Value>
+        <Value>2016-11-25T23:09:07.1054932+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -111,11 +111,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2016-11-18T12:55:26.1455254+00:00</Value>
+        <Value>2016-11-25T23:09:07.2445042+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -124,11 +124,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2016-11-18T12:55:26.3965212+00:00</Value>
+        <Value>2016-11-25T23:09:07.4695154+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -137,11 +137,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
       <Time>2016-11-04T10:15:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2016-11-18T12:55:26.6515365+00:00</Value>
+        <Value>2016-11-25T23:09:07.7445319+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -150,11 +150,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
       <Time>2016-11-13T21:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\level_0.xml</Key>
-        <Value>2016-11-18T12:55:26.8605481+00:00</Value>
+        <Value>2016-11-25T23:09:08.0545492+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -163,11 +163,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
       <Time>2016-11-13T21:18:48+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\cabinet_0.xml</Key>
-        <Value>2016-11-18T12:55:27.2955722+00:00</Value>
+        <Value>2016-11-25T23:09:08.5205743+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -176,11 +176,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
       <Time>2016-11-09T16:15:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Key>
-        <Value>2016-11-18T12:55:32.4260917+00:00</Value>
+        <Value>2016-11-25T23:09:12.8988039+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -189,11 +189,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
       <Time>2016-11-16T19:53:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\phone_0.xml</Key>
-        <Value>2016-11-18T12:55:33.2491355+00:00</Value>
+        <Value>2016-11-25T23:09:13.7848556+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -202,11 +202,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
       <Time>2016-11-09T16:15:52+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\shelf_0.xml</Key>
-        <Value>2016-11-18T12:55:34.4211904+00:00</Value>
+        <Value>2016-11-25T23:09:15.2289307+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -215,11 +215,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
       <Time>2016-11-13T20:33:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sofa_0.xml</Key>
-        <Value>2016-11-18T12:55:34.5991956+00:00</Value>
+        <Value>2016-11-25T23:09:15.4479429+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -228,11 +228,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
       <Time>2016-11-13T20:35:34+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\armChair_0.xml</Key>
-        <Value>2016-11-18T12:55:34.7162033+00:00</Value>
+        <Value>2016-11-25T23:09:15.5749506+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -241,11 +241,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
       <Time>2016-11-13T20:59:46+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bookcase_0.xml</Key>
-        <Value>2016-11-18T12:55:34.8752126+00:00</Value>
+        <Value>2016-11-25T23:09:15.7559617+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -254,11 +254,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
       <Time>2016-11-13T21:03:10+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\tv_0.xml</Key>
-        <Value>2016-11-18T12:55:34.9952195+00:00</Value>
+        <Value>2016-11-25T23:09:15.8939688+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -267,11 +267,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
       <Time>2016-11-13T21:20:38+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\radio_0.xml</Key>
-        <Value>2016-11-18T12:55:35.1892434+00:00</Value>
+        <Value>2016-11-25T23:09:16.0939834+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -280,11 +280,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
       <Time>2016-11-13T22:05:16+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\table_0.xml</Key>
-        <Value>2016-11-18T12:55:35.330238+00:00</Value>
+        <Value>2016-11-25T23:09:16.2409889+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -293,11 +293,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
       <Time>2016-11-13T22:13:10+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\remote_0.xml</Key>
-        <Value>2016-11-18T12:55:35.6152543+00:00</Value>
+        <Value>2016-11-25T23:09:16.5450056+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -306,11 +306,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
       <Time>2016-11-15T10:09:08+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\counter_0.xml</Key>
-        <Value>2016-11-18T12:55:35.8532676+00:00</Value>
+        <Value>2016-11-25T23:09:16.8640355+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -319,11 +319,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
       <Time>2016-11-14T19:07:32+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\oven_0.xml</Key>
-        <Value>2016-11-18T12:55:36.0372781+00:00</Value>
+        <Value>2016-11-25T23:09:17.0550462+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -332,11 +332,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
       <Time>2016-11-14T18:54:26+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\fridge_0.xml</Key>
-        <Value>2016-11-18T12:55:36.1842861+00:00</Value>
+        <Value>2016-11-25T23:09:17.2450567+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -345,11 +345,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
       <Time>2016-11-14T19:40:38+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toaster_0.xml</Key>
-        <Value>2016-11-18T12:55:36.3802983+00:00</Value>
+        <Value>2016-11-25T23:09:17.4370681+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -358,11 +358,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
       <Time>2016-11-14T19:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\key_0.xml</Key>
-        <Value>2016-11-18T12:55:36.7093152+00:00</Value>
+        <Value>2016-11-25T23:09:17.8100753+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -371,11 +371,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
       <Time>2016-11-14T19:50:44+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\mirror_0.xml</Key>
-        <Value>2016-11-18T12:55:36.8613231+00:00</Value>
+        <Value>2016-11-25T23:09:18.0100869+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -384,11 +384,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
       <Time>2016-11-15T10:37:40+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\tvstand_0.xml</Key>
-        <Value>2016-11-18T12:55:37.3093647+00:00</Value>
+        <Value>2016-11-25T23:09:18.6341199+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -397,11 +397,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
       <Time>2016-11-15T12:10:54+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\microwave_0.xml</Key>
-        <Value>2016-11-18T12:55:37.4653583+00:00</Value>
+        <Value>2016-11-25T23:09:18.8561349+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -410,11 +410,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sink_0.xml</Key>
-        <Value>2016-11-18T12:55:37.6153816+00:00</Value>
+        <Value>2016-11-25T23:09:19.1291504+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -423,11 +423,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toilet_0.xml</Key>
-        <Value>2016-11-18T12:55:37.8133773+00:00</Value>
+        <Value>2016-11-25T23:09:19.3831628+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -436,11 +436,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Key>
-        <Value>2016-11-18T12:55:37.9373843+00:00</Value>
+        <Value>2016-11-25T23:09:19.5371963+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -449,11 +449,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
       <Time>2016-11-16T09:40:12+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\towel_0.xml</Key>
-        <Value>2016-11-18T12:55:38.0553917+00:00</Value>
+        <Value>2016-11-25T23:09:19.6751782+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -462,11 +462,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
       <Time>2016-11-16T09:41:06+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\clock_0.xml</Key>
-        <Value>2016-11-18T12:55:39.9931107+00:00</Value>
+        <Value>2016-11-25T23:09:21.9023023+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -475,11 +475,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
       <Time>2016-11-16T09:54:20+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\door_0.xml</Key>
-        <Value>2016-11-18T12:55:40.355131+00:00</Value>
+        <Value>2016-11-25T23:09:22.2493209+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -488,11 +488,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
       <Time>2016-11-16T10:05:42+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kchair_0.xml</Key>
-        <Value>2016-11-18T12:55:40.5211391+00:00</Value>
+        <Value>2016-11-25T23:09:22.4703618+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -501,11 +501,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
       <Time>2016-11-16T10:05:42+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\ktable_0.xml</Key>
-        <Value>2016-11-18T12:55:40.8051571+00:00</Value>
+        <Value>2016-11-25T23:09:22.7773628+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -514,11 +514,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
       <Time>2016-11-16T10:47:36+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\painting_0.xml</Key>
-        <Value>2016-11-18T12:55:40.9331775+00:00</Value>
+        <Value>2016-11-25T23:09:22.9423726+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -527,11 +527,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
-      <Time>2016-11-17T12:26:27.3885834+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
+      <Time>2016-11-17T12:26:28+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bath_0.xml</Key>
-        <Value>2016-11-18T12:55:41.1511761+00:00</Value>
+        <Value>2016-11-25T23:09:23.2023743+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -540,11 +540,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
-      <Time>2016-11-17T20:57:46.487664+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
+      <Time>2016-11-17T20:57:48+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kettle_0.xml</Key>
-        <Value>2016-11-18T12:55:41.3121834+00:00</Value>
+        <Value>2016-11-25T23:09:23.3973846+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -553,11 +553,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
-      <Time>2016-11-17T20:59:22.1033279+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
+      <Time>2016-11-17T20:59:24+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\winebottle_0.xml</Key>
-        <Value>2016-11-18T12:55:41.5072096+00:00</Value>
+        <Value>2016-11-25T23:09:23.6383975+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -566,7 +566,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
     </Item>
     <Item>
@@ -575,8 +575,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
       <Time>2016-11-03T11:54:22+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\losemenu.png</Source>
+      <Name>Assets\Textures\Menu\losemenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\winmenu.png</Source>
+      <Name>Assets\Textures\Menu\winmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Debug\gray3.png</Source>
@@ -584,7 +602,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
       <Time>2016-11-15T09:26:34+00:00</Time>
     </Item>
     <Item>
@@ -593,7 +611,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
       <Time>2016-11-15T09:41:34+00:00</Time>
     </Item>
     <Item>
@@ -602,7 +620,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
       <Time>2016-11-15T09:44:12+00:00</Time>
     </Item>
     <Item>
@@ -611,7 +629,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
       <Time>2016-11-15T09:50:16+00:00</Time>
     </Item>
     <Item>
@@ -620,7 +638,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
       <Time>2016-11-15T10:19:26+00:00</Time>
     </Item>
     <Item>
@@ -629,7 +647,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
       <Time>2016-11-15T10:23:56+00:00</Time>
     </Item>
     <Item>
@@ -638,7 +656,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
       <Time>2016-11-15T10:26:06+00:00</Time>
     </Item>
     <Item>
@@ -647,7 +665,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
       <Time>2016-11-16T09:43:20+00:00</Time>
     </Item>
     <Item>
@@ -656,7 +674,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
       <Time>2016-11-16T10:46:14+00:00</Time>
     </Item>
     <Item>
@@ -665,7 +683,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
       <Time>2016-11-16T10:46:54+00:00</Time>
     </Item>
     <Item>
@@ -674,8 +692,98 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
       <Time>2016-11-16T19:51:02+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\audiomenu.png</Source>
+      <Name>Assets\Textures\Menu\audiomenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
+      <Time>2016-11-24T11:55:50+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\controlsmenu.png</Source>
+      <Name>Assets\Textures\Menu\controlsmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
+      <Time>2016-11-24T12:00:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenu.png</Source>
+      <Name>Assets\Textures\Menu\exitmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenuwithtrans.png</Source>
+      <Name>Assets\Textures\Menu\exitmenuwithtrans</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
+      <Time>2016-11-23T18:50:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\mainmenu.PNG</Source>
+      <Name>Assets\Textures\Menu\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\restartmenu.png</Source>
+      <Name>Assets\Textures\Menu\restartmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
+      <Time>2016-11-24T11:55:48+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\mouseicons.png</Source>
+      <Name>Assets\Textures\UI\mouseicons</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\mouseicons.xnb</Output>
+      <Time>2016-11-25T23:02:31.5471518+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\progress_gradient.png</Source>
+      <Name>Assets\Textures\UI\progress_gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_gradient.xnb</Output>
+      <Time>2016-11-25T23:02:32.1617495+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\progress_white.png</Source>
+      <Name>Assets\Textures\UI\progress_white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_white.xnb</Output>
+      <Time>2016-11-25T23:02:32.5411081+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\white.png</Source>
+      <Name>Assets\Textures\UI\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\white.xnb</Output>
+      <Time>2016-11-25T23:02:32.9200907+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\horrorscreech.wav</Source>
@@ -683,8 +791,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
-      <Time>2016-11-18T10:55:42.0971497+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
+      <Time>2016-11-18T10:55:44+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\horror_ambiance.wav</Source>
@@ -692,8 +800,26 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
-      <Time>2016-11-18T10:55:42.0416577+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
+      <Time>2016-11-18T10:55:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\menu.spritefont</Source>
+      <Name>Assets\Fonts\menu</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2016-11-23T19:04:12+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\UI.spritefont</Source>
+      <Name>Assets\Fonts\UI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
+      <Time>2016-11-23T19:04:12+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
@@ -980,21 +1106,21 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bath_0.xml</Output>
-      <Time>2016-11-17T12:26:27.3885834+00:00</Time>
+      <Time>2016-11-17T12:26:28+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kettle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kettle_0.xml</Output>
-      <Time>2016-11-17T20:57:46.487664+00:00</Time>
+      <Time>2016-11-17T20:57:48+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\winebottle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\winebottle_0.xml</Output>
-      <Time>2016-11-17T20:59:22.1033279+00:00</Time>
+      <Time>2016-11-17T20:59:24+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1003,10 +1129,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

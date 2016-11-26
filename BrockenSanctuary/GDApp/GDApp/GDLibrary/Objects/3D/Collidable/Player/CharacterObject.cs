@@ -63,6 +63,8 @@ namespace GDLibrary
                 this.Transform3D.Orientation * 
                 Matrix.CreateTranslation(this.Body.Position);
         }
+
+        //add clone, remove...
     }
 
     class ASkinPredicate : CollisionSkinPredicate1

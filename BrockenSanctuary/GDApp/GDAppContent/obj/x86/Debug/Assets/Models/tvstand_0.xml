@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>Group22</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\tvstand.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\tvstand.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -1487,7 +1487,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Documents\Broken-Sanctuary-by-Dread\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\tvstand.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\tvstand.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

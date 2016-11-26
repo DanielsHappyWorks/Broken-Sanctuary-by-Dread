@@ -49,7 +49,6 @@ namespace GDLibrary
                 body = value;
             }
         }
-
         #endregion
 
         public CollidableObject(string id, ActorType actorType, Transform3D transform, BasicEffect effect, 

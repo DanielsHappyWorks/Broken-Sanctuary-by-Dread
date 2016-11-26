@@ -18,7 +18,6 @@ namespace GDLibrary
         private float accelerationRate;
         private float decelerationRate;
         private float mass;
-        private bool isDirty;
         private Vector3 translationOffset;
         #endregion
 
@@ -50,16 +49,7 @@ namespace GDLibrary
             {
                 Camera3D camera = parentActor as Camera3D;
                 Vector2 mouseDelta = game.MouseManager.GetDeltaFromPosition(camera.ViewportCentre);
-                parentActor.Transform3D.RotateBy(new Vector3(-mouseDelta * gameTime.ElapsedGameTime.Milliseconds * 0.015f, 0));
-
-                /*
-                if (isDirty == true) { 
-                    parentActor.Transform3D.RotateBy(new Vector3(-mouseDelta * gameTime.ElapsedGameTime.Milliseconds * 0.01f, 0));
-                }
-                else { 
-                    game.MouseManager.SetPosition(new Vector2(game.Graphics.PreferredBackBufferWidth/2, game.Graphics.PreferredBackBufferWidth / 2));
-                    isDirty = false;
-                }*/
+                parentActor.Transform3D.RotateBy(new Vector3(-mouseDelta * gameTime.ElapsedGameTime.Milliseconds * 0.01f, 0));
             }
         }
 
@@ -102,14 +92,16 @@ namespace GDLibrary
                     Vector3 restrictedRight = parentActor.Transform3D.Right;
                     restrictedRight.Y = 0;
                     this.playerObject.CharacterBody.Velocity -= restrictedRight * gameTime.ElapsedGameTime.Milliseconds * this.RotationSpeed;
+                    //parentActor.Transform3D.RotateAroundYBy(this.RotationSpeed * gameTime.ElapsedGameTime.Milliseconds);
                 }
                 else if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexRotateRight]))
                 {
                     Vector3 restrictedRight = parentActor.Transform3D.Right;
                     restrictedRight.Y = 0;
                     this.playerObject.CharacterBody.Velocity += restrictedRight * gameTime.ElapsedGameTime.Milliseconds * this.RotationSpeed;
+                    //parentActor.Transform3D.RotateAroundYBy(-this.RotationSpeed * gameTime.ElapsedGameTime.Milliseconds);
                 }
-               else //decelerate to zero when not pressed
+                else //decelerate to zero when not pressed
                 {
                     this.playerObject.CharacterBody.DesiredVelocity = Vector3.Zero;
                 }

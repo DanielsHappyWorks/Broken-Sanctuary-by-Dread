@@ -51,13 +51,26 @@ namespace GDLibrary
         //used when we don't want to specify color and alpha
         public DrawnActor3D(string id, ActorType actorType,
          Transform3D transform, BasicEffect effect)
-            : this(id, actorType, transform, effect, Color.White, 1)
+            : this(id, actorType, transform, effect, 
+            Color.White, 1, 
+            StatusType.Drawn | StatusType.Updated) //when we bitwise OR we saw drawn AND updated
         {
         }
 
+        //forward compatibility (since v3.4) for existing code with no StatusType
         public DrawnActor3D(string id, ActorType actorType,
-            Transform3D transform, BasicEffect effect, Color color, float alpha)
-            : base(id, actorType, transform)
+           Transform3D transform, BasicEffect effect, Color color, float alpha)
+            : this(id, actorType, transform, effect, color, alpha, 
+            StatusType.Drawn | StatusType.Updated) //when we bitwise OR we saw drawn AND updated
+
+        {
+
+        }
+
+        public DrawnActor3D(string id, ActorType actorType,
+            Transform3D transform, BasicEffect effect, Color color, 
+            float alpha, StatusType statusType)
+            : base(id, actorType, transform, statusType)
         {
             this.effect = effect;
             this.color = color;
@@ -73,5 +86,7 @@ namespace GDLibrary
                 this.color, //deep
                 this.alpha); //deep
         }
+
+        //add remove...
     }
 }

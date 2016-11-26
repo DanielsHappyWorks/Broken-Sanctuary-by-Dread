@@ -11,6 +11,7 @@ namespace GDLibrary
 
         private string id;
         private ActorType actorType;
+        private StatusType statusType;
         #endregion
 
         #region Properties
@@ -36,12 +37,24 @@ namespace GDLibrary
                 this.id = value;
             }
         }
+        public StatusType StatusType
+        {
+            get
+            {
+                return this.statusType;
+            }
+            set
+            {
+                this.statusType = value;
+            }
+        }
         #endregion
         
-        public Actor(string id, ActorType actorType)
+        public Actor(string id, ActorType actorType, StatusType statusType)
         {
             this.id = id;
             this.actorType = actorType;
+            this.statusType = statusType;
         }
         public virtual void Update(GameTime gameTime)
         {           
@@ -53,6 +66,14 @@ namespace GDLibrary
         public virtual Matrix GetWorldMatrix()
         {
             return Matrix.Identity; //does nothing - see derived classes especially CollidableObject
+        }
+        public virtual ActorType GetActorType()
+        {
+            return this.actorType;
+        }
+        public virtual string getID()
+        {
+            return this.id;
         }
 
         public object Clone()

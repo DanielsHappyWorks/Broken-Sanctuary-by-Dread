@@ -20,6 +20,7 @@ namespace GDLibrary
         LerpColor,
         LerpTexture,
         Drive,
-        FirstPersonCollidable
+        FirstPersonCollidable,
+        UIProgressController
     }
 }

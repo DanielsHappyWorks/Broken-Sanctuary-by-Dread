@@ -43,6 +43,8 @@ Content\Assets\Models\kettle.xnb
 Content\Assets\Models\winebottle.xnb
 Content\Assets\Textures\Debug\ml.xnb
 Content\Assets\Textures\Debug\checkerboard.xnb
+Content\Assets\Textures\Menu\losemenu.xnb
+Content\Assets\Textures\Menu\winmenu.xnb
 Content\Assets\Textures\Debug\gray3.xnb
 Content\Assets\Textures\Debug\gray2.xnb
 Content\Assets\Textures\Debug\gray1.xnb
@@ -54,5 +56,17 @@ Content\Assets\Textures\Debug\marble.xnb
 Content\Assets\Textures\Debug\painting1.xnb
 Content\Assets\Textures\Debug\painting2.xnb
 Content\Assets\Textures\Debug\plastic.xnb
+Content\Assets\Textures\Menu\audiomenu.xnb
+Content\Assets\Textures\Menu\controlsmenu.xnb
+Content\Assets\Textures\Menu\exitmenu.xnb
+Content\Assets\Textures\Menu\exitmenuwithtrans.xnb
+Content\Assets\Textures\Menu\mainmenu.xnb
+Content\Assets\Textures\Menu\restartmenu.xnb
+Content\Assets\Textures\UI\mouseicons.xnb
+Content\Assets\Textures\UI\progress_gradient.xnb
+Content\Assets\Textures\UI\progress_white.xnb
+Content\Assets\Textures\UI\white.xnb
 Content\Assets\Audio\horrorscreech.xnb
 Content\Assets\Audio\horror_ambiance.xnb
+Content\Assets\Fonts\menu.xnb
+Content\Assets\Fonts\UI.xnb

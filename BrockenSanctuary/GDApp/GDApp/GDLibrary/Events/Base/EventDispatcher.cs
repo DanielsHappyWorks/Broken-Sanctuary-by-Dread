@@ -12,10 +12,13 @@ namespace GDLibrary
         //a delegate is basically a list - the list contains a pointer to a function - this function pointer comes from the object wishing to be notified when the event occurs.
         public delegate void CameraEventHandler(EventData eventData);
         public delegate void PickupEventHandler(EventData eventData);
+        public delegate void MenuEventHandler(EventData eventData);
+
 
         //an event is either null (not yet happened) or non-null - when the event occurs the delegate reads through its list and calls all the listening functions
         public event CameraEventHandler CameraChanged;
         public event PickupEventHandler PickupChanged;
+        public event MenuEventHandler MenuChanged;
 
         public EventDispatcher(Main game, int initialSize)
             : base(game)
@@ -59,11 +62,22 @@ namespace GDLibrary
                     OnPickup(eventData);
                     break;
 
+                case EventCategoryType.MainMenu:
+                    OnMainMenu(eventData);
+                    break;
                 //add a case to handle the On...() method for each type
 
                 default:
                     break;
             }
+        }
+
+        //called when a menu is changed
+        private void OnMainMenu(EventData eventData)
+        {
+            //non-null if an object has subscribed to this event
+            if (MenuChanged != null)
+                MenuChanged(eventData);
         }
 
         //called when a pickup is collected

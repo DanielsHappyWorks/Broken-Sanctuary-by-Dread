@@ -120,6 +120,7 @@ namespace GDLibrary
         //Do we want to detect if the player object collides with something?
         //in this case we need to add the CollisionSkin_callbackFn() method
         // - See CollidableObject::CollisionSkin_callbackFn
-     
+
+        //add clone, remove...
     }
 }

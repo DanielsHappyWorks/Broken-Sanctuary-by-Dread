@@ -90,12 +90,14 @@
     <Compile Include="GDLibrary\Controllers\Object\TranslationLerpController.cs" />
     <Compile Include="GDLibrary\Controllers\Object\RotationController.cs" />
     <Compile Include="GDLibrary\Controllers\Physics\PhysicsController.cs" />
+    <Compile Include="GDLibrary\Controllers\UI\UIProgressController.cs" />
     <Compile Include="GDLibrary\Curve\Transform3DCurve.cs" />
     <Compile Include="GDLibrary\Curve\Curve1D.cs" />
     <Compile Include="GDLibrary\Curve\Curve2D.cs" />
     <Compile Include="GDLibrary\Curve\Curve3D.cs" />
     <Compile Include="GDLibrary\Curve\Transform2DCurve.cs" />
     <Compile Include="GDLibrary\Data\AppData.cs" />
+    <Compile Include="GDLibrary\Data\MenuData.cs" />
     <Compile Include="GDLibrary\Debug\BoundingBoxDrawer.cs" />
     <Compile Include="GDLibrary\Debug\PhysicsDebugDrawer.cs" />
     <Compile Include="GDLibrary\Demo\Sprite.cs" />
@@ -104,7 +106,12 @@
     <Compile Include="GDLibrary\Enums\ControllerType.cs" />
     <Compile Include="GDLibrary\Enums\EventActionType.cs" />
     <Compile Include="GDLibrary\Enums\EventCategoryType.cs" />
-    <Compile Include="GDLibrary\Enums\PlayStateType.cs" />
+    <Compile Include="GDLibrary\Enums\ProjectionType.cs" />
+    <Compile Include="GDLibrary\Enums\StatusType.cs" />
+    <Compile Include="GDLibrary\Events\Base\EventDataEqualityComparer.cs" />
+    <Compile Include="GDLibrary\Events\Base\EventDispatcher.cs" />
+    <Compile Include="GDLibrary\Events\Data\CameraEventData.cs" />
+    <Compile Include="GDLibrary\Events\Data\EventData.cs" />
     <Compile Include="GDLibrary\Filters\ActorIDFilter.cs" />
     <Compile Include="GDLibrary\Filters\ActorTypeFilter.cs" />
     <Compile Include="GDLibrary\Interfaces\IActor.cs" />
@@ -114,8 +121,16 @@
     <Compile Include="GDLibrary\Managers\Camera\CameraManager.cs" />
     <Compile Include="GDLibrary\Managers\Input\KeyboardManager.cs" />
     <Compile Include="GDLibrary\Managers\Input\MouseManager.cs" />
+    <Compile Include="GDLibrary\Managers\Menu\MenuItem.cs" />
+    <Compile Include="GDLibrary\Managers\Menu\MenuManager.cs" />
     <Compile Include="GDLibrary\Managers\Object\ObjectManager.cs" />
     <Compile Include="GDLibrary\Managers\Physics\PhysicsManager.cs" />
+    <Compile Include="GDLibrary\Managers\UI\UIManager.cs" />
+    <Compile Include="GDLibrary\Objects\2D\Base\Actor2D.cs" />
+    <Compile Include="GDLibrary\Objects\2D\Base\DrawnActor2D.cs" />
+    <Compile Include="GDLibrary\Objects\2D\UI\UIMouseObject.cs" />
+    <Compile Include="GDLibrary\Objects\2D\UI\UITextObject.cs" />
+    <Compile Include="GDLibrary\Objects\2D\UI\UITextureObject.cs" />
     <Compile Include="GDLibrary\Objects\Base\Actor.cs" />
     <Compile Include="GDLibrary\Objects\3D\Base\Actor3D.cs" />
     <Compile Include="GDLibrary\Objects\3D\Base\DrawnActor3D.cs" />
@@ -134,7 +149,12 @@
     <Compile Include="GDLibrary\Parameters\Camera\RailParameters.cs" />
     <Compile Include="GDLibrary\Parameters\Effect\EffectParameters.cs" />
     <Compile Include="GDLibrary\Parameters\Primitives\VertexData.cs" />
+    <Compile Include="GDLibrary\Parameters\Transforms\Transform2D.cs" />
     <Compile Include="GDLibrary\Parameters\Transforms\Transform3D.cs" />
+    <Compile Include="GDLibrary\PathFinding\Edge.cs" />
+    <Compile Include="GDLibrary\PathFinding\Node.cs" />
+    <Compile Include="GDLibrary\PathFinding\PathFindingEngine.cs" />
+    <Compile Include="GDLibrary\Utility\CollisionUtility.cs" />
     <Compile Include="GDLibrary\Utility\Integer2.cs" />
     <Compile Include="GDLibrary\Utility\Integer3.cs" />
     <Compile Include="GDLibrary\Utility\MathUtility.cs" />
@@ -180,12 +200,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="GDLibrary\Events\" />
-    <Folder Include="GDLibrary\Managers\Menu\" />
     <Folder Include="GDLibrary\Managers\Sound\" />
-    <Folder Include="GDLibrary\Managers\UI\" />
-    <Folder Include="GDLibrary\Objects\2D\" />
-    <Folder Include="GDLibrary\PathFinding\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

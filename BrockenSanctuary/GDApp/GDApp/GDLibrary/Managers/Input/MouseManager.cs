@@ -39,6 +39,13 @@ namespace GDLibrary
         #endregion
 
         #region Properties
+        public Microsoft.Xna.Framework.Rectangle Bounds
+        {
+            get
+            {
+                return new Microsoft.Xna.Framework.Rectangle(this.newState.X, this.newState.Y, 1, 1);
+            }
+        }
         public bool IsVisible
         {
             get
@@ -100,7 +107,7 @@ namespace GDLibrary
 
             return (deltaPositionLength > AppData.MouseSensitivity) ? true : false;
         }
-        public bool IsLeftButtonClickedOnce(MouseState mouseState)
+        public bool IsLeftButtonClickedOnce()
         {
             return ((newState.LeftButton.Equals(ButtonState.Pressed)) && (!oldState.LeftButton.Equals(ButtonState.Pressed)));
         }

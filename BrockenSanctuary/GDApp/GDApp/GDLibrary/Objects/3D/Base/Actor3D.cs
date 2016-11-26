@@ -29,8 +29,8 @@ namespace GDLibrary
         #endregion
 
         public Actor3D(string id, ActorType actorType,
-                            Transform3D transform)
-            : base(id, actorType)
+                            Transform3D transform, StatusType statusType)
+            : base(id, actorType, statusType)
         {
 
             this.transform = transform;
@@ -70,7 +70,15 @@ namespace GDLibrary
         {
             return new Actor3D("clone - " + ID, //deep
                 this.ActorType, //deep
-                (Transform3D)this.transform.Clone()); //deep
+                (Transform3D)this.transform.Clone(), //deep
+                this.StatusType); //shallow
+        }
+
+        public override bool Remove()
+        {
+            //tag for garbage collection
+            this.transform = null;
+            return base.Remove();
         }
     }
 }
