@@ -31,6 +31,10 @@ namespace GDLibrary
             {
                 return this.vertices;
             }
+            set
+            {
+                this.vertices = value;
+            }
         }
         #endregion
 
@@ -42,10 +46,14 @@ namespace GDLibrary
             this.primitiveCount = primitiveCount;
         }
 
-        public void Draw(GameTime gameTime, BasicEffect effect)
+        public virtual void Draw(GameTime gameTime, Effect effect)
         {
-            effect.GraphicsDevice.DrawUserPrimitives<T>(
-                this.primitiveType, this.vertices, 0, this.primitiveCount);
+            effect.GraphicsDevice.DrawUserPrimitives<T>(this.primitiveType, this.vertices, 0, this.primitiveCount);
+        }
+
+        public object Clone()
+        {
+            return new VertexData<T>(this.Vertices, this.PrimitiveType, this.PrimitiveCount);
         }
     }
 }

@@ -182,6 +182,13 @@ namespace GDLibrary
 
         }
 
+        //used by zone objects
+        public Transform3D(Vector3 translation,  Vector3 scale)
+            : this(translation, Vector3.Zero, scale, Vector3.UnitX, Vector3.UnitY)
+        {
+
+        }
+
         //used by drawn objects
         public Transform3D(Vector3 translation, Vector3 rotation, Vector3 scale, Vector3 look, Vector3 up)
         {

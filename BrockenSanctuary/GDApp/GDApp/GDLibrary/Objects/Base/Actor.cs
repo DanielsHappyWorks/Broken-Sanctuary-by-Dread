@@ -71,11 +71,14 @@ namespace GDLibrary
         {
             return this.actorType;
         }
-        public virtual string getID()
+        public virtual string GetID()
         {
             return this.id;
         }
-
+        public virtual float GetAlpha()
+        {
+            return 1;
+        }
         public object Clone()
         {
             return this.MemberwiseClone(); //deep because all variables are either C# types, structs, or enums

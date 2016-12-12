@@ -10,7 +10,8 @@ namespace GDLibrary
         void Draw(GameTime gameTime);
 
         ActorType GetActorType();
-        string getID();
+        string GetID();
         bool Remove();
+        float GetAlpha();
     }
 }

@@ -12,6 +12,7 @@ namespace GDLibrary
         private Rectangle bounds;
         private Vector2 position;
         private Color drawColor;
+        private bool isActive;
         #endregion
 
         #region Properties
@@ -68,9 +69,15 @@ namespace GDLibrary
         public void SetActive(bool bActive)
         {
             if (bActive)
+            {
                 drawColor = activeColor;
+            }
             else
+            {
                 drawColor = inactiveColor;
+            }
+
+            this.isActive = bActive;
         }
 
         public void Draw(SpriteBatch spriteBatch, SpriteFont menuFont)
@@ -94,6 +101,11 @@ namespace GDLibrary
             return this.Name.GetHashCode() 
                 + seed * this.Text.GetHashCode() 
                     + this.position.GetHashCode();
+        }
+
+        internal bool GetActive()
+        {
+            return this.isActive;
         }
     }
 }

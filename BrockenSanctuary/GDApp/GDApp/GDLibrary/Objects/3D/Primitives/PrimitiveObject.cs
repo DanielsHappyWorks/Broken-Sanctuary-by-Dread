@@ -25,13 +25,14 @@ namespace GDLibrary
         #endregion
 
         public PrimitiveObject(string id, ActorType actorType,
-            Transform3D transform,
-                BasicEffect effect, IVertexData vertexData)
-            : base(id, actorType, transform, effect)
+            Transform3D transform, Effect effect, IVertexData vertexData, Color color, 
+            float alpha, StatusType statusType)
+            : base(id, actorType, transform, effect, color, alpha, statusType)
         {
             this.vertexData = vertexData;
         }
-
+        /*
+        //See ObjectManager::Draw()
         public override void Draw(GameTime gameTime)
         {
             this.Effect.View = game.CameraManager.ActiveCamera.View;
@@ -43,14 +44,17 @@ namespace GDLibrary
             this.Effect.CurrentTechnique.Passes[0].Apply();
             this.vertexData.Draw(gameTime, this.Effect);
         }
-
+        */
         public new object Clone()
         {
             return new PrimitiveObject("clone - " + ID, //deep
                this.ActorType, //deep
                (Transform3D)this.Transform3D.Clone(), //deep
                this.Effect, //shallow - its ok if objects refer to the same effect
-               this.vertexData); //shallow - its ok if objects refer to the same vertices
+               this.vertexData, //shallow - its ok if objects refer to the same vertices
+               this.Color, //deep
+               this.Alpha, //deep
+               this.StatusType); //deep
         }
     }
 }

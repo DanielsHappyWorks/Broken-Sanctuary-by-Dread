@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>sphere</Name>
     <Identity>
-      <SourceFilename>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\sphere.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDAppContent\Assets\Models\sphere.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>2.54 0 0 0 0 7.19523466E-16 -2.54 0 0 2.54 7.19523466E-16 0 2.2932322 0 -2.79955769 1</Transform>

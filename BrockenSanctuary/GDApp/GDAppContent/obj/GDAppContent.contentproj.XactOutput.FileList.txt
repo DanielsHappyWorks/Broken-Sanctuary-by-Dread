@@ -1,0 +1,3 @@
+Content\Assets\Audio\Demo2DSound.xgs
+Content\Assets\Audio\WaveBank1.xwb
+Content\Assets\Audio\SoundBank1.xsb

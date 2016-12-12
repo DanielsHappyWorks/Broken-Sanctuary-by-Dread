@@ -1,1 +1,2 @@
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Release\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\obj\x86\Release\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\obj\x86\Release\Assets\Audio\BrokenSanctuary.xml

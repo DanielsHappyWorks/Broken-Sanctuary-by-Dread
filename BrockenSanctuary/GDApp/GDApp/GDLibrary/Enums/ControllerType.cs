@@ -21,6 +21,8 @@ namespace GDLibrary
         LerpTexture,
         Drive,
         FirstPersonCollidable,
-        UIProgressController
+        UIProgressController,
+        KeyPickupController,
+        PendulumController
     }
 }

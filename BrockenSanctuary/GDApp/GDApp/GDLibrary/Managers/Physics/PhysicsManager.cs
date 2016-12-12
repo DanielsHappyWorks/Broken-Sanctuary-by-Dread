@@ -15,21 +15,19 @@ namespace GDLibrary
         private float timeStep = 0;
         private PhysicsDebugDrawer physicsDebugDrawer;
         //pause/unpause based on menu event
-        private bool bPaused = false;
-
+        private bool bPauseUpdate = true;
         #endregion
 
-
         #region Properties
-        public bool Paused
+        public bool PauseUpdate
         {
             get
             {
-                return bPaused;
+                return bPauseUpdate;
             }
             set
             {
-                bPaused = value;
+                bPauseUpdate = value;
             }
         }
         public PhysicsSystem PhysicsSystem
@@ -83,8 +81,19 @@ namespace GDLibrary
 
             this.physicsDebugDrawer = new PhysicsDebugDrawer(game);
             game.Components.Add(this.physicsDebugDrawer);
- 
-     
+
+            #region Event Handling
+            //pause/unpause events
+            this.game.EventDispatcher.MenuChanged += EventDispatcher_MenuChanged;
+            #endregion
+        }
+
+        private void EventDispatcher_MenuChanged(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnPlay)
+                this.bPauseUpdate = false;
+            else if (eventData.EventType == EventActionType.OnPause)
+                this.bPauseUpdate = true;
         }
 
         public override void Initialize()
@@ -93,7 +102,7 @@ namespace GDLibrary
         }
         public override void Update(GameTime gameTime)
         {
-            if (!bPaused)
+            if (!bPauseUpdate)
             {
                 timeStep = (float)gameTime.ElapsedGameTime.Ticks / TimeSpan.TicksPerSecond;
                 //if the time between updates indicates a FPS of close to 60 fps or less then update CD/CR engine

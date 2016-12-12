@@ -21,12 +21,27 @@ namespace GDLibrary
 
         public override void HandleMouseInput(GameTime gameTime, Actor3D parentActor)
         {
-            Vector2 mouseDelta = game.MouseManager.GetDeltaFromCentre();
+            Vector2 mouseDelta = Vector2.Zero;
+            mouseDelta = -game.MouseManager.GetDeltaFromCentre();//game.ScreenCentre);
             mouseDelta *= gameTime.ElapsedGameTime.Milliseconds;
             mouseDelta *= this.RotationSpeed;
 
-            parentActor.Transform3D.RotateBy(new Vector3(-mouseDelta, 0));
+            //if (parentActor.Transform3D.Look.Y >= 0.9f)
+            //{
+            //    if (mouseDelta.Y < 0)
+            //    {
+            //        mouseDelta.Y += mouseDelta.Y * gameTime.ElapsedGameTime.Milliseconds * this.RotationSpeed;
+            //    }
+            //}
+            //else if (parentActor.Transform3D.Look.Y <= -0.9f)
+            //{
+            //    if (mouseDelta.Y > 0)
+            //    {
+            //        mouseDelta.Y += mouseDelta.Y * gameTime.ElapsedGameTime.Milliseconds * this.RotationSpeed;
+            //    }
+            //}
 
+            parentActor.Transform3D.RotateBy(new Vector3(mouseDelta.X, mouseDelta.Y, 0));
         }
 
         public override void HandleKeyboardInput(GameTime gameTime, Actor3D parentActor)

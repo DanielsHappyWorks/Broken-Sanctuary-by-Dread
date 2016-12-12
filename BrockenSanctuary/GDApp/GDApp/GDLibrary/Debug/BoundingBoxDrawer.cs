@@ -116,8 +116,7 @@ namespace GDLibrary
             vertices.Add(new VertexPositionColor(position, Color.White));
         }
 
-        public static void DrawBoundingBox(BoundingBoxBuffers buffers, BasicEffect effect,
-            GraphicsDevice graphicsDevice, Camera3D camera)
+        public static void DrawBoundingBox(BoundingBoxBuffers buffers, BasicEffect effect, GraphicsDevice graphicsDevice, Camera3D camera)
         {
             graphicsDevice.SetVertexBuffer(buffers.Vertices);
             graphicsDevice.Indices = buffers.Indices;

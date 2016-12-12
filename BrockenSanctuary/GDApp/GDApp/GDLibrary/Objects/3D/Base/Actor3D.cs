@@ -24,7 +24,10 @@ namespace GDLibrary
             {
                 return this.transform;
             }
-            // no set
+            set
+            {
+                this.transform = value;
+            }
         }
         #endregion
 
@@ -78,6 +81,11 @@ namespace GDLibrary
         {
             //tag for garbage collection
             this.transform = null;
+            if (this.controllerList != null)
+            {
+                this.controllerList.Clear();
+                this.controllerList = null;
+            }
             return base.Remove();
         }
     }

@@ -5,6 +5,6 @@ namespace GDLibrary
 {
     public interface IVertexData
     {
-        void Draw(GameTime gameTime, BasicEffect effect);
+        void Draw(GameTime gameTime, Effect effect);
     }
 }

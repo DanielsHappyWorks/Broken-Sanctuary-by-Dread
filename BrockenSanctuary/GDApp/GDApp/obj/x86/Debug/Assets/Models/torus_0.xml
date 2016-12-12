@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>torus</Name>
     <Identity>
-      <SourceFilename>F:\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\torus.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Tess\Downloads\GDApp - Wk6 - Cl2\GDApp - Halloween - 1\GDApp\GDAppContent\Assets\Models\torus.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>2.54 0 0 0 0 7.19523466E-16 -2.54 0 0 2.54 7.19523466E-16 0 -3.113841 0 -28.00112 1</Transform>

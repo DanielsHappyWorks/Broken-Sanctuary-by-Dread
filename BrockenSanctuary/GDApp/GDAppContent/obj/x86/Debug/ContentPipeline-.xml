@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2016-12-11T22:08:13.9229455+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2016-11-25T23:09:05.589195+00:00</Value>
+        <Value>2016-12-11T23:58:48.3427127+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -20,11 +20,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2016-12-11T22:08:13.9879482+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2016-11-25T23:09:06.0732671+00:00</Value>
+        <Value>2016-12-11T23:58:48.7927271+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -33,11 +33,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2016-12-11T22:08:14.2229638+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2016-11-25T23:09:06.2422856+00:00</Value>
+        <Value>2016-12-11T23:58:48.8877462+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -46,11 +46,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2016-12-11T22:08:14.9670036+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2016-11-25T23:09:06.3954558+00:00</Value>
+        <Value>2016-12-11T23:58:48.9747349+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -59,11 +59,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2016-12-11T22:08:15.2890202+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2016-11-25T23:09:06.5754528+00:00</Value>
+        <Value>2016-12-11T23:58:49.1317585+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -72,11 +72,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2016-12-11T22:08:15.3630249+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2016-11-25T23:09:06.6894744+00:00</Value>
+        <Value>2016-12-11T23:58:49.2247663+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -85,11 +85,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2016-12-11T22:08:15.8550532+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2016-11-25T23:09:06.9824881+00:00</Value>
+        <Value>2016-12-11T23:58:49.5097677+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -98,11 +98,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2016-12-11T22:08:15.9160569+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2016-11-25T23:09:07.1054932+00:00</Value>
+        <Value>2016-12-11T23:58:49.6387745+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -111,11 +111,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2016-12-11T22:08:16.2030712+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2016-11-25T23:09:07.2445042+00:00</Value>
+        <Value>2016-12-11T23:58:49.7627784+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -124,102 +124,119 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2016-12-11T22:08:16.2900779+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2016-11-25T23:09:07.4695154+00:00</Value>
+        <Value>2016-12-11T23:58:49.9548044+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\box.FBX</Source>
-      <Name>Assets\Models\box</Name>
+      <Source>Assets\Models\box2.FBX</Source>
+      <Name>Assets\Models\box2</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
-      <Time>2016-11-04T10:15:06+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
+      <Time>2016-12-11T22:08:13.5099216+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2016-11-25T23:09:07.7445319+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\box2_0.xml</Key>
+        <Value>2016-12-11T23:58:50.0517953+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\level.FBX</Source>
-      <Name>Assets\Models\level</Name>
+      <Source>Assets\Models\Animated\dude.fbx</Source>
+      <Name>Assets\Models\Animated\dude</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
-      <Time>2016-11-13T21:50:44+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
+      <Time>2016-12-11T22:08:17.9811705+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\level_0.xml</Key>
-        <Value>2016-11-25T23:09:08.0545492+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
+        <Value>2016-12-11T23:58:55.5111158+00:00</Value>
+      </Dependency>
+      <Request>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
+      <Request>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
+      <Request>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
+      <Request>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\RedRun4.FBX</Source>
+      <Name>Assets\Models\Animated\RedRun4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\RedRun4.xnb</Output>
+      <Time>2016-12-11T22:08:19.8492757+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\Animated\RedRun4_0.xml</Key>
+        <Value>2016-12-11T23:59:00.0193526+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\cabinet.FBX</Source>
-      <Name>Assets\Models\cabinet</Name>
+      <Source>Assets\Models\Animated\Red_Idle.FBX</Source>
+      <Name>Assets\Models\Animated\Red_Idle</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
-      <Time>2016-11-13T21:18:48+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Red_Idle.xnb</Output>
+      <Time>2016-12-11T22:08:19.974283+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\cabinet_0.xml</Key>
-        <Value>2016-11-25T23:09:08.5205743+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\Red_Idle_0.xml</Key>
+        <Value>2016-12-11T23:59:05.0376366+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\kitchen and oven.FBX</Source>
-      <Name>Assets\Models\kitchen and oven</Name>
+      <Source>Assets\Models\Animated\Red_Jump.FBX</Source>
+      <Name>Assets\Models\Animated\Red_Jump</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
-      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Red_Jump.xnb</Output>
+      <Time>2016-12-11T22:08:20.0592902+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Key>
-        <Value>2016-11-25T23:09:12.8988039+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\Red_Jump_0.xml</Key>
+        <Value>2016-12-11T23:59:06.0476906+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\phone.FBX</Source>
-      <Name>Assets\Models\phone</Name>
+      <Source>Assets\Models\Animated\Red_Punch.fbx</Source>
+      <Name>Assets\Models\Animated\Red_Punch</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
-      <Time>2016-11-16T19:53:52+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Red_Punch.xnb</Output>
+      <Time>2016-12-11T22:08:20.1382926+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\phone_0.xml</Key>
-        <Value>2016-11-25T23:09:13.7848556+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\Red_Punch_0.xml</Key>
+        <Value>2016-12-11T23:59:06.8897375+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\shelf.FBX</Source>
-      <Name>Assets\Models\shelf</Name>
+      <Source>Assets\Models\Animated\Red_Standing.FBX</Source>
+      <Name>Assets\Models\Animated\Red_Standing</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
-      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Red_Standing.xnb</Output>
+      <Time>2016-12-11T22:08:20.2322996+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\shelf_0.xml</Key>
-        <Value>2016-11-25T23:09:15.2289307+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\Red_Standing_0.xml</Key>
+        <Value>2016-12-11T23:59:09.3428907+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\sofa.FBX</Source>
-      <Name>Assets\Models\sofa</Name>
+      <Source>Assets\Models\Animated\Red_Tailwhip.FBX</Source>
+      <Name>Assets\Models\Animated\Red_Tailwhip</Name>
       <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
-      <Time>2016-11-13T20:33:06+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Red_Tailwhip.xnb</Output>
+      <Time>2016-12-11T22:08:20.3133037+00:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\sofa_0.xml</Key>
-        <Value>2016-11-25T23:09:15.4479429+00:00</Value>
+        <Key>obj\x86\Debug\Assets\Models\Animated\Red_Tailwhip_0.xml</Key>
+        <Value>2016-12-11T23:59:10.6139468+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -228,297 +245,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
-      <Time>2016-11-13T20:35:34+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\armChair.xnb</Output>
+      <Time>2016-12-11T22:08:13.2739073+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\armChair_0.xml</Key>
-        <Value>2016-11-25T23:09:15.5749506+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\bookcase.FBX</Source>
-      <Name>Assets\Models\bookcase</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
-      <Time>2016-11-13T20:59:46+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\bookcase_0.xml</Key>
-        <Value>2016-11-25T23:09:15.7559617+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\tv.FBX</Source>
-      <Name>Assets\Models\tv</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
-      <Time>2016-11-13T21:03:10+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\tv_0.xml</Key>
-        <Value>2016-11-25T23:09:15.8939688+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\radio.FBX</Source>
-      <Name>Assets\Models\radio</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
-      <Time>2016-11-13T21:20:38+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\radio_0.xml</Key>
-        <Value>2016-11-25T23:09:16.0939834+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\table.FBX</Source>
-      <Name>Assets\Models\table</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
-      <Time>2016-11-13T22:05:16+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\table_0.xml</Key>
-        <Value>2016-11-25T23:09:16.2409889+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\remote.FBX</Source>
-      <Name>Assets\Models\remote</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
-      <Time>2016-11-13T22:13:10+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\remote_0.xml</Key>
-        <Value>2016-11-25T23:09:16.5450056+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\counter.FBX</Source>
-      <Name>Assets\Models\counter</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
-      <Time>2016-11-15T10:09:08+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\counter_0.xml</Key>
-        <Value>2016-11-25T23:09:16.8640355+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\oven.FBX</Source>
-      <Name>Assets\Models\oven</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
-      <Time>2016-11-14T19:07:32+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\oven_0.xml</Key>
-        <Value>2016-11-25T23:09:17.0550462+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\fridge.FBX</Source>
-      <Name>Assets\Models\fridge</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
-      <Time>2016-11-14T18:54:26+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\fridge_0.xml</Key>
-        <Value>2016-11-25T23:09:17.2450567+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toaster.FBX</Source>
-      <Name>Assets\Models\toaster</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
-      <Time>2016-11-14T19:40:38+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\toaster_0.xml</Key>
-        <Value>2016-11-25T23:09:17.4370681+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\key.FBX</Source>
-      <Name>Assets\Models\key</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
-      <Time>2016-11-14T19:50:44+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\key_0.xml</Key>
-        <Value>2016-11-25T23:09:17.8100753+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\mirror.FBX</Source>
-      <Name>Assets\Models\mirror</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
-      <Time>2016-11-14T19:50:44+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\mirror_0.xml</Key>
-        <Value>2016-11-25T23:09:18.0100869+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\tvstand.FBX</Source>
-      <Name>Assets\Models\tvstand</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
-      <Time>2016-11-15T10:37:40+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\tvstand_0.xml</Key>
-        <Value>2016-11-25T23:09:18.6341199+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\microwave.FBX</Source>
-      <Name>Assets\Models\microwave</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
-      <Time>2016-11-15T12:10:54+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\microwave_0.xml</Key>
-        <Value>2016-11-25T23:09:18.8561349+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\sink.FBX</Source>
-      <Name>Assets\Models\sink</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\sink_0.xml</Key>
-        <Value>2016-11-25T23:09:19.1291504+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toilet.FBX</Source>
-      <Name>Assets\Models\toilet</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\toilet_0.xml</Key>
-        <Value>2016-11-25T23:09:19.3831628+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toiletroll.FBX</Source>
-      <Name>Assets\Models\toiletroll</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Key>
-        <Value>2016-11-25T23:09:19.5371963+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\towel.FBX</Source>
-      <Name>Assets\Models\towel</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\towel_0.xml</Key>
-        <Value>2016-11-25T23:09:19.6751782+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\clock.FBX</Source>
-      <Name>Assets\Models\clock</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
-      <Time>2016-11-16T09:41:06+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\clock_0.xml</Key>
-        <Value>2016-11-25T23:09:21.9023023+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\door.FBX</Source>
-      <Name>Assets\Models\door</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
-      <Time>2016-11-16T09:54:20+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\door_0.xml</Key>
-        <Value>2016-11-25T23:09:22.2493209+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\kchair.FBX</Source>
-      <Name>Assets\Models\kchair</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
-      <Time>2016-11-16T10:05:42+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\kchair_0.xml</Key>
-        <Value>2016-11-25T23:09:22.4703618+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\ktable.FBX</Source>
-      <Name>Assets\Models\ktable</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
-      <Time>2016-11-16T10:05:42+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\ktable_0.xml</Key>
-        <Value>2016-11-25T23:09:22.7773628+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\painting.FBX</Source>
-      <Name>Assets\Models\painting</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
-      <Time>2016-11-16T10:47:36+00:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Assets\Models\painting_0.xml</Key>
-        <Value>2016-11-25T23:09:22.9423726+00:00</Value>
+        <Value>2016-12-11T23:59:10.7679701+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -527,11 +258,141 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
-      <Time>2016-11-17T12:26:28+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bath.xnb</Output>
+      <Time>2016-12-11T22:08:13.3389101+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\bath_0.xml</Key>
-        <Value>2016-11-25T23:09:23.2023743+00:00</Value>
+        <Value>2016-12-11T23:59:11.0049682+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\bookcase.FBX</Source>
+      <Name>Assets\Models\bookcase</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\bookcase.xnb</Output>
+      <Time>2016-12-11T22:08:13.3939158+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\bookcase_0.xml</Key>
+        <Value>2016-12-11T23:59:11.1189745+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Name>Assets\Models\box</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2016-12-11T22:08:13.452918+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2016-12-11T23:59:11.3290023+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cabinet.FBX</Source>
+      <Name>Assets\Models\cabinet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cabinet.xnb</Output>
+      <Time>2016-12-11T22:08:13.5789255+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\cabinet_0.xml</Key>
+        <Value>2016-12-11T23:59:11.6820057+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ceilings.FBX</Source>
+      <Name>Assets\Models\ceilings</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ceilings.xnb</Output>
+      <Time>2016-12-11T22:08:13.6399272+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\ceilings_0.xml</Key>
+        <Value>2016-12-11T23:59:11.8060286+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\clock.FBX</Source>
+      <Name>Assets\Models\clock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\clock.xnb</Output>
+      <Time>2016-12-11T22:08:13.8099369+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\clock_0.xml</Key>
+        <Value>2016-12-11T23:59:13.5771137+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\counter.FBX</Source>
+      <Name>Assets\Models\counter</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\counter.xnb</Output>
+      <Time>2016-12-11T22:08:13.8669405+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\counter_0.xml</Key>
+        <Value>2016-12-11T23:59:13.8721435+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\door.FBX</Source>
+      <Name>Assets\Models\door</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\door.xnb</Output>
+      <Time>2016-12-11T22:08:14.0489535+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\door_0.xml</Key>
+        <Value>2016-12-11T23:59:14.0131366+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\floors.FBX</Source>
+      <Name>Assets\Models\floors</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\floors.xnb</Output>
+      <Time>2016-12-11T22:08:14.1059541+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\floors_0.xml</Key>
+        <Value>2016-12-11T23:59:14.1221559+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\fridge.FBX</Source>
+      <Name>Assets\Models\fridge</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fridge.xnb</Output>
+      <Time>2016-12-11T22:08:14.1679581+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\fridge_0.xml</Key>
+        <Value>2016-12-11T23:59:14.240149+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kchair.FBX</Source>
+      <Name>Assets\Models\kchair</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kchair.xnb</Output>
+      <Time>2016-12-11T22:08:14.2819685+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\kchair_0.xml</Key>
+        <Value>2016-12-11T23:59:14.3901609+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -540,11 +401,310 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
-      <Time>2016-11-17T20:57:48+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kettle.xnb</Output>
+      <Time>2016-12-11T22:08:14.3429712+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\kettle_0.xml</Key>
-        <Value>2016-11-25T23:09:23.3973846+00:00</Value>
+        <Value>2016-12-11T23:59:14.57117+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\key.FBX</Source>
+      <Name>Assets\Models\key</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\key.xnb</Output>
+      <Time>2016-12-11T22:08:14.4089707+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\key_0.xml</Key>
+        <Value>2016-12-11T23:59:14.8631846+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kitchen and oven.FBX</Source>
+      <Name>Assets\Models\kitchen and oven</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\kitchen and oven.xnb</Output>
+      <Time>2016-12-11T22:08:14.7129865+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Key>
+        <Value>2016-12-11T23:59:19.3064331+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ktable.FBX</Source>
+      <Name>Assets\Models\ktable</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ktable.xnb</Output>
+      <Time>2016-12-11T22:08:14.7629918+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\ktable_0.xml</Key>
+        <Value>2016-12-11T23:59:20.0094869+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\level.FBX</Source>
+      <Name>Assets\Models\level</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\level.xnb</Output>
+      <Time>2016-12-11T22:08:14.8099923+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\level_0.xml</Key>
+        <Value>2016-12-11T23:59:20.186497+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\microwave.FBX</Source>
+      <Name>Assets\Models\microwave</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\microwave.xnb</Output>
+      <Time>2016-12-11T22:08:14.8570014+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\microwave_0.xml</Key>
+        <Value>2016-12-11T23:59:20.3115027+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\mirror.FBX</Source>
+      <Name>Assets\Models\mirror</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mirror.xnb</Output>
+      <Time>2016-12-11T22:08:14.9129987+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\mirror_0.xml</Key>
+        <Value>2016-12-11T23:59:20.434496+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\oven.FBX</Source>
+      <Name>Assets\Models\oven</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\oven.xnb</Output>
+      <Time>2016-12-11T22:08:15.0220052+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\oven_0.xml</Key>
+        <Value>2016-12-11T23:59:20.5995054+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\painting.FBX</Source>
+      <Name>Assets\Models\painting</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\painting.xnb</Output>
+      <Time>2016-12-11T22:08:15.0760106+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\painting_0.xml</Key>
+        <Value>2016-12-11T23:59:20.6905127+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\pendulum.FBX</Source>
+      <Name>Assets\Models\pendulum</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\pendulum.xnb</Output>
+      <Time>2016-12-11T22:08:15.1410416+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\pendulum_0.xml</Key>
+        <Value>2016-12-11T23:59:20.8105175+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\phone.FBX</Source>
+      <Name>Assets\Models\phone</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\phone.xnb</Output>
+      <Time>2016-12-11T22:08:15.2120172+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\phone_0.xml</Key>
+        <Value>2016-12-11T23:59:21.0665316+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\radio.FBX</Source>
+      <Name>Assets\Models\radio</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\radio.xnb</Output>
+      <Time>2016-12-11T22:08:15.448031+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\radio_0.xml</Key>
+        <Value>2016-12-11T23:59:21.3655496+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\remote.FBX</Source>
+      <Name>Assets\Models\remote</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\remote.xnb</Output>
+      <Time>2016-12-11T22:08:15.529034+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\remote_0.xml</Key>
+        <Value>2016-12-11T23:59:21.6265656+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\shelf.FBX</Source>
+      <Name>Assets\Models\shelf</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\shelf.xnb</Output>
+      <Time>2016-12-11T22:08:15.6650576+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\shelf_0.xml</Key>
+        <Value>2016-12-11T23:59:22.6696434+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sink.FBX</Source>
+      <Name>Assets\Models\sink</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sink.xnb</Output>
+      <Time>2016-12-11T22:08:15.7260459+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\sink_0.xml</Key>
+        <Value>2016-12-11T23:59:22.8426529+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sofa.FBX</Source>
+      <Name>Assets\Models\sofa</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sofa.xnb</Output>
+      <Time>2016-12-11T22:08:15.792052+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\sofa_0.xml</Key>
+        <Value>2016-12-11T23:59:23.029678+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\table.FBX</Source>
+      <Name>Assets\Models\table</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\table.xnb</Output>
+      <Time>2016-12-11T22:08:15.9670795+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\table_0.xml</Key>
+        <Value>2016-12-11T23:59:23.1366691+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toaster.FBX</Source>
+      <Name>Assets\Models\toaster</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toaster.xnb</Output>
+      <Time>2016-12-11T22:08:16.0160615+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\toaster_0.xml</Key>
+        <Value>2016-12-11T23:59:23.3146943+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toilet.FBX</Source>
+      <Name>Assets\Models\toilet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toilet.xnb</Output>
+      <Time>2016-12-11T22:08:16.080066+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\toilet_0.xml</Key>
+        <Value>2016-12-11T23:59:23.4376861+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toiletroll.FBX</Source>
+      <Name>Assets\Models\toiletroll</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\toiletroll.xnb</Output>
+      <Time>2016-12-11T22:08:16.1410795+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Key>
+        <Value>2016-12-11T23:59:23.540692+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\towel.FBX</Source>
+      <Name>Assets\Models\towel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\towel.xnb</Output>
+      <Time>2016-12-11T22:08:16.3410784+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\towel_0.xml</Key>
+        <Value>2016-12-11T23:59:23.6396973+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tv.FBX</Source>
+      <Name>Assets\Models\tv</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tv.xnb</Output>
+      <Time>2016-12-11T22:08:16.4020862+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\tv_0.xml</Key>
+        <Value>2016-12-11T23:59:23.7637074+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tvstand.FBX</Source>
+      <Name>Assets\Models\tvstand</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tvstand.xnb</Output>
+      <Time>2016-12-11T22:08:16.5350905+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\tvstand_0.xml</Key>
+        <Value>2016-12-11T23:59:24.1717422+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\walls.FBX</Source>
+      <Name>Assets\Models\walls</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\walls.xnb</Output>
+      <Time>2016-12-11T22:08:16.5980917+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Assets\Models\walls_0.xml</Key>
+        <Value>2016-12-11T23:59:24.3477505+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -553,12 +713,93 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
-      <Time>2016-11-17T20:59:24+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\winebottle.xnb</Output>
+      <Time>2016-12-11T22:08:16.657099+00:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Assets\Models\winebottle_0.xml</Key>
-        <Value>2016-11-25T23:09:23.6383975+00:00</Value>
+        <Value>2016-12-11T23:59:24.5677645+00:00</Value>
       </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\abstract1.jpg</Source>
+      <Name>Assets\Textures\Abstract\abstract1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\abstract1.xnb</Output>
+      <Time>2016-12-11T22:08:20.8813342+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink.jpg</Source>
+      <Name>Assets\Textures\Abstract\pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink.xnb</Output>
+      <Time>2016-12-11T22:08:20.9453377+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Abstract\pink_trans1.png</Source>
+      <Name>Assets\Textures\Abstract\pink_trans1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Abstract\pink_trans1.xnb</Output>
+      <Time>2016-12-11T22:08:20.9943402+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Time>2016-12-11T22:08:21.0943463+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Time>2016-12-11T22:08:21.153349+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Time>2016-12-11T22:08:21.2123517+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Time>2016-12-11T22:08:21.313358+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Time>2016-12-11T22:08:21.4003642+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Time>2016-12-11T22:08:21.5033675+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Debug\ml.png</Source>
@@ -566,8 +807,125 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ml.xnb</Output>
+      <Time>2016-12-11T22:08:23.1004706+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
+      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Time>2016-12-11T22:08:27.6952986+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Time>2016-12-11T22:08:27.7512999+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Time>2016-12-11T22:08:27.9663131+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Time>2016-12-11T22:08:28.005315+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Time>2016-12-11T22:08:28.0443184+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Time>2016-12-11T22:08:35.1913121+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Time>2016-12-11T22:08:35.234312+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\back.bmp</Source>
+      <Name>Assets\Textures\Skybox\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Time>2016-12-11T22:08:36.7702523+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\front.bmp</Source>
+      <Name>Assets\Textures\Skybox\front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Time>2016-12-11T22:08:36.9382624+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\ground.bmp</Source>
+      <Name>Assets\Textures\Skybox\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Time>2016-12-11T22:08:37.0332687+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\left.bmp</Source>
+      <Name>Assets\Textures\Skybox\left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Time>2016-12-11T22:08:37.0972712+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\right.bmp</Source>
+      <Name>Assets\Textures\Skybox\right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Time>2016-12-11T22:08:37.2472806+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\sky.bmp</Source>
+      <Name>Assets\Textures\Skybox\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Time>2016-12-11T22:08:37.3332845+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Debug\checkerboard.png</Source>
@@ -575,179 +933,53 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\checkerboard.xnb</Output>
+      <Time>2016-12-11T22:08:22.466435+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Menu\losemenu.png</Source>
-      <Name>Assets\Textures\Menu\losemenu</Name>
+      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
-      <Time>2016-11-24T11:55:48+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Time>2016-12-11T22:08:28.2073298+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Menu\winmenu.png</Source>
-      <Name>Assets\Textures\Menu\winmenu</Name>
+      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
-      <Time>2016-11-24T11:55:48+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Time>2016-12-11T22:08:28.2933342+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Debug\gray3.png</Source>
-      <Name>Assets\Textures\Debug\gray3</Name>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
-      <Time>2016-11-15T09:26:34+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Time>2016-12-11T22:08:27.8083041+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Debug\gray2.jpg</Source>
-      <Name>Assets\Textures\Debug\gray2</Name>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
-      <Time>2016-11-15T09:41:34+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Time>2016-12-11T22:08:27.8613195+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Textures\Debug\gray1.jpg</Source>
-      <Name>Assets\Textures\Debug\gray1</Name>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
-      <Time>2016-11-15T09:44:12+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\wood.jpg</Source>
-      <Name>Assets\Textures\Debug\wood</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
-      <Time>2016-11-15T09:50:16+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\obsidian.jpg</Source>
-      <Name>Assets\Textures\Debug\obsidian</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
-      <Time>2016-11-15T10:19:26+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\metal.jpg</Source>
-      <Name>Assets\Textures\Debug\metal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
-      <Time>2016-11-15T10:23:56+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\material.jpg</Source>
-      <Name>Assets\Textures\Debug\material</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
-      <Time>2016-11-15T10:26:06+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\marble.jpg</Source>
-      <Name>Assets\Textures\Debug\marble</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
-      <Time>2016-11-16T09:43:20+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\painting1.jpg</Source>
-      <Name>Assets\Textures\Debug\painting1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
-      <Time>2016-11-16T10:46:14+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\painting2.jpg</Source>
-      <Name>Assets\Textures\Debug\painting2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
-      <Time>2016-11-16T10:46:54+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Debug\plastic.jpg</Source>
-      <Name>Assets\Textures\Debug\plastic</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
-      <Time>2016-11-16T19:51:02+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\audiomenu.png</Source>
-      <Name>Assets\Textures\Menu\audiomenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
-      <Time>2016-11-24T11:55:50+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\controlsmenu.png</Source>
-      <Name>Assets\Textures\Menu\controlsmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
-      <Time>2016-11-24T12:00:10+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\exitmenu.png</Source>
-      <Name>Assets\Textures\Menu\exitmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
-      <Time>2016-11-24T11:55:48+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\exitmenuwithtrans.png</Source>
-      <Name>Assets\Textures\Menu\exitmenuwithtrans</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
-      <Time>2016-11-23T18:50:06+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\mainmenu.PNG</Source>
-      <Name>Assets\Textures\Menu\mainmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
-      <Time>2016-11-24T11:55:48+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\restartmenu.png</Source>
-      <Name>Assets\Textures\Menu\restartmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
-      <Time>2016-11-24T11:55:48+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Time>2016-12-11T22:08:27.9103251+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\mouseicons.png</Source>
@@ -755,8 +987,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\mouseicons.xnb</Output>
-      <Time>2016-11-25T23:02:31.5471518+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\mouseicons.xnb</Output>
+      <Time>2016-12-11T22:08:37.5162941+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\progress_gradient.png</Source>
@@ -764,8 +996,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_gradient.xnb</Output>
-      <Time>2016-11-25T23:02:32.1617495+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_gradient.xnb</Output>
+      <Time>2016-12-11T22:08:37.5552991+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\progress_white.png</Source>
@@ -773,8 +1005,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_white.xnb</Output>
-      <Time>2016-11-25T23:02:32.5411081+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\progress_white.xnb</Output>
+      <Time>2016-12-11T22:08:37.5922994+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\white.png</Source>
@@ -782,26 +1014,908 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\white.xnb</Output>
-      <Time>2016-11-25T23:02:32.9200907+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\white.xnb</Output>
+      <Time>2016-12-11T22:08:37.6283009+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Audio\horrorscreech.wav</Source>
-      <Name>Assets\Audio\horrorscreech</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
+      <Source>Assets\Textures\Menu\audiomenu.png</Source>
+      <Name>Assets\Textures\Menu\audiomenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horrorscreech.xnb</Output>
-      <Time>2016-11-18T10:55:44+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
+      <Time>2016-12-11T22:08:31.2195223+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Audio\horror_ambiance.wav</Source>
-      <Name>Assets\Audio\horror_ambiance</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
+      <Source>Assets\Textures\Menu\controlsmenu.png</Source>
+      <Name>Assets\Textures\Menu\controlsmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
-      <Time>2016-11-18T10:55:44+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\controlsmenu.xnb</Output>
+      <Time>2016-12-11T22:08:31.3195264+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenu.png</Source>
+      <Name>Assets\Textures\Menu\exitmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenu.xnb</Output>
+      <Time>2016-12-11T22:08:34.1282478+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitmenuwithtrans.png</Source>
+      <Name>Assets\Textures\Menu\exitmenuwithtrans</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb</Output>
+      <Time>2016-12-11T22:08:34.2112555+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\mainmenu.PNG</Source>
+      <Name>Assets\Textures\Menu\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
+      <Time>2016-12-11T22:08:34.7962865+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\slj.jpg</Source>
+      <Name>Assets\Textures\Debug\slj</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\slj.xnb</Output>
+      <Time>2016-12-11T22:08:27.3042781+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Reticule\reticuleClosed.png</Source>
+      <Name>Assets\Textures\UI\Reticule\reticuleClosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Reticule\reticuleClosed.xnb</Output>
+      <Time>2016-12-11T22:08:37.6813035+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Reticule\reticuleDefault.png</Source>
+      <Name>Assets\Textures\UI\Reticule\reticuleDefault</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Reticule\reticuleDefault.xnb</Output>
+      <Time>2016-12-11T22:08:37.7183064+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Reticule\reticuleOpen.png</Source>
+      <Name>Assets\Textures\UI\Reticule\reticuleOpen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Reticule\reticuleOpen.xnb</Output>
+      <Time>2016-12-11T22:08:37.7583085+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\alarm1.png</Source>
+      <Name>Assets\Textures\Billboards\alarm1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\alarm1.xnb</Output>
+      <Time>2016-12-11T22:08:21.6643758+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\alarm2.png</Source>
+      <Name>Assets\Textures\Billboards\alarm2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\alarm2.xnb</Output>
+      <Time>2016-12-11T22:08:21.6923952+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\billboardtexture.jpg</Source>
+      <Name>Assets\Textures\Billboards\billboardtexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\billboardtexture.xnb</Output>
+      <Time>2016-12-11T22:08:21.7323825+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\chevron1.png</Source>
+      <Name>Assets\Textures\Billboards\chevron1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\chevron1.xnb</Output>
+      <Time>2016-12-11T22:08:21.7653827+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\chevron2.png</Source>
+      <Name>Assets\Textures\Billboards\chevron2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\chevron2.xnb</Output>
+      <Time>2016-12-11T22:08:21.7993863+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\snow1.png</Source>
+      <Name>Assets\Textures\Billboards\snow1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\snow1.xnb</Output>
+      <Time>2016-12-11T22:08:21.8333853+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Billboards\welcome.png</Source>
+      <Name>Assets\Textures\Billboards\welcome</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Billboards\welcome.xnb</Output>
+      <Time>2016-12-11T22:08:21.864388+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\tv.png</Source>
+      <Name>Assets\Textures\Props\tv</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
+      <Time>2016-12-11T22:08:35.1333179+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\ceiling.jpg</Source>
+      <Name>Assets\Textures\Level\ceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\ceiling.xnb</Output>
+      <Time>2016-12-11T22:08:30.571486+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\floor.jpg</Source>
+      <Name>Assets\Textures\Level\floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\floor.xnb</Output>
+      <Time>2016-12-11T22:08:30.6244907+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\floor2.jpg</Source>
+      <Name>Assets\Textures\Level\floor2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\floor2.xnb</Output>
+      <Time>2016-12-11T22:08:30.678493+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\floor3.jpg</Source>
+      <Name>Assets\Textures\Level\floor3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\floor3.xnb</Output>
+      <Time>2016-12-11T22:08:30.7364969+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\tiles1.jpg</Source>
+      <Name>Assets\Textures\Level\tiles1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\tiles1.xnb</Output>
+      <Time>2016-12-11T22:08:30.7915006+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\tiles2.jpg</Source>
+      <Name>Assets\Textures\Level\tiles2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\tiles2.xnb</Output>
+      <Time>2016-12-11T22:08:30.8395023+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\tiles3.jpg</Source>
+      <Name>Assets\Textures\Level\tiles3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\tiles3.xnb</Output>
+      <Time>2016-12-11T22:08:30.8875041+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\tilesBad.jpg</Source>
+      <Name>Assets\Textures\Level\tilesBad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\tilesBad.xnb</Output>
+      <Time>2016-12-11T22:08:30.9295073+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\wallBad.jpg</Source>
+      <Name>Assets\Textures\Level\wallBad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\wallBad.xnb</Output>
+      <Time>2016-12-11T22:08:31.0025096+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\wallBad2.jpg</Source>
+      <Name>Assets\Textures\Level\wallBad2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\wallBad2.xnb</Output>
+      <Time>2016-12-11T22:08:31.0505129+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Level\wallBad3.jpg</Source>
+      <Name>Assets\Textures\Level\wallBad3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Level\wallBad3.xnb</Output>
+      <Time>2016-12-11T22:08:31.1125184+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\barColour.png</Source>
+      <Name>Assets\Textures\UI\barColour</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\barColour.xnb</Output>
+      <Time>2016-12-11T22:08:37.3922902+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\barOutline.png</Source>
+      <Name>Assets\Textures\UI\barOutline</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\barOutline.xnb</Output>
+      <Time>2016-12-11T22:08:37.4312916+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\barWhite.png</Source>
+      <Name>Assets\Textures\UI\barWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\barWhite.xnb</Output>
+      <Time>2016-12-11T22:08:37.4702929+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\losemenu.png</Source>
+      <Name>Assets\Textures\Menu\losemenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\losemenu.xnb</Output>
+      <Time>2016-12-11T22:08:34.7172815+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\restartmenu.png</Source>
+      <Name>Assets\Textures\Menu\restartmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\restartmenu.xnb</Output>
+      <Time>2016-12-11T22:08:34.984296+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\winmenu.png</Source>
+      <Name>Assets\Textures\Menu\winmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\winmenu.xnb</Output>
+      <Time>2016-12-11T22:08:35.0873019+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathceiling.jpg</Source>
+      <Name>Assets\Textures\Debug\bathceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathceiling.xnb</Output>
+      <Time>2016-12-11T22:08:21.9513942+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathfloor.jpg</Source>
+      <Name>Assets\Textures\Debug\bathfloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathfloor.xnb</Output>
+      <Time>2016-12-11T22:08:22.0083979+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\bathwall.jpg</Source>
+      <Name>Assets\Textures\Debug\bathwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\bathwall.xnb</Output>
+      <Time>2016-12-11T22:08:22.0634+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\blackplastic.jpg</Source>
+      <Name>Assets\Textures\Debug\blackplastic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\blackplastic.xnb</Output>
+      <Time>2016-12-11T22:08:22.2294101+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\burloak.jpg</Source>
+      <Name>Assets\Textures\Debug\burloak</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\burloak.xnb</Output>
+      <Time>2016-12-11T22:08:22.2934126+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\burlwalnut.png</Source>
+      <Name>Assets\Textures\Debug\burlwalnut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\burlwalnut.xnb</Output>
+      <Time>2016-12-11T22:08:22.3934305+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\ceiling.jpg</Source>
+      <Name>Assets\Textures\Debug\ceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\ceiling.xnb</Output>
+      <Time>2016-12-11T22:08:22.4374204+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\gold.jpg</Source>
+      <Name>Assets\Textures\Debug\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gold.xnb</Output>
+      <Time>2016-12-11T22:08:22.5494262+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\gray1.jpg</Source>
+      <Name>Assets\Textures\Debug\gray1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray1.xnb</Output>
+      <Time>2016-12-11T22:08:22.5964277+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\gray2.jpg</Source>
+      <Name>Assets\Textures\Debug\gray2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray2.xnb</Output>
+      <Time>2016-12-11T22:08:22.6504331+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\gray3.png</Source>
+      <Name>Assets\Textures\Debug\gray3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\gray3.xnb</Output>
+      <Time>2016-12-11T22:08:22.6964338+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\laminate.jpg</Source>
+      <Name>Assets\Textures\Debug\laminate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\laminate.xnb</Output>
+      <Time>2016-12-11T22:08:22.7504392+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\lino.jpg</Source>
+      <Name>Assets\Textures\Debug\lino</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\lino.xnb</Output>
+      <Time>2016-12-11T22:08:22.7964394+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\marble.jpg</Source>
+      <Name>Assets\Textures\Debug\marble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble.xnb</Output>
+      <Time>2016-12-11T22:08:22.8374443+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\marble2.jpg</Source>
+      <Name>Assets\Textures\Debug\marble2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\marble2.xnb</Output>
+      <Time>2016-12-11T22:08:22.9094469+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\material.jpg</Source>
+      <Name>Assets\Textures\Debug\material</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\material.xnb</Output>
+      <Time>2016-12-11T22:08:22.9674509+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\metal.jpg</Source>
+      <Name>Assets\Textures\Debug\metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\metal.xnb</Output>
+      <Time>2016-12-11T22:08:23.0114649+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\obsidian.jpg</Source>
+      <Name>Assets\Textures\Debug\obsidian</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\obsidian.xnb</Output>
+      <Time>2016-12-11T22:08:23.1944622+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\oldtile.jpg</Source>
+      <Name>Assets\Textures\Debug\oldtile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\oldtile.xnb</Output>
+      <Time>2016-12-11T22:08:23.2414642+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\oldwp.jpg</Source>
+      <Name>Assets\Textures\Debug\oldwp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\oldwp.xnb</Output>
+      <Time>2016-12-11T22:08:23.2814673+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\oldwp1.jpg</Source>
+      <Name>Assets\Textures\Debug\oldwp1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\oldwp1.xnb</Output>
+      <Time>2016-12-11T22:08:23.3654748+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\painting1.jpg</Source>
+      <Name>Assets\Textures\Debug\painting1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting1.xnb</Output>
+      <Time>2016-12-11T22:08:27.0112592+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\painting2.jpg</Source>
+      <Name>Assets\Textures\Debug\painting2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\painting2.xnb</Output>
+      <Time>2016-12-11T22:08:27.0892644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\plastic.jpg</Source>
+      <Name>Assets\Textures\Debug\plastic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\plastic.xnb</Output>
+      <Time>2016-12-11T22:08:27.1512684+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\porcelain.jpg</Source>
+      <Name>Assets\Textures\Debug\porcelain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\porcelain.xnb</Output>
+      <Time>2016-12-11T22:08:27.2242759+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\steph.jpg</Source>
+      <Name>Assets\Textures\Debug\steph</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\steph.xnb</Output>
+      <Time>2016-12-11T22:08:27.5192893+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\wood.jpg</Source>
+      <Name>Assets\Textures\Debug\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\wood.xnb</Output>
+      <Time>2016-12-11T22:08:27.623296+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\static.png</Source>
+      <Name>Assets\Textures\Debug\static</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\static.xnb</Output>
+      <Time>2016-12-11T22:08:27.4502849+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\tvoff.jpg</Source>
+      <Name>Assets\Textures\Debug\tvoff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\tvoff.xnb</Output>
+      <Time>2016-12-11T22:08:27.5712906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\credits.jpg</Source>
+      <Name>Assets\Textures\Debug\credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Debug\credits.xnb</Output>
+      <Time>2016-12-11T22:08:22.5064243+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\beech.jpg</Source>
+      <Name>Assets\Textures\Game\beech</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\beech.xnb</Output>
+      <Time>2016-12-11T22:08:28.3563364+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\bglass.jpg</Source>
+      <Name>Assets\Textures\Game\bglass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\bglass.xnb</Output>
+      <Time>2016-12-11T22:08:28.4023371+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\bplastic.jpg</Source>
+      <Name>Assets\Textures\Game\bplastic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\bplastic.xnb</Output>
+      <Time>2016-12-11T22:08:28.5893483+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\bplastic1.jpg</Source>
+      <Name>Assets\Textures\Game\bplastic1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\bplastic1.xnb</Output>
+      <Time>2016-12-11T22:08:28.7543582+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\burloak.jpg</Source>
+      <Name>Assets\Textures\Game\burloak</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\burloak.xnb</Output>
+      <Time>2016-12-11T22:08:28.8003589+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\burlwalnut.jpg</Source>
+      <Name>Assets\Textures\Game\burlwalnut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\burlwalnut.xnb</Output>
+      <Time>2016-12-11T22:08:28.8513614+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\ceiling.jpg</Source>
+      <Name>Assets\Textures\Game\ceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\ceiling.xnb</Output>
+      <Time>2016-12-11T22:08:28.9073684+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\cloth.jpg</Source>
+      <Name>Assets\Textures\Game\cloth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\cloth.xnb</Output>
+      <Time>2016-12-11T22:08:28.9663685+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\cloth1.jpg</Source>
+      <Name>Assets\Textures\Game\cloth1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\cloth1.xnb</Output>
+      <Time>2016-12-11T22:08:29.0323726+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\gglass.jpg</Source>
+      <Name>Assets\Textures\Game\gglass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\gglass.xnb</Output>
+      <Time>2016-12-11T22:08:29.1423794+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\gold.jpg</Source>
+      <Name>Assets\Textures\Game\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\gold.xnb</Output>
+      <Time>2016-12-11T22:08:29.1973815+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\grayplastic.jpg</Source>
+      <Name>Assets\Textures\Game\grayplastic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\grayplastic.xnb</Output>
+      <Time>2016-12-11T22:08:29.2483861+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\mag1.jpg</Source>
+      <Name>Assets\Textures\Game\mag1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\mag1.xnb</Output>
+      <Time>2016-12-11T22:08:29.2973881+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\oak.jpg</Source>
+      <Name>Assets\Textures\Game\oak</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\oak.xnb</Output>
+      <Time>2016-12-11T22:08:29.5023996+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\oakfloor.jpg</Source>
+      <Name>Assets\Textures\Game\oakfloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\oakfloor.xnb</Output>
+      <Time>2016-12-11T22:08:29.5534011+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\porcelain.jpg</Source>
+      <Name>Assets\Textures\Game\porcelain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\porcelain.xnb</Output>
+      <Time>2016-12-11T22:08:29.6424324+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\red-metal.jpg</Source>
+      <Name>Assets\Textures\Game\red-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\red-metal.xnb</Output>
+      <Time>2016-12-11T22:08:29.6854369+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\shinywhite.jpg</Source>
+      <Name>Assets\Textures\Game\shinywhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\shinywhite.xnb</Output>
+      <Time>2016-12-11T22:08:29.7314371+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\silver.jpg</Source>
+      <Name>Assets\Textures\Game\silver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\silver.xnb</Output>
+      <Time>2016-12-11T22:08:29.7774424+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\sofa.jpg</Source>
+      <Name>Assets\Textures\Game\sofa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\sofa.xnb</Output>
+      <Time>2016-12-11T22:08:29.8274575+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\sofa2.jpg</Source>
+      <Name>Assets\Textures\Game\sofa2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\sofa2.xnb</Output>
+      <Time>2016-12-11T22:08:30.0554568+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\teak.jpg</Source>
+      <Name>Assets\Textures\Game\teak</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\teak.xnb</Output>
+      <Time>2016-12-11T22:08:30.1524641+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\walfloor.jpg</Source>
+      <Name>Assets\Textures\Game\walfloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\walfloor.xnb</Output>
+      <Time>2016-12-11T22:08:30.1994656+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\wallpaper.jpg</Source>
+      <Name>Assets\Textures\Game\wallpaper</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\wallpaper.xnb</Output>
+      <Time>2016-12-11T22:08:30.2804712+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\wallpaper2.jpg</Source>
+      <Name>Assets\Textures\Game\wallpaper2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\wallpaper2.xnb</Output>
+      <Time>2016-12-11T22:08:30.3304729+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\white1.jpg</Source>
+      <Name>Assets\Textures\Game\white1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\white1.xnb</Output>
+      <Time>2016-12-11T22:08:30.5044837+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\monet.jpg</Source>
+      <Name>Assets\Textures\Game\monet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\monet.xnb</Output>
+      <Time>2016-12-11T22:08:29.4024099+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\munch.jpg</Source>
+      <Name>Assets\Textures\Game\munch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\munch.xnb</Output>
+      <Time>2016-12-11T22:08:29.4473965+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\mahog.jpg</Source>
+      <Name>Assets\Textures\Game\mahog</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\mahog.xnb</Output>
+      <Time>2016-12-11T22:08:29.3483901+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\pine.jpg</Source>
+      <Name>Assets\Textures\Game\pine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\pine.xnb</Output>
+      <Time>2016-12-11T22:08:29.5964456+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\walnut.jpg</Source>
+      <Name>Assets\Textures\Game\walnut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\walnut.xnb</Output>
+      <Time>2016-12-11T22:08:30.3884784+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\white.jpg</Source>
+      <Name>Assets\Textures\Game\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\white.xnb</Output>
+      <Time>2016-12-11T22:08:30.4514817+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\credits.jpg</Source>
+      <Name>Assets\Textures\Game\credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\credits.xnb</Output>
+      <Time>2016-12-11T22:08:29.0943751+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\steph.jpg</Source>
+      <Name>Assets\Textures\Game\steph</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\steph.xnb</Output>
+      <Time>2016-12-11T22:08:30.1024752+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\bikkie.jpg</Source>
+      <Name>Assets\Textures\Game\bikkie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\bikkie.xnb</Output>
+      <Time>2016-12-11T22:08:28.4523399+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Game\bikkie1.jpg</Source>
+      <Name>Assets\Textures\Game\bikkie1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Game\bikkie1.xnb</Output>
+      <Time>2016-12-11T22:08:28.5223496+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\menu.spritefont</Source>
@@ -809,8 +1923,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
-      <Time>2016-11-23T19:04:12+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2016-12-11T22:08:13.0578985+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\UI.spritefont</Source>
@@ -818,309 +1932,791 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
-      <Time>2016-11-23T19:04:12+00:00</Time>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\UI.xnb</Output>
+      <Time>2016-12-11T22:08:13.187904+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\mouse.spritefont</Source>
+      <Name>Assets\Fonts\mouse</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\mouse.xnb</Output>
+      <Time>2016-12-11T22:08:13.1229007+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Effects\Billboard.fx</Source>
+      <Name>Assets\Effects\Billboard</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Effects\Billboard.xnb</Output>
+      <Time>2016-12-11T22:08:12.9698926+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Video\sample.wmv</Source>
+      <Name>Assets\Video\sample</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Video\sample.xnb</Output>
+      <Extra>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Video\sample.wmv</Extra>
+      <Time>2016-12-11T22:08:38.2253347+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\badpainting.wav</Source>
+      <Name>Assets\Audio\badpainting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\badpainting.xnb</Output>
+      <Time>2016-12-11T22:07:56.3684725+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\BS-john-mono-line11.wav</Source>
+      <Name>Assets\Audio\BS-john-mono-line11</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\BS-john-mono-line11.xnb</Output>
+      <Time>2016-12-11T22:07:56.6164869+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\BS-John-mono-line5.wav</Source>
+      <Name>Assets\Audio\BS-John-mono-line5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\BS-John-mono-line5.xnb</Output>
+      <Time>2016-12-11T22:07:56.7274981+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\BS-John-mono-line7-2.wav</Source>
+      <Name>Assets\Audio\BS-John-mono-line7-2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\BS-John-mono-line7-2.xnb</Output>
+      <Time>2016-12-11T22:07:56.7775004+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\click.wav</Source>
+      <Name>Assets\Audio\click</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\click.xnb</Output>
+      <Time>2016-12-11T22:07:56.8144996+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\clock.wav</Source>
+      <Name>Assets\Audio\clock</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\clock.xnb</Output>
+      <Time>2016-12-11T22:07:56.8885043+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\footsteps.wav</Source>
+      <Name>Assets\Audio\footsteps</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\footsteps.xnb</Output>
+      <Time>2016-12-11T22:07:56.9675094+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\fridge.wav</Source>
+      <Name>Assets\Audio\fridge</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\fridge.xnb</Output>
+      <Time>2016-12-11T22:07:57.0235251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\goodpainting.wav</Source>
+      <Name>Assets\Audio\goodpainting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\goodpainting.xnb</Output>
+      <Time>2016-12-11T22:07:57.0845144+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\horror_ambiance.wav</Source>
+      <Name>Assets\Audio\horror_ambiance</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\horror_ambiance.xnb</Output>
+      <Time>2016-12-11T22:07:59.2316349+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\kettle.wav</Source>
+      <Name>Assets\Audio\kettle</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\kettle.xnb</Output>
+      <Time>2016-12-11T22:08:00.7587204+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\key.wav</Source>
+      <Name>Assets\Audio\key</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\key.xnb</Output>
+      <Time>2016-12-11T22:08:00.8647271+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\lose.wav</Source>
+      <Name>Assets\Audio\lose</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\lose.xnb</Output>
+      <Time>2016-12-11T22:08:00.9197297+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\menu.wav</Source>
+      <Name>Assets\Audio\menu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\menu.xnb</Output>
+      <Time>2016-12-11T22:08:01.1137408+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\menuButtons.wav</Source>
+      <Name>Assets\Audio\menuButtons</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\menuButtons.xnb</Output>
+      <Time>2016-12-11T22:08:01.1557553+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\menuClick.wav</Source>
+      <Name>Assets\Audio\menuClick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\menuClick.xnb</Output>
+      <Time>2016-12-11T22:08:01.2067476+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\microwave.wav</Source>
+      <Name>Assets\Audio\microwave</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\microwave.xnb</Output>
+      <Time>2016-12-11T22:08:01.2857511+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\mirror.wav</Source>
+      <Name>Assets\Audio\mirror</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\mirror.xnb</Output>
+      <Time>2016-12-11T22:08:01.3957573+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\music.wav</Source>
+      <Name>Assets\Audio\music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\music.xnb</Output>
+      <Time>2016-12-11T22:08:01.7357906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\otherpainting.wav</Source>
+      <Name>Assets\Audio\otherpainting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\otherpainting.xnb</Output>
+      <Time>2016-12-11T22:08:01.8087786+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\oven.wav</Source>
+      <Name>Assets\Audio\oven</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\oven.xnb</Output>
+      <Time>2016-12-11T22:08:02.1147965+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\phoneconversation1.wav</Source>
+      <Name>Assets\Audio\phoneconversation1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\phoneconversation1.xnb</Output>
+      <Time>2016-12-11T22:08:03.3666643+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\phoneconversation2.wav</Source>
+      <Name>Assets\Audio\phoneconversation2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\phoneconversation2.xnb</Output>
+      <Time>2016-12-11T22:08:04.3187149+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\phoneconversation3.wav</Source>
+      <Name>Assets\Audio\phoneconversation3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\phoneconversation3.xnb</Output>
+      <Time>2016-12-11T22:08:08.9049319+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\phoneconversation4.wav</Source>
+      <Name>Assets\Audio\phoneconversation4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\phoneconversation4.xnb</Output>
+      <Time>2016-12-11T22:08:10.5839792+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\phoneRing.wav</Source>
+      <Name>Assets\Audio\phoneRing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\phoneRing.xnb</Output>
+      <Time>2016-12-11T22:08:10.9177282+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\pickupphone.wav</Source>
+      <Name>Assets\Audio\pickupphone</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\pickupphone.xnb</Output>
+      <Time>2016-12-11T22:08:11.2647997+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\scream.wav</Source>
+      <Name>Assets\Audio\scream</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\scream.xnb</Output>
+      <Time>2016-12-11T22:08:11.3518008+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\sink.wav</Source>
+      <Name>Assets\Audio\sink</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\sink.xnb</Output>
+      <Time>2016-12-11T22:08:11.5368135+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\toaster.wav</Source>
+      <Name>Assets\Audio\toaster</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\toaster.xnb</Output>
+      <Time>2016-12-11T22:08:11.6038127+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\toilet.wav</Source>
+      <Name>Assets\Audio\toilet</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\toilet.xnb</Output>
+      <Time>2016-12-11T22:08:12.6978772+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\vino.wav</Source>
+      <Name>Assets\Audio\vino</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\vino.xnb</Output>
+      <Time>2016-12-11T22:08:12.8299028+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\win.wav</Source>
+      <Name>Assets\Audio\win</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\win.xnb</Output>
+      <Time>2016-12-11T22:08:12.8898847+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\bottle.wav</Source>
+      <Name>Assets\Audio\bottle</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\bottle.xnb</Output>
+      <Time>2016-12-11T22:07:56.428478+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:13.9229455+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\dome.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\dome_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:13.9879482+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hedra.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:14.2229638+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\octahedron.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:14.9670036+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\plane_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:15.2890202+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\prism.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\prism_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:15.3630249+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:15.8550532+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\spindle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:15.9160569+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torus.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\torus_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:16.2030712+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torusknot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
-      <Time>2016-11-03T11:54:22+00:00</Time>
+      <Time>2016-12-11T22:08:16.2900779+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\box.FBX</Source>
+      <Source>Assets\Models\box2.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\box_0.xml</Output>
-      <Time>2016-11-04T10:15:06+00:00</Time>
+      <Output>obj\x86\Debug\Assets\Models\box2_0.xml</Output>
+      <Time>2016-12-11T22:08:13.5099216+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\level.FBX</Source>
+      <Source>Assets\Models\Animated\dude.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\level_0.xml</Output>
-      <Time>2016-11-13T21:50:44+00:00</Time>
+      <Output>obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
+      <Time>2016-12-11T22:08:17.9811705+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\cabinet.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\cabinet_0.xml</Output>
-      <Time>2016-11-13T21:18:48+00:00</Time>
+      <Source>Assets\Models\Animated\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
+      <Time>2016-12-11T22:08:19.175238+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\kitchen and oven.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Output>
-      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Source>Assets\Models\Animated\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
+      <Time>2016-12-11T22:08:19.5172575+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\phone.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\phone_0.xml</Output>
-      <Time>2016-11-16T19:53:52+00:00</Time>
+      <Source>Assets\Models\Animated\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
+      <Time>2016-12-11T22:08:19.771273+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\shelf.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\shelf_0.xml</Output>
-      <Time>2016-11-09T16:15:52+00:00</Time>
+      <Source>Assets\Models\Animated\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
+      <Time>2016-12-11T22:08:20.7723405+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\sofa.FBX</Source>
+      <Source>Assets\Models\Animated\RedRun4.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\sofa_0.xml</Output>
-      <Time>2016-11-13T20:33:06+00:00</Time>
+      <Output>obj\x86\Debug\Assets\Models\Animated\RedRun4_0.xml</Output>
+      <Time>2016-12-11T22:08:19.8492757+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Red_Idle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\Animated\Red_Idle_0.xml</Output>
+      <Time>2016-12-11T22:08:19.974283+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Red_Jump.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\Animated\Red_Jump_0.xml</Output>
+      <Time>2016-12-11T22:08:20.0592902+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Red_Punch.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\Animated\Red_Punch_0.xml</Output>
+      <Time>2016-12-11T22:08:20.1382926+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Red_Standing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\Animated\Red_Standing_0.xml</Output>
+      <Time>2016-12-11T22:08:20.2322996+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Red_Tailwhip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\Animated\Red_Tailwhip_0.xml</Output>
+      <Time>2016-12-11T22:08:20.3133037+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\armChair.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\armChair_0.xml</Output>
-      <Time>2016-11-13T20:35:34+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\bookcase.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\bookcase_0.xml</Output>
-      <Time>2016-11-13T20:59:46+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\tv.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\tv_0.xml</Output>
-      <Time>2016-11-13T21:03:10+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\radio.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\radio_0.xml</Output>
-      <Time>2016-11-13T21:20:38+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\table.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\table_0.xml</Output>
-      <Time>2016-11-13T22:05:16+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\remote.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\remote_0.xml</Output>
-      <Time>2016-11-13T22:13:10+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\counter.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\counter_0.xml</Output>
-      <Time>2016-11-15T10:09:08+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\oven.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\oven_0.xml</Output>
-      <Time>2016-11-14T19:07:32+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\fridge.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\fridge_0.xml</Output>
-      <Time>2016-11-14T18:54:26+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toaster.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\toaster_0.xml</Output>
-      <Time>2016-11-14T19:40:38+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\key.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\key_0.xml</Output>
-      <Time>2016-11-14T19:50:44+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\mirror.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\mirror_0.xml</Output>
-      <Time>2016-11-14T19:50:44+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\tvstand.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\tvstand_0.xml</Output>
-      <Time>2016-11-15T10:37:40+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\microwave.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\microwave_0.xml</Output>
-      <Time>2016-11-15T12:10:54+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\sink.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\sink_0.xml</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toilet.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\toilet_0.xml</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\toiletroll.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\towel.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\towel_0.xml</Output>
-      <Time>2016-11-16T09:40:12+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\clock.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\clock_0.xml</Output>
-      <Time>2016-11-16T09:41:06+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\door.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\door_0.xml</Output>
-      <Time>2016-11-16T09:54:20+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\kchair.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\kchair_0.xml</Output>
-      <Time>2016-11-16T10:05:42+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\ktable.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\ktable_0.xml</Output>
-      <Time>2016-11-16T10:05:42+00:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\painting.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Assets\Models\painting_0.xml</Output>
-      <Time>2016-11-16T10:47:36+00:00</Time>
+      <Time>2016-12-11T22:08:13.2739073+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\bath.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\bath_0.xml</Output>
-      <Time>2016-11-17T12:26:28+00:00</Time>
+      <Time>2016-12-11T22:08:13.3389101+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\bookcase.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\bookcase_0.xml</Output>
+      <Time>2016-12-11T22:08:13.3939158+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2016-12-11T22:08:13.452918+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cabinet.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\cabinet_0.xml</Output>
+      <Time>2016-12-11T22:08:13.5789255+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ceilings.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\ceilings_0.xml</Output>
+      <Time>2016-12-11T22:08:13.6399272+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\clock.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\clock_0.xml</Output>
+      <Time>2016-12-11T22:08:13.8099369+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\counter.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\counter_0.xml</Output>
+      <Time>2016-12-11T22:08:13.8669405+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\door.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\door_0.xml</Output>
+      <Time>2016-12-11T22:08:14.0489535+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\floors.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\floors_0.xml</Output>
+      <Time>2016-12-11T22:08:14.1059541+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\fridge.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\fridge_0.xml</Output>
+      <Time>2016-12-11T22:08:14.1679581+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kchair.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\kchair_0.xml</Output>
+      <Time>2016-12-11T22:08:14.2819685+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\kettle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\kettle_0.xml</Output>
-      <Time>2016-11-17T20:57:48+00:00</Time>
+      <Time>2016-12-11T22:08:14.3429712+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\key.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\key_0.xml</Output>
+      <Time>2016-12-11T22:08:14.4089707+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\kitchen and oven.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\kitchen and oven_0.xml</Output>
+      <Time>2016-12-11T22:08:14.7129865+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ktable.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\ktable_0.xml</Output>
+      <Time>2016-12-11T22:08:14.7629918+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\level.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\level_0.xml</Output>
+      <Time>2016-12-11T22:08:14.8099923+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\microwave.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\microwave_0.xml</Output>
+      <Time>2016-12-11T22:08:14.8570014+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\mirror.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\mirror_0.xml</Output>
+      <Time>2016-12-11T22:08:14.9129987+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\oven.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\oven_0.xml</Output>
+      <Time>2016-12-11T22:08:15.0220052+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\painting.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\painting_0.xml</Output>
+      <Time>2016-12-11T22:08:15.0760106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\pendulum.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\pendulum_0.xml</Output>
+      <Time>2016-12-11T22:08:15.1410416+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\phone.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\phone_0.xml</Output>
+      <Time>2016-12-11T22:08:15.2120172+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\radio.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\radio_0.xml</Output>
+      <Time>2016-12-11T22:08:15.448031+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\remote.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\remote_0.xml</Output>
+      <Time>2016-12-11T22:08:15.529034+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\shelf.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\shelf_0.xml</Output>
+      <Time>2016-12-11T22:08:15.6650576+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sink.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\sink_0.xml</Output>
+      <Time>2016-12-11T22:08:15.7260459+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sofa.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\sofa_0.xml</Output>
+      <Time>2016-12-11T22:08:15.792052+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\table.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\table_0.xml</Output>
+      <Time>2016-12-11T22:08:15.9670795+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toaster.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\toaster_0.xml</Output>
+      <Time>2016-12-11T22:08:16.0160615+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toilet.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\toilet_0.xml</Output>
+      <Time>2016-12-11T22:08:16.080066+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\toiletroll.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\toiletroll_0.xml</Output>
+      <Time>2016-12-11T22:08:16.1410795+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\towel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\towel_0.xml</Output>
+      <Time>2016-12-11T22:08:16.3410784+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tv.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\tv_0.xml</Output>
+      <Time>2016-12-11T22:08:16.4020862+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\tvstand.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\tvstand_0.xml</Output>
+      <Time>2016-12-11T22:08:16.5350905+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\walls.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Assets\Models\walls_0.xml</Output>
+      <Time>2016-12-11T22:08:16.5980917+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\winebottle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Assets\Models\winebottle_0.xml</Output>
-      <Time>2016-11-17T20:59:24+00:00</Time>
+      <Time>2016-12-11T22:08:16.657099+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1129,12 +2725,16 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2016-12-11T22:22:32.073215+00:00</Value>
+      </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2011-09-01T16:22:30+01:00</Value>

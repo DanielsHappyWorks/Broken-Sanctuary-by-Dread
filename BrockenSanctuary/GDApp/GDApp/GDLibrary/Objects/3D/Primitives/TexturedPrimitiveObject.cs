@@ -26,18 +26,21 @@ namespace GDLibrary
 
         public TexturedPrimitiveObject(string id, 
             ActorType actorType, Transform3D transform,
-            BasicEffect effect, IVertexData vertexData, 
-            Texture2D texture)
-            : base(id, actorType, transform, effect, vertexData)
+            Effect effect, IVertexData vertexData, 
+            Texture2D texture, Color color, float alpha, StatusType statusType)
+            : base(id, actorType, transform, effect, vertexData, color, alpha, statusType)
         {
             this.texture = texture;
         }
 
+        /*
+        //See ObjectManager::Draw()
         public override void Draw(GameTime gameTime)
         {
             this.Effect.Texture = texture;
             base.Draw(gameTime);
         }
+        */
 
         public new object Clone()
         {
@@ -46,7 +49,10 @@ namespace GDLibrary
                (Transform3D)this.Transform3D.Clone(), //deep
                this.Effect, //shallow - its ok if objects refer to the same effect
                this.VertexData, //shallow - its ok if objects refer to the same vertices
-               this.texture); //shallow - its ok if objects refer to the same texture
+               this.texture, //shallow - its ok if objects refer to the same texture
+               this.Color,  //deep
+               this.Alpha,  //deep
+               this.StatusType); //deep
         }
     }
 }

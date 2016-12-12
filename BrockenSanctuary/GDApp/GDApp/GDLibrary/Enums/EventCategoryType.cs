@@ -14,6 +14,8 @@ namespace GDLibrary
         Player,
         NonPlayer,
         Pickup,
+        OpacityChange,
+        Interaction,
 
         //all other categories of sender...
     }

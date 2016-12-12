@@ -1,9 +1,9 @@
-﻿using JigLibX.Physics;
-using Microsoft.Xna.Framework;
-using JigLibX.Collision;
-using Microsoft.Xna.Framework.Graphics;
+﻿using JigLibX.Collision;
 using JigLibX.Geometry;
 using JigLibX.Math;
+using JigLibX.Physics;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace GDLibrary
 {

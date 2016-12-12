@@ -1,75 +1,258 @@
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\cylinder.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\dome.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\hedra.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\octahedron.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\plane.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\prism.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sphere.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\spindle.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\torus.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\torusknot.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\box.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\level.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\cabinet.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kitchen and oven.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\phone.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\shelf.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sofa.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\armChair.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\bookcase.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\tv.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\radio.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\table.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\remote.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\counter.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\oven.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\fridge.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toaster.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\key.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\mirror.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\tvstand.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\microwave.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sink.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toilet.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toiletroll.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\towel.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\clock.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\door.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kchair.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\ktable.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\painting.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\bath.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kettle.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\winebottle.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\ml.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\checkerboard.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray3.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray2.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray1.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\wood.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\obsidian.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\metal.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\material.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\marble.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\painting1.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\painting2.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\plastic.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\horrorscreech.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\horror_ambiance.xnb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\GDApp.exe
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\GDApp.pdb
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\JigLibX.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Game.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.GamerServices.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Graphics.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Input.Touch.dll
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.xml
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Game.xml
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Graphics.xml
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.GamerServices.xml
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Input.Touch.xml
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\obj\x86\Release\GDApp.csprojResolveAssemblyReference.cache
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\obj\x86\Release\GDApp.exe
-C:\Users\Dkill\Desktop\C#\BrockenSanctuary\GDApp\GDApp\obj\x86\Release\GDApp.pdb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\cylinder.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\dome.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\hedra.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\octahedron.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\plane.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\prism.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sphere.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\spindle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\torus.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\torusknot.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\box2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\dude.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\RedRun4.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\Red_Idle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\Red_Jump.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\Red_Punch.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\Red_Standing.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\Red_Tailwhip.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\armChair.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\bath.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\bookcase.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\box.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\cabinet.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\ceilings.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\clock.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\counter.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\door.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\floors.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\fridge.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kchair.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kettle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\key.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\kitchen and oven.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\ktable.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\level.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\microwave.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\mirror.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\oven.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\painting.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\pendulum.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\phone.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\radio.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\remote.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\shelf.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sink.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\sofa.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\table.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toaster.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toilet.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\toiletroll.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\towel.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\tv.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\tvstand.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\walls.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\winebottle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Abstract\abstract1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Abstract\pink.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Abstract\pink_trans1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Fence\fence1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Fence\fence2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Fence\fence3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Fence\fence4.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Walls\backwall.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Architecture\Walls\sidewall.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\ml.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Ground\foliage.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Ground\grass1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Trees\tree1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Trees\tree2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Trees\tree3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Props\Crates\crate1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Props\Crates\crate2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\back.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\front.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\ground.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\left.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\right.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Skybox\sky.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\checkerboard.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Trees\tree4.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Trees\tree5.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\mouseicons.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\progress_gradient.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\progress_white.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\white.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\audiomenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\controlsmenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\exitmenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\exitmenuwithtrans.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\mainmenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\slj.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\Reticule\reticuleClosed.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\Reticule\reticuleDefault.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\Reticule\reticuleOpen.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\alarm1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\alarm2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\billboardtexture.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\chevron1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\chevron2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\snow1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Billboards\welcome.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Props\tv.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\ceiling.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\floor.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\floor2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\floor3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\tiles1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\tiles2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\tiles3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\tilesBad.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\wallBad.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\wallBad2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Level\wallBad3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\barColour.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\barOutline.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\UI\barWhite.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\losemenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\restartmenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Menu\winmenu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\bathceiling.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\bathfloor.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\bathwall.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\blackplastic.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\burloak.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\burlwalnut.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\ceiling.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gold.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\gray3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\laminate.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\lino.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\marble.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\marble2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\material.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\metal.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\obsidian.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\oldtile.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\oldwp.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\oldwp1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\painting1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\painting2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\plastic.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\porcelain.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\steph.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\wood.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\static.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\tvoff.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Debug\credits.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\beech.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\bglass.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\bplastic.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\bplastic1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\burloak.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\burlwalnut.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\ceiling.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\cloth.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\cloth1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\gglass.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\gold.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\grayplastic.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\mag1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\oak.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\oakfloor.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\porcelain.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\red-metal.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\shinywhite.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\silver.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\sofa.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\sofa2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\teak.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\walfloor.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\wallpaper.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\wallpaper2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\white1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\monet.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\munch.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\mahog.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\pine.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\walnut.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\white.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\credits.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\steph.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\bikkie.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Textures\Game\bikkie1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Fonts\menu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Fonts\UI.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Fonts\mouse.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Effects\Billboard.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Video\sample.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\badpainting.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\BS-john-mono-line11.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\BS-John-mono-line5.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\BS-John-mono-line7-2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\click.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\clock.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\footsteps.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\fridge.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\goodpainting.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\horror_ambiance.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\kettle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\key.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\lose.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\menu.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\menuButtons.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\menuClick.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\microwave.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\mirror.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\music.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\otherpainting.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\oven.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\phoneconversation1.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\phoneconversation2.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\phoneconversation3.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\phoneconversation4.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\phoneRing.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\pickupphone.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\scream.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\sink.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\toaster.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\toilet.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\vino.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\win.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\bottle.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\head_0.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\jacket_0.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\pants_0.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Models\Animated\upBodyC_0.xnb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Video\sample.wmv
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\Demo2DSound.xgs
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\WaveBank1.xwb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Content\Assets\Audio\SoundBank1.xsb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\GDApp.exe
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\GDApp.pdb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\JigLibX.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Game.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Video.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Xact.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\SkinnedModel.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Game.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Video.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Xact.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\SkinnedModel.pdb
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\bin\x86\Release\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\obj\x86\Release\GDApp.csprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\obj\x86\Release\GDApp.exe
+C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDApp\obj\x86\Release\GDApp.pdb

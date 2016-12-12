@@ -46,17 +46,6 @@ namespace GDLibrary
                 return new Microsoft.Xna.Framework.Rectangle(this.newState.X, this.newState.Y, 1, 1);
             }
         }
-        public bool IsVisible
-        {
-            get
-            {
-                return game.IsMouseVisible;
-            }
-            set
-            {
-                game.IsMouseVisible = value;
-            }
-        }
         public Vector2 Position
         {
             get
@@ -158,6 +147,46 @@ namespace GDLibrary
             Mouse.SetPosition((int)position.X, (int)position.Y);
         }
 
+        //tests if mouse on the screen vertical screen edge
+        public bool IsMouseOnScreenEdgeVertical(float activationSensitivity, ref Vector2 mouseDelta)
+        {
+            //left
+            if (this.newState.X <= (game.ScreenRectangle.Width * (1 - activationSensitivity)))
+            {
+                mouseDelta += Vector2.UnitY;
+                return true;
+            }
+            //right
+            else if (this.newState.X >= (game.ScreenRectangle.Width * activationSensitivity))
+            {
+                mouseDelta += -Vector2.UnitY;
+                return true;
+            }
+
+            return false;
+        }
+
+        //tests if mouse on the screen horizontal screen edge
+        public bool IsMouseOnScreenEdgeHorizontal(float activationSensitivity, ref Vector2 mouseDelta)
+        {          
+            //top
+            if (this.newState.Y <= (game.ScreenRectangle.Height * (1 - activationSensitivity)))
+            {
+                mouseDelta += Vector2.UnitX;
+                return true;
+            }
+            //bottom
+            else if (this.newState.Y >= (game.ScreenRectangle.Height * activationSensitivity))
+            {
+                mouseDelta += -Vector2.UnitX;
+                return true;
+            }
+
+            return false;
+        }
+
+
+
         #region Ray Picking
         //get a ray positioned at the mouse's location on the screen - used for picking 
         public Microsoft.Xna.Framework.Ray GetMouseRay(Camera3D camera)
@@ -197,6 +226,19 @@ namespace GDLibrary
             //generate a ray to use for intersection tests
             return Vector3.Normalize(far - near);
         }
+        public Vector3 GetRayFromCenter(Camera3D camera)
+        {
+            //get the positions of the mouse in screen space
+            Vector3 near = new Vector3(game.Graphics.PreferredBackBufferWidth / 2, game.Graphics.PreferredBackBufferHeight / 2, 0);
+            Vector3 far = new Vector3(game.Graphics.PreferredBackBufferWidth / 2, game.Graphics.PreferredBackBufferHeight / 2, 1);
+
+            //convert from screen space to world space
+            near = camera.Viewport.Unproject(near, camera.ProjectionParameters.Projection, camera.View, Matrix.Identity);
+            far = camera.Viewport.Unproject(far, camera.ProjectionParameters.Projection, camera.View, Matrix.Identity);
+
+            //generate a ray to use for intersection tests
+            return Vector3.Normalize(far - near);
+        }
 
         float frac; CollisionSkin skin;
         public Actor GetPickedObject(Camera3D camera, float distance, out Vector3 pos, out Vector3 normal)
@@ -222,6 +264,24 @@ namespace GDLibrary
                    out Vector3 pos, out Vector3 normal)
         {
             Vector3 ray = GetMouseRayDirection(camera);
+            ImmovableSkinPredicate pred = new ImmovableSkinPredicate();
+
+            this.game.PhysicsManager.PhysicsSystem.CollisionSystem.SegmentIntersect(
+                out frac, out skin, out pos, out normal,
+                new Segment(camera.Transform3D.Translation + startDistance * Vector3.Normalize(ray), ray * distance), pred);
+
+            if (skin != null && skin.Owner != null)
+            {
+                return skin.Owner.ExternalData as Actor;
+            }
+
+            return null;
+        }
+
+        public Actor GetPickedObjectFromCenter(Camera3D camera, float startDistance, float distance,
+                   out Vector3 pos, out Vector3 normal)
+        {
+            Vector3 ray = GetRayFromCenter(camera);
             ImmovableSkinPredicate pred = new ImmovableSkinPredicate();
 
             this.game.PhysicsManager.PhysicsSystem.CollisionSystem.SegmentIntersect(

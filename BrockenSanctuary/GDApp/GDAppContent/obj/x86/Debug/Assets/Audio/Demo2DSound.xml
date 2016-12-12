@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="WaveBank1">Wave Bank
+{
+    Name = WaveBank1;
+    Xbox File = Xbox\WaveBank1.xwb;
+    Windows File = Win\WaveBank1.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 1439872788;
+    Bank Last Revised High = 30430317;
+
+    Wave
+    {
+        Name = boing;
+        File = boing.wav;
+        Build Settings Last Modified Low = 809922770;
+        Build Settings Last Modified High = 30430317;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 7696;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3805660051;
+            Last Modified High = 30430316;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

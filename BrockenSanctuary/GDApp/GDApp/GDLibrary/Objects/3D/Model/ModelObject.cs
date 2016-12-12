@@ -49,7 +49,7 @@ namespace GDLibrary
         #endregion
 
         public ModelObject(string id, ActorType actorType, 
-            Transform3D transform, BasicEffect effect, Color color, float alpha,
+            Transform3D transform, Effect effect, Color color, float alpha,
             Texture2D texture, Model model)
             : base(id, actorType, transform, effect, color, alpha)
         {
@@ -69,6 +69,8 @@ namespace GDLibrary
             }
         }
 
+        /*
+        //See ObjectManager::Draw()
         public override void Draw(GameTime gameTime)
         {
             this.Effect.View = game.CameraManager.ActiveCamera.View;
@@ -94,6 +96,7 @@ namespace GDLibrary
 
             base.Draw(gameTime);
         }
+         */ 
 
         public new object Clone()
         {
@@ -105,6 +108,13 @@ namespace GDLibrary
                 this.Alpha,  //deep
                 this.texture, //shallow i.e. a reference
                 this.model); //shallow i.e. a reference
+        }
+
+        public override bool Remove()
+        {
+            //tag for garbage collection
+            this.boneTransforms = null;
+            return base.Remove();
         }
     }
 }

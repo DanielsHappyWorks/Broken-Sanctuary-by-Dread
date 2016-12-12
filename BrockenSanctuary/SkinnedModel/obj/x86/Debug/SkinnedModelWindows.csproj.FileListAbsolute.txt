@@ -1,0 +1,303 @@
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Temp\SkinnedModelExtensions_4_0\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+E:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 7\UsingVertices - 11 - JigLibX Movement\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+F:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+G:\Work\2011-2012\Semester 2\GAS\Labs\Week 13\UsingVertices - 12 - DebugDrawer\UsingVertices - 12 - DebugDrawer\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Temp\UsingVertices - 13 - JibLib SpotLights\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+E:\Temp\UsingVertices - 14 - EffectManager\UsingVertices - 14 - EffectManager\UsingVertices - 13 - JibLib SpotLights\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 15 - Billboards\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\Dev\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 15 - Billboards\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices - 19 - Custom Lighting for SkinnedModel\UsingVertices\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+I:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+F:\2012-13\Semester 2\GAS\Labs\Week 7\GASProject - v13 - FirstPC & Sound\GASProject - v13 - FirstPC & Sound\GASProject\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+F:\Users\Nova\Desktop\AEON X- Lighting&Sound - Copy\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+F:\Users\Nova\Desktop\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Archer\My Games\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\SeanMcCooey\Desktop\Games Development\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Tadhg\Downloads\AEON_X CURRENT\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\Temp\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - JigLib with TriangleMeshObject - 7.1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - CDCR - Fixed TriangleMeshObject - 7.2\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\Temp\GASLibrary - Removable Collidable Objects & UI - 8.0\GASLibrary - Removable Collidable Objects & UI - 8.0\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GASLibrary - AnimatedObject, Removable Objects, UI - 8.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Temp\GASLibrary - CarObject, Billboard - 8.2\GASLibrary - CarObject, Billboard - 8.2\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Temp\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+E:\GASLibrary - Object deletion - 8.3\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+E:\Work\Semester 2\GAS\Week 9\GASLibrary - Object deletion - 8.4\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Copy\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - Object deletion - 8.4 - Complete PreDeferredLighting\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - 8.5 - Normals\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - 8.5 - Normals\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+E:\_BACKUP\GASLibrary - 8.5 - Normals\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD - 1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Home\Downloads\Dev\GASLibrary - 8.5 - Fixed - Re-worked - Deferred PSD\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+B:\_XNA\No Culling\GASLibrary - 8.5 - Deferred Lighting - No Culling\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\GASLibrary - 9.0 - Deferred Lighting - Point and Directional\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.7\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 1.7\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.8\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective Versions\Perspective 1.9\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Ronan\Desktop\C#\Perspective 2.0\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Aaron\Downloads\Perspective 2.1\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Ronan\Desktop\C#\Perspective Final\Perspective 2.1\Code\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\Week 11\GDApp - Wk11 - Cl1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\Week 11\GDApp - Wk11 - Cl1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\Week 11\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mcguinnn\Downloads\Week 11\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\Week 11\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GDApp - Wk11 - Cl1\GDApp - Wk11 - Cl1\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GDApp - Wk11 - Cl1\GDApp - Wk11 - Cl1\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\mcguinnn\Downloads\GDApp - Wk11 - Cl1\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mcguinnn\Downloads\GDApp - Wk11 - Cl1\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\mcguinnn\Downloads\GDApp - Wk11 - Cl1\GDApp - Wk11 - Cl1\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Dkill\Desktop\BSV18.5\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Dkill\Desktop\BSv19\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb

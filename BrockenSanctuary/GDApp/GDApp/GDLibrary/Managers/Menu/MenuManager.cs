@@ -25,6 +25,11 @@ namespace GDLibrary
         protected int currentMenuTextureIndex = 0; //0 = main, 1 = volume
         private bool bPaused;
         private MenuItem menuBack2;
+        private MenuItem menuRestartYes;
+        private MenuItem menuRestartNo;
+        private MenuItem menuLoseRestart;
+        private MenuItem menuLoseMainMenu;
+        private bool buttonSoundPlayed;
         #endregion
 
         #region Properties
@@ -150,11 +155,20 @@ namespace GDLibrary
             }
         }
 
-        private void ShowMenu()
+        public void ShowMenu()
         {
             //show the menu by setting pause to false
             bPaused = false;
-
+            game.soundManager.StopCue("background",Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("phoneRing", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("footsteps", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("clock", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("music", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("phoneconversation1", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("phoneconversation2", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("phoneconversation3", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.StopCue("phoneconversation4", Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.PlayCue("menu");
             //to do generate an event to tell the object manager to pause...
             EventDispatcher.Publish(new EventData("pause",
                     this, EventActionType.OnPause,
@@ -171,6 +185,14 @@ namespace GDLibrary
             //hide the menu by setting pause to true
             bPaused = true;
             this.game.CameraManager.ActiveCamera.StatusType = StatusType.Updated | StatusType.Drawn;
+            
+            game.soundManager.StopCue("menu",Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            game.soundManager.PlayCue("background");
+
+            if (!game.keyCreated)
+            {
+                game.soundManager.PlayCue("phoneRing");
+            }
 
             //to do generate an event to tell the object manager to pause...
             EventDispatcher.Publish(new EventData("play",
@@ -219,22 +241,34 @@ namespace GDLibrary
            for(int i = 0; i < menuItemList.Count; i++)
            {
                MenuItem item = menuItemList[i];
+                MenuItem ActiveItem;
 
                //is the mouse over the item?
-               if (this.game.MouseManager.Bounds.Intersects(item.Bounds)) 
+                if (this.game.MouseManager.Bounds.Intersects(item.Bounds)) 
                {
                    item.SetActive(true);
+                    
 
                    //is the left mouse button clicked
                    if (game.MouseManager.IsLeftButtonClickedOnce())
                    {
-                       DoMenuAction(menuItemList[i].Name);
+                       buttonSoundPlayed = false;
+                        game.soundManager.PlayCue("menuClick");
+                        DoMenuAction(menuItemList[i].Name);
                        break;
                    }
+                    else if (buttonSoundPlayed == false) { 
+                        game.soundManager.PlayCue("menuButtons");
+                        buttonSoundPlayed = true;
+                    }
                }
                else
                {
-                   item.SetActive(false);
+                    if (item.GetActive() == true)
+                    {
+                        buttonSoundPlayed = false;
+                    }
+                   item.SetActive(false); 
                }
            }
         }
@@ -276,6 +310,17 @@ namespace GDLibrary
             this.menuExitNo = new MenuItem(MenuData.StringMenuExitNo, MenuData.StringMenuExitNo,
                 MenuData.BoundsMenuExitNo, MenuData.ColorMenuInactive, MenuData.ColorMenuActive);
 
+            this.menuRestartYes = new MenuItem(MenuData.StringMenuRestartYes, MenuData.StringMenuRestartYes,
+            MenuData.BoundsMenuRestartYes, MenuData.ColorMenuInactive, MenuData.ColorMenuActive);
+            this.menuRestartNo = new MenuItem(MenuData.StringMenuRestartNo, MenuData.StringMenuRestartNo,
+                MenuData.BoundsMenuRestartNo, MenuData.ColorMenuInactive, MenuData.ColorMenuActive);
+
+
+            this.menuLoseRestart = new MenuItem(MenuData.StringMenuLoseRestart, MenuData.StringMenuLoseRestart,
+           MenuData.BoundsMenuLoseRestart, MenuData.ColorMenuInactive, MenuData.ColorMenuActive);
+            this.menuLoseMainMenu = new MenuItem(MenuData.StringMenuLoseMainMenu, MenuData.StringMenuLoseMainMenu,
+                MenuData.BoundsMenuLoseMainMenu, MenuData.ColorMenuInactive, MenuData.ColorMenuActive);
+
             //add your new menu options here...
         }
         //perform whatever actions are listed on the menu
@@ -287,7 +332,9 @@ namespace GDLibrary
             }
             else if (name.Equals(MenuData.StringMenuRestart))
             {
-                //RestartGame();
+                ShowRestartMenuScreen();
+                //game.RestartGame();
+                
             }
             else if (name.Equals(MenuData.StringMenuAudio))
             {
@@ -303,17 +350,32 @@ namespace GDLibrary
             }
             else if (name.Equals(MenuData.StringMenuVolumeUp))
             {
-                //publish an event to be received by the sound manager
+                //generate an event to tell the object manager to...
+                game.soundManager.ChangeVolume(0.1f, "Default");
+                //EventDispatcher.Publish(new EventData("volumeup", this, EventActionType.OnVolumeUp, EventCategoryType.Sound));
             }
             else if (name.Equals(MenuData.StringMenuVolumeDown))
             {
-                //publish an event to be received by the sound manager
+                //generate an event to tell the object manager to...
+                game.soundManager.ChangeVolume(-0.1f, "Default");
+                //EventDispatcher.Publish(new EventData("volumedown", this, EventActionType.OnVolumeDown, EventCategoryType.Sound));
             }
             else if (name.Equals(MenuData.StringMenuVolumeMute))
             {
-                //publish an event to be received by the sound manager
+                game.soundManager.SetVolume(0, "Default");
+                //generate an event to tell the object manager to...
+                //EventDispatcher.Publish(new EventData("volumemute", this, EventActionType.OnMute, EventCategoryType.Sound));
             }
             else if (name.Equals(MenuData.StringMenuBack))
+            {
+                ShowMainMenuScreen();
+            }
+            else if (name.Equals(MenuData.StringMenuRestartYes))
+            {
+                // game.Exit();
+                game.RestartGame();
+            }
+            else if (name.Equals(MenuData.StringMenuRestartNo))
             {
                 ShowMainMenuScreen();
             }
@@ -322,6 +384,16 @@ namespace GDLibrary
                 game.Exit();
             }
             else if (name.Equals(MenuData.StringMenuExitNo))
+            {
+                ShowMainMenuScreen();
+            }
+
+            else if (name.Equals(MenuData.StringMenuLoseRestart))
+            {
+                ShowRestartMenuScreen();
+            }
+
+            else if (name.Equals(MenuData.StringMenuLoseMainMenu))
             {
                 ShowMainMenuScreen();
             }
@@ -379,6 +451,39 @@ namespace GDLibrary
             currentMenuTextureIndex = MenuData.TextureIndexExitMenu;
         }
 
+
+        private void ShowRestartMenuScreen()
+        {
+            //remove any items in the menu
+            RemoveAll();
+            //add the appropriate items
+            Add(menuRestartYes);
+            Add(menuRestartNo);
+            //set the background texture
+            currentMenuTextureIndex = MenuData.TextureIndexRestartMenu;
+        }
+
+        public void ShowLoseMenuScreen()
+        {
+            //remove any items in the menu
+            RemoveAll();
+            //add the appropriate items
+            Add(menuLoseRestart);
+            Add(menuLoseMainMenu);
+            //set the background texture
+            currentMenuTextureIndex = MenuData.TextureIndexLoseMenu;
+        }
+
+        public void ShowWinMenuScreen()
+        {
+            //remove any items in the menu
+            RemoveAll();
+            //add the appropriate items
+            Add(menuLoseRestart);
+            Add(menuLoseMainMenu);
+            //set the background texture
+            currentMenuTextureIndex = MenuData.TextureIndexWinMenu;
+        }
         #endregion
 
     }

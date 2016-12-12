@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\ceilings.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>Box024</Name>
+        <OpaqueData>
+          <Data Key="mr displacement use global settings" Type="bool">true</Data>
+          <Data Key="mr displacement view dependent" Type="bool">true</Data>
+          <Data Key="mr displacement method" Type="int">6</Data>
+          <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+          <Data Key="mr displacement edge length" Type="float">2</Data>
+          <Data Key="mr displacement max displace" Type="float">20</Data>
+          <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+          <Data Key="UDP3DSMAX">MapChannel:1 = UVChannel_1
+</Data>
+          <Data Key="MaxHandle" Type="int">18</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 0 60.9700775 -7.888609E-31 1</Transform>
+        <Positions>-50 -50 0 50 -50 0 -50 50 0 50 50 0 -50 -50 2 50 -50 2 -50 50 2 50 50 2</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.9999999 0.9999998 0.999999762 0.45652163 0.3865031 0.456521749 0.38650322 0.99999994 8.940697E-08 0.9999998 0.6134968 0.99999994 0.6134969 0.456521749 2.08616257E-07 0.45652163 8.940697E-08 1 0.6134968 1 0.6134968 0 8.940697E-08 0 5.96046448E-08 1 0.543478251 1 0.543478251 0 5.96046448E-08 0 0.3865031 1 0.999999762 1 0.999999762 0 0.3865031 0 0.45652163 1 0.9999998 1 0.9999998 0 0.45652163 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>Box025</Name>
+        <OpaqueData>
+          <Data Key="mr displacement use global settings" Type="bool">true</Data>
+          <Data Key="mr displacement view dependent" Type="bool">true</Data>
+          <Data Key="mr displacement method" Type="int">6</Data>
+          <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+          <Data Key="mr displacement edge length" Type="float">2</Data>
+          <Data Key="mr displacement max displace" Type="float">20</Data>
+          <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+          <Data Key="UDP3DSMAX">MapChannel:1 = UVChannel_1
+</Data>
+          <Data Key="MaxHandle" Type="int">19</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 0 60.9700775 -170.18 1</Transform>
+        <Positions>-50 -15 0 50 -15 0 -50 15 0 50 15 0 -50 -15 2 50 -15 2 -50 15 2 50 15 2</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.999999762 0.445652068 0.999999762 0.282608628 0.3865031 0.282608747 0.3865031 0.4456522 2.08616257E-07 0.445652068 0.6134969 0.4456522 0.6134969 0.282608747 2.682209E-07 0.282608628 2.08616257E-07 1 0.6134969 1 0.6134969 0 2.08616257E-07 0 0.5543478 1 0.717391253 1 0.717391253 0 0.5543478 0 0.3865031 1 0.999999762 1 0.999999762 0 0.3865031 0 0.282608628 1 0.445652068 1 0.445652068 0 0.282608628 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>Box026</Name>
+        <OpaqueData>
+          <Data Key="mr displacement use global settings" Type="bool">true</Data>
+          <Data Key="mr displacement view dependent" Type="bool">true</Data>
+          <Data Key="mr displacement method" Type="int">6</Data>
+          <Data Key="mr displacement smoothing on" Type="bool">true</Data>
+          <Data Key="mr displacement edge length" Type="float">2</Data>
+          <Data Key="mr displacement max displace" Type="float">20</Data>
+          <Data Key="mr displacement parametric subdivision level" Type="int">5</Data>
+          <Data Key="UDP3DSMAX">MapChannel:1 = UVChannel_1
+</Data>
+          <Data Key="MaxHandle" Type="int">20</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 208.28 60.9700775 -40.64 1</Transform>
+        <Positions>-30 -66 0 30 -66 0 -30 66 0 30 66 0 -30 -66 2 30 -66 2 -30 66 2 30 66 2</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.3742333 0.99999994 0.374233127 0.282608747 0.006135106 0.2826088 0.006135285 1 0.6257667 0.99999994 0.9938647 1 0.9938649 0.2826088 0.6257669 0.282608747 0.6257667 1 0.9938647 1 0.9938647 0 0.6257667 0 0 1 0.7173912 1 0.7173912 0 0 0 0.006135106 1 0.374233127 1 0.374233127 0 0.006135106 0 0.282608747 1 0.99999994 1 0.99999994 0 0.282608747 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>Box027</Name>
+        <OpaqueData>
+          <Data Key="UDP3DSMAX">MapChannel:1 = UVChannel_1
+</Data>
+          <Data Key="MaxHandle" Type="int">21</Data>
+        </OpaqueData>
+        <Transform>2.54 0 0 0 0 1.55530138E-16 -2.54 0 0 2.54 1.55530138E-16 0 160.02 60.9700775 -276.86 1</Transform>
+        <Positions>-50 -25 0 50 -25 0 -50 25 0 50 25 0 -50 -25 2 50 -25 2 -50 25 2 50 25 2</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22</Indices>
+            <Vertices>
+              <PositionIndices>0 2 3 1 4 5 7 6 0 1 5 4 1 3 7 5 3 2 6 7 2 0 4 6</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.6134968 0.271739125 0.6134967 5.96046448E-08 5.96046448E-08 1.78813934E-07 1.1920929E-07 0.271739244 0.38650322 0.271739125 0.9999999 0.271739244 0.99999994 1.78813934E-07 0.386503279 5.96046448E-08 0.38650322 1 0.9999999 1 0.9999999 0 0.38650322 0 0.728260756 1 0.9999998 1 0.9999998 0 0.728260756 0 5.96046448E-08 1 0.6134967 1 0.6134967 0 5.96046448E-08 0 5.96046448E-08 1 0.271739125 1 0.271739125 0 5.96046448E-08 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>01 - Default</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\ceilings.FBX</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.5882353 0.5882353 0.5882353</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="SpecularPower" Type="float">1.99999988</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>

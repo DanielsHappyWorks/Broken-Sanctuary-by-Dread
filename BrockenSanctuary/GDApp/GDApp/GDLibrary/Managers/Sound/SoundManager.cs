@@ -23,10 +23,10 @@ namespace GDLibrary
         #endregion
 
         #region Properties
-        public float Volume 
-        { 
-            get; 
-            private set; 
+        public float Volume
+        {
+            get;
+            private set;
         }
         #endregion
 
@@ -57,13 +57,15 @@ namespace GDLibrary
         // Plays a 2D cue e.g menu, game music etc
         public void PlayCue(string cueName)
         {
-            this.soundBank.PlayCue(cueName);
+
+            Cue cue = this.soundBank.GetCue(cueName);
+            cue.Play();
         }
         //pauses a 2D cue
         public void PauseCue(string cueName)
         {
             Cue cue = this.soundBank.GetCue(cueName);
-            if((cue != null) && (cue.IsPlaying))
+            if ((cue != null) && (cue.IsPlaying))
                 cue.Pause();
         }
 
@@ -79,6 +81,7 @@ namespace GDLibrary
         public void StopCue(string cueName, AudioStopOptions audioStopOptions)
         {
             Cue cue = this.soundBank.GetCue(cueName);
+            cue.Play();
             if ((cue != null) && (cue.IsPlaying))
                 cue.Stop(audioStopOptions);
         }
@@ -154,6 +157,16 @@ namespace GDLibrary
             //set by category
             this.audioEngine.GetCategory(soundCategory).SetVolume(volume);
         }
+        public void IncrementVolume(float increment, string soundCategory)
+        {
+            //if volume will be in appropriate range (0-1) then set it
+            if(volume > 0 && volume < 1) { 
+                this.volume += increment;
+            }
+            
+            //set by category
+            this.audioEngine.GetCategory(soundCategory).SetVolume(this.volume);
+        }
         public float GetVolume()
         {
             return volume;
@@ -163,12 +176,13 @@ namespace GDLibrary
             //requested new volume
             float newVolume = this.volume + delta;
             //if requested volume will be in appropriate range (0-1) then set it
-            this.volume = ((newVolume >= 0) && (newVolume <= 1)) ? newVolume : 0.5f;
+            this.volume = ((newVolume <= 1)) ? newVolume : 1f;
+            this.volume = ((newVolume >= 0)) ? newVolume : 0f;
             //set by category
             this.audioEngine.GetCategory(soundCategory).SetVolume(volume);
         }
 
-     
+
         //Called by the listener to update relative positions (i.e. everytime the 1st Person camera moves it should call this method so that the 3D sounds heard reflect the new camera position)
         public void UpdateListenerPosition(Vector3 position)
         {
@@ -206,6 +220,12 @@ namespace GDLibrary
                 }
             }
             base.Update(gameTime);
+        }
+
+        internal bool IsPlaying(string name)
+        {
+            Cue cue = this.soundBank.GetCue(name);
+            return cue.IsPaused;
         }
 
         //to do - dispose

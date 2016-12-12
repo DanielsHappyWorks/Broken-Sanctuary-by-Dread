@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -75,7 +75,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -89,7 +89,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>table_pedestal_circ_legs</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\ktable.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>winebottle</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\winebottle.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\winebottle.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -29,7 +29,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>21 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\winebottle.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\winebottle.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

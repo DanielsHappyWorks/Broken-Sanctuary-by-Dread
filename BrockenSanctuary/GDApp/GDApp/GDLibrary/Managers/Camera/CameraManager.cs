@@ -85,8 +85,24 @@ namespace GDLibrary
 
         public CameraManager(Main game) : base(game)
         {
-            this.dictionary
-                = new Dictionary<string, List<Camera3D>>();
+            this.dictionary = new Dictionary<string, List<Camera3D>>();
+
+            #region Event Handling
+            //pause/unpause events
+            game.EventDispatcher.MenuChanged += EventDispatcher_MenuChanged;
+            #endregion
+        }
+
+        private void EventDispatcher_MenuChanged(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnPlay)
+            {
+                this.bPaused = false;
+            }
+            else if (eventData.EventType == EventActionType.OnPause)
+            {
+                this.bPaused = true;
+            }
         }
 
         public bool SetCamera(string cameraLayout, string cameraID)
@@ -149,7 +165,7 @@ namespace GDLibrary
                 this.dictionary.Add(cameraLayout, list);
             }
         }
-        public bool Remove(string cameraLayout, IFilter<IActor> filter)
+        public bool Remove(string cameraLayout, IFilter<Actor> filter)
         {
             cameraLayout = cameraLayout.ToLower().Trim();
 
@@ -163,7 +179,7 @@ namespace GDLibrary
             return false;
         }
 
-        public Camera3D Find(string cameraLayout, IFilter<IActor> filter)
+        public Camera3D Find(string cameraLayout, IFilter<Actor> filter)
         {
             if (this.dictionary.ContainsKey(cameraLayout))
             {

@@ -1,7 +1,7 @@
 ﻿
 namespace GDLibrary
 {
-    public class ActorTypeFilter : IFilter<IActor>
+    public class ActorTypeFilter : IFilter<Actor>
     {
         private ActorType actorType;
         public ActorTypeFilter(ActorType actorType)
@@ -9,9 +9,9 @@ namespace GDLibrary
             this.actorType = actorType;
         }
 
-        public bool Matches(IActor obj)
+        public bool Matches(Actor obj)
         {
-            return (this.actorType == obj.GetActorType());
+            return (this.actorType == obj.ActorType);
         }
     }
 }

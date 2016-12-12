@@ -36,8 +36,8 @@ namespace GDLibrary
         #endregion
 
         public UITextObject(string id, ActorType actorType, StatusType statusType, Transform2D transform,
-            Color color, SpriteEffects spriteEffects, float layerDepth, string text, SpriteFont spriteFont, bool isVisible)
-            : base(id, actorType, statusType, transform, color, spriteEffects, layerDepth, isVisible)
+            Color color, SpriteEffects spriteEffects, float layerDepth, string text, SpriteFont spriteFont)
+            : base(id, actorType, statusType, transform, color, spriteEffects, layerDepth)
         {
             this.spriteFont = spriteFont;
             this.text = text;

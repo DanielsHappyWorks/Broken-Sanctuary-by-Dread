@@ -46,8 +46,8 @@ namespace GDLibrary
             if (vertexData.Count > 0)
             {
                 Vector3 v = vertexData[vertexData.Count - 1].Position;
-                vertexData.Add(new VertexPositionColor(v, new Color(0, 0, 0, 0)));
-                vertexData.Add(new VertexPositionColor(shape[0], new Color(0, 0, 0, 0)));
+                vertexData.Add(new VertexPositionColor(v, color));
+                vertexData.Add(new VertexPositionColor(shape[0], color));
             }
 
             foreach (Vector3 p in shape)
@@ -64,13 +64,13 @@ namespace GDLibrary
             vertexData.Add(new VertexPositionColor(v, color));
         }
 
-        public void DrawShape(List<VertexPositionColor> shape)
+        public void DrawShape(List<VertexPositionColor> shape, Color color)
         {
             if (vertexData.Count > 0)
             {
                 Vector3 v = vertexData[vertexData.Count - 1].Position;
-                vertexData.Add(new VertexPositionColor(v, new Color(0, 0, 0, 0)));
-                vertexData.Add(new VertexPositionColor(shape[0].Position, new Color(0, 0, 0, 0)));
+                vertexData.Add(new VertexPositionColor(v, color));
+                vertexData.Add(new VertexPositionColor(shape[0].Position, color));
             }
 
             foreach (VertexPositionColor vps in shape)
@@ -79,13 +79,13 @@ namespace GDLibrary
             }
         }
 
-        public void DrawShape(VertexPositionColor[] shape)
+        public void DrawShape(VertexPositionColor[] shape, Color color)
         {
             if (vertexData.Count > 0)
             {
                 Vector3 v = vertexData[vertexData.Count - 1].Position;
-                vertexData.Add(new VertexPositionColor(v, new Color(0, 0, 0, 0)));
-                vertexData.Add(new VertexPositionColor(shape[0].Position, new Color(0, 0, 0, 0)));
+                vertexData.Add(new VertexPositionColor(v, color));
+                vertexData.Add(new VertexPositionColor(shape[0].Position, color));
             }
 
             foreach (VertexPositionColor vps in shape)
@@ -94,19 +94,19 @@ namespace GDLibrary
             }
         }
 
-        public void DrawShape(List<VertexPositionColor> shape, bool closed)
+        public void DrawShape(List<VertexPositionColor> shape, Color color, bool closed)
         {
-            DrawShape(shape);
+            DrawShape(shape, color);
 
             VertexPositionColor v = shape[0];
             vertexData.Add(v);
         }
 
-        public void DrawDebug(Body body, CollisionSkin collision)
+        public void DrawDebug(Body body, CollisionSkin skin, Color color)
         {
             if (!body.CollisionSkin.GetType().Equals(typeof(JigLibX.Geometry.Plane)))
             {
-                wf = collision.GetLocalSkinWireframe();
+                wf = skin.GetLocalSkinWireframe();
 
                 // if the collision skin was also added to the body
                 // we have to transform the skin wireframe to the body space
@@ -115,7 +115,7 @@ namespace GDLibrary
                     body.TransformWireframe(wf);
                 }
 
-                DrawShape(wf);
+                DrawShape(wf, color);
             }
         }
     }

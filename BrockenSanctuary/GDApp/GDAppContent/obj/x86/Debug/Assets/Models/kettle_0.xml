@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Teapot001</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\kettle.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\kettle.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>

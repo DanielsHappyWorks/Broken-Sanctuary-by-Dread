@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Cylinder.001</Name>
     <Identity>
-      <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\towel.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\towel.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -38,7 +38,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Users\Dkill\Desktop\C#\BrockenSanctuaryV8\BrockenSanctuary\GDApp\GDAppContent\Assets\Models\towel.FBX</SourceFilename>
+        <SourceFilename>C:\Users\Dkill\Desktop\GD3C3_Dread\Code\Broken Sanctuary\GDApp\GDAppContent\Assets\Models\towel.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

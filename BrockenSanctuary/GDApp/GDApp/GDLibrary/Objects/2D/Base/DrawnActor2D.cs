@@ -122,18 +122,16 @@ namespace GDLibrary
         #endregion
 
         public DrawnActor2D(string id, ActorType actorType, StatusType statusType, Transform2D transform, 
-            Color color, SpriteEffects spriteEffects, float layerDepth, bool isVisible)
+            Color color, SpriteEffects spriteEffects, float layerDepth)
             : base(id, actorType, statusType, transform)
         {
             this.color = color;
             this.spriteEffects = spriteEffects;
             this.LayerDepth = layerDepth;
-            this.isVisible = isVisible;
 
             this.originalColor = Color;
             this.layerDepth = LayerDepth;
             this.spriteEffects = spriteEffects;
         }
-
     }
 }

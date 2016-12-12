@@ -17,6 +17,7 @@ namespace GDLibrary
         #endregion
 
         #region Properties
+      
         public Vector3 TranslationOffset
         {
             get
@@ -74,6 +75,7 @@ namespace GDLibrary
 
         protected virtual void HandleKeyboardInput(GameTime gameTime)
         {
+            /*
             //jump
             if (game.KeyboardManager.IsKeyDown(this.MoveKeys[AppData.IndexMoveJump]))
             {
@@ -115,6 +117,7 @@ namespace GDLibrary
 
             //update the camera position to reflect the collision skin position
             this.Transform3D.Translation = this.CharacterBody.Position;
+             */
         }
 
         //Do we want to detect if the player object collides with something?

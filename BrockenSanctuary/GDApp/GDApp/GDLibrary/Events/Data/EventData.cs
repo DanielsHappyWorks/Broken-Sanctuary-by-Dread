@@ -64,6 +64,12 @@
             this.eventCategoryType = eventCategoryType; //where did it originate? ui, menu, video
         }
 
+        public object Clone() //deep copy
+        {
+            return this.MemberwiseClone(); //all primitive types or structs so use MemberwiseClone();
+        }
+
+
         public override bool Equals(object obj)
         {
             EventData other = obj as EventData;

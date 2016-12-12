@@ -128,7 +128,7 @@ namespace GDLibrary
             hash = hash * 31 + this.Transform3D.Translation.GetHashCode();
             hash = hash * 17 + this.Transform3D.Look.GetHashCode();
             hash = hash * 13 + this.Transform3D.Up.GetHashCode();
-            hash = hash * 51 + this.ProjectionParameters.GetHashCode();
+            hash = hash * 53 + this.ProjectionParameters.GetHashCode();
             return hash;
         }
         public new object Clone()

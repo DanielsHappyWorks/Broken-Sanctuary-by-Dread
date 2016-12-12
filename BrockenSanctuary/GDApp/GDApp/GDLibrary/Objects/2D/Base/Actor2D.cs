@@ -1,5 +1,6 @@
 ﻿using GDApp;
 using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 
 namespace GDLibrary
@@ -39,8 +40,7 @@ namespace GDLibrary
         }
         #endregion
 
-        public Actor2D(string id, ActorType actorType, 
-            StatusType statusType, Transform2D transform)
+        public Actor2D(string id, ActorType actorType, StatusType statusType, Transform2D transform)
             : base(id, actorType, statusType)
         {
             this.transform = transform;
@@ -82,5 +82,7 @@ namespace GDLibrary
             this.transform = null;
             return base.Remove();
         }
+
+        //add clone...
     }
 }

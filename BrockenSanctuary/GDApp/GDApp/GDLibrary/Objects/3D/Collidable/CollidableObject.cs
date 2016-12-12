@@ -51,7 +51,7 @@ namespace GDLibrary
         }
         #endregion
 
-        public CollidableObject(string id, ActorType actorType, Transform3D transform, BasicEffect effect, 
+        public CollidableObject(string id, ActorType actorType, Transform3D transform, Effect effect, 
             Color color, float alpha, Texture2D texture, Model model)
             : base(id, actorType, transform, effect, color, alpha, texture, model)
         {
@@ -63,7 +63,6 @@ namespace GDLibrary
             //register for callback collision to see who just walked into the zone
             //we will only normally register for this event in a class that sub-classes CollidableObject e.g. PickupCollidableObject or PlayerCollidableObject
             this.Body.CollisionSkin.callbackFn += CollisionSkin_callbackFn;
-
         }
 
         public override Matrix GetWorldMatrix()
@@ -117,6 +116,25 @@ namespace GDLibrary
             this.body.EnableBody();
         }
 
-        //to do...clone, remove
+        //to do remove
+        public new object Clone()
+        {
+            return new CollidableObject("clone - " + ID, //deep
+                this.ActorType,   //deep
+                (Transform3D)this.Transform3D.Clone(),  //deep
+                this.Effect, //shallow i.e. a reference
+                this.Color,  //deep
+                this.Alpha,  //deep
+                this.Texture, //shallow i.e. a reference
+                this.Model); //shallow i.e. a reference
+        }
+
+        public override bool Remove()
+        {
+            //what would happen if we did not remove the physics body? would the CD/CR skin remain?
+            game.PhysicsManager.PhysicsSystem.RemoveBody(this.body);
+            this.body = null;
+            return base.Remove();
+        }
     }
 }

@@ -100,13 +100,8 @@ namespace GDLibrary
 
         public override void Update(GameTime gameTime, IActor actor)
         {
-            Actor3D parentActor = actor as Actor3D;
-            Actor3D targetActor = this.TargetActor as Actor3D;
-
             UpdateFromScrollWheel(gameTime);
-
-            UpdateParent(gameTime, parentActor, targetActor);
-
+            UpdateParent(gameTime, actor as Actor3D, this.TargetActor as Actor3D);
         }
 
         private void UpdateParent(GameTime gameTime, Actor3D parentActor, Actor3D targetActor)

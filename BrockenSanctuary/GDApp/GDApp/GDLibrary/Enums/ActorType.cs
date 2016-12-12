@@ -13,6 +13,8 @@
         CollidableGround,
         CollidableCamera,
         UITexture,
-        UIText
+        UIText,
+        CollidableInteractableProp,
+        Billboard
     }
 }
